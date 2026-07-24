@@ -110,6 +110,15 @@ def render_risk_explanation(explanation: dict):
     )
     st.plotly_chart(fig, use_container_width=True)
 
+    top = contributions[0]
+    direction = "위험도를 높이는" if top["contribution"] > 0 else "위험도를 낮추는"
+    summary = f"**가장 큰 영향을 미친 지표는 '{top['label']}'**이며, {direction} 방향으로 작용했습니다."
+    if len(contributions) > 1:
+        second = contributions[1]
+        direction2 = "높이는" if second["contribution"] > 0 else "낮추는"
+        summary += f" 그다음으로는 '{second['label']}'이 위험도를 {direction2} 방향으로 크게 작용했습니다."
+    st.markdown(summary)
+
     st.caption(
         "※ 학습 표본이 작아(상장폐지 확정 사례 기준) 일부 지표의 기여 방향이 재무이론과 다르게 "
         "나타날 수 있습니다. 완전자본잠식처럼 규정상 명확한 위험 요인은 규칙으로 별도 보정했습니다."
@@ -192,16 +201,18 @@ def render_company_detail(panel: pd.DataFrame, corp_name: str, bundle: dict):
 def main():
     st.markdown(
         "<span style='font-size:30px; font-weight:800;'>기업건강검진</span> "
-        "<span style='color:#DB4E18; font-weight:600;'>코스닥 재무위험 진단</span>",
+        "<span style='color:#DB4E18; font-weight:600;'>AI 기반 코스닥 재무위험 진단</span>",
         unsafe_allow_html=True,
     )
     st.write(
-        "한국은행 ECOS·DART 재무제표 데이터를 기반으로 거시경제 요인을 제거한 기업 고유의 재무위험을 "
-        "계산해, 내년도 상장폐지 위험점수를 보여줍니다."
+        "class-weighted 로지스틱 회귀 AI 모델이 **DART 전자공시 재무제표(2015~2025년, 코스닥 상장사 600여 곳)**, "
+        "**한국은행 ECOS 기준금리**, **KRX 상장폐지 이력(2015년 이후 재무적 사유로 폐지된 100여 건)** 데이터를 "
+        "학습했습니다. 거시경제(기준금리) 요인을 제거한 기업 고유의 재무위험을 계산해, 내년도 상장폐지 "
+        "위험점수를 보여줍니다."
     )
     st.warning(
-        "⚠️ 개인 포트폴리오/학습 목적의 데모입니다. 소규모 표본으로 학습된 실험적 모델의 결과이며 "
-        "통계적으로 검증되지 않았습니다. **실제 투자 판단, 신용평가, 거래 의사결정에 사용하지 마세요.** "
+        "⚠️ 소규모 표본으로 학습된 실험적 모델의 결과이며 통계적으로 검증되지 않았습니다. "
+        "**실제 투자 판단, 신용평가, 거래 의사결정에 사용하지 마세요.** "
         "표시된 기업명은 모델 검증을 위한 예시일 뿐, 해당 기업의 재무 건전성을 공식적으로 나타내지 않습니다."
     )
 
@@ -212,15 +223,24 @@ def main():
     panel = load_panel()
     bundle = get_model_bundle()
 
+    if "selected_corp" not in st.session_state:
+        st.session_state.selected_corp = None
+
+    if st.session_state.selected_corp is not None:
+        if st.button("← 목록으로"):
+            st.session_state.selected_corp = None
+            st.rerun()
+        st.divider()
+        render_company_detail(panel, st.session_state.selected_corp, bundle)
+        return
+
     latest = panel.sort_values("year").groupby("corp_name").tail(1).sort_values(
         "risk_score", ascending=False
     )
 
-    if "selected_corp" not in st.session_state:
-        st.session_state.selected_corp = latest.iloc[0]["corp_name"]
-
     search = st.text_input("기업명 검색", "")
     table = latest[latest["corp_name"].str.contains(search)] if search else latest
+    st.caption("표에서 기업 행을 클릭하면 상세 위험도 분석을 볼 수 있습니다.")
 
     display_df = table[["corp_name", "stock_code", "category", "year", "risk_score", "capital_impairment"]].rename(
         columns={
@@ -240,16 +260,14 @@ def main():
         display_df,
         use_container_width=True,
         hide_index=True,
-        height=380,
+        height=520,
         on_select="rerun",
         selection_mode="single-row",
     )
 
     if event.selection and event.selection.get("rows"):
         st.session_state.selected_corp = table.iloc[event.selection["rows"][0]]["corp_name"]
-
-    st.divider()
-    render_company_detail(panel, st.session_state.selected_corp, bundle)
+        st.rerun()
 
 
 if __name__ == "__main__":

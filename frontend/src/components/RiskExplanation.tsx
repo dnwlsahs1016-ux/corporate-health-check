@@ -80,7 +80,25 @@ export default function RiskExplanation({ explanation }: { explanation: RiskExpl
         })}
       </div>
 
-      <p style={{ margin: "16px 0 0", fontSize: 11.5, color: "var(--color-text-muted)" }}>
+      {explanation.contributions.length > 0 && (
+        <p style={{ margin: "16px 0 0", fontSize: 13 }}>
+          <strong>
+            가장 큰 영향을 미친 지표는 '{explanation.contributions[0].label}'
+          </strong>
+          이며, {explanation.contributions[0].contribution > 0 ? "위험도를 높이는" : "위험도를 낮추는"}{" "}
+          방향으로 작용했습니다.
+          {explanation.contributions.length > 1 && (
+            <>
+              {" "}
+              그다음으로는 '{explanation.contributions[1].label}'이 위험도를{" "}
+              {explanation.contributions[1].contribution > 0 ? "높이는" : "낮추는"} 방향으로 크게
+              작용했습니다.
+            </>
+          )}
+        </p>
+      )}
+
+      <p style={{ margin: "8px 0 0", fontSize: 11.5, color: "var(--color-text-muted)" }}>
         ※ 현재 학습 표본이 매우 작아(상장폐지 확정 사례 소수) 일부 지표의 기여 방향이 재무이론과
         다르게 나타날 수 있습니다. 완전자본잠식처럼 규정상 명확한 위험 요인은 위 규칙으로 별도
         보정했지만, 나머지 지표별 가중치는 코스닥 전체 유니버스로 학습 데이터를 확장하면 더

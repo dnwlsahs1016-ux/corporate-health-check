@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / React
+node_modules/
+dist/
+build/
+.next/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backend raw data cache (DART/ECOS API 응답 캐시, 재현 가능하므로 커밋 안 함)
+backend/data/raw/
+
+# Claude Code local session state (개인 권한설정, 공유 저장소에 불필요)
+.claude/settings.local.json
+

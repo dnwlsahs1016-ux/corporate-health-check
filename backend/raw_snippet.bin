@@ -1,0 +1,11 @@
+<tbody>
+			
+				
+				
+				
+				
+				
+				
+					<tr class="">
+						<td class="first txc" scope="row">386</td>
+						<td><img src='/images/common/icn_t_ko.gif' class='vmiddle legend' alt='코스닥'> <a id="companysum" href="#companysum" onclick="companysummary_open('01345'); return false;"

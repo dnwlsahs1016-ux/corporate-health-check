@@ -1,0 +1,660 @@
+corp_name,stock_code,category,delisting_date,reason
+에이스하이텍,,financial_distress,2015-07-10,감사의견거절(감사범위 제한)
+와이즈파워,,financial_distress,2015-07-16,자본전액잠식 등
+울트라건설,,financial_distress,2015-04-13,자본전액잠식
+영진코퍼레이션,,financial_distress,2015-04-23,자본전액잠식
+터보테크,,financial_distress,2015-01-27,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+태창파로스,,financial_distress,2015-05-19,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+해피드림,,financial_distress,2015-05-04,감사범위제한으로 인한 한정의견
+잘만테크,,financial_distress,2015-05-13,감사의견 거절(계속기업 존속능력에 대한 불확실성 및 감사범위 제한)
+씨앤케이인터,,financial_distress,2015-05-19,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+디아이디,,financial_distress,2015-07-23,"기업의 계속성, 경영의 투명성 또는 그 밖에 코스닥시장의 건전성 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정"
+KCW,,financial_distress,2015-09-18,"기업의 계속성, 경영의 투명성 또는 그 밖에 코스닥시장의 건전성 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정"
+GT&T,,financial_distress,2015-10-15,'14사업연도 자본잠식률 50%이상 사유로 관리종목 지정 후 '15사업연도 반기 감사의견 거절
+승화프리텍,,financial_distress,2016-01-25,"기업의 계속성, 경영의 투명성 또는 그 밖에 코스닥시장의 건전성 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정"
+우양에이치씨,,financial_distress,2015-03-17,발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래 정지
+티에스엠텍,,financial_distress,2015-05-20,발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지
+디지텍시스템,,financial_distress,2015-01-21,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+아이팩토리,,financial_distress,2016-09-19,감사의견 거절(감사범위 제한 및 기업회계기준 위배)
+씨그널엔터테인먼트그룹,,financial_distress,2018-05-04,감사의견거절(감사범위 제한)
+위노바,,financial_distress,2018-03-09,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+엔에스브이,,financial_distress,2017-09-12,"감사의견 거절(내부회계관리제도상의 취약점, 계속기업가정의 불확실성 및 재고자산 관련 감사범위 제한)"
+제이앤유글로벌,,financial_distress,2016-05-09,감사의견거절(감사범위 제한)
+완리,,financial_distress,2018-05-23,감사의견거절(감사범위 제한)
+엠제이비,,financial_distress,2016-09-05,감사의견거절(감사범위 제한)
+스틸플라워,,financial_distress,2018-05-08,감사의견거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+아이디에스,,financial_distress,2016-04-28,'14사업연도 자본잠식률 50%이상 사유로 관리종목 지정 후 '15사업연도 반기 감사의견 거절
+비엔씨컴퍼니,,financial_distress,2017-05-08,감사범위제한으로 인한 한정의견
+케이엔씨글로벌,,financial_distress,2017-03-07,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+에스에스컴텍,,financial_distress,2017-05-11,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+신텍,,financial_distress,2018-07-09,발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지
+피엘에이,,financial_distress,2016-07-25,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+씨엘인터내셔널,,financial_distress,2016-09-08,2반기 연속 자본잠식률 50% 이상
+우전,,financial_distress,2017-04-13,자본전액잠식 등
+신양오라컴,,financial_distress,2017-05-08,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+프리젠,,financial_distress,2017-02-24,최근 5사업연도 연속 영업손실 발생
+인포피아,,financial_distress,2016-05-09,감사의견 거절(감사범위 제한으로 인한 의견거절)
+아이이,,financial_distress,2017-12-20,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+플렉스컴,,financial_distress,2016-04-12,자본전액잠식
+썬코어,,financial_distress,2018-03-15,'16사업연도 감사의견거절(계속기업 존속능력에 대한 불확실성) 및 '17사업연도 반기 감사의견거절(계속기업 존속능력에 대한 불확실성)
+지디,,financial_distress,2018-10-12,감사의견 거절(감사범위 제한)
+에임하이,,financial_distress,2018-08-10,감사의견거절(감사범위 제한)
+우성아이비,,financial_distress,2018-10-12,감사의견거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+위너지스,,financial_distress,2018-10-11,감사의견거절(감사범위 제한)
+모다,,financial_distress,2020-07-10,감사의견거절(감사범위 제한)
+레이젠,,financial_distress,2018-10-11,감사의견거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+파티게임즈,,financial_distress,2020-09-09,감사의견거절(감사범위 제한)
+C&S자산관리,,financial_distress,2018-10-11,감사의견거절(범위제한 및 계속기업 존속능력에 대한 불확실성)
+넥스지,,financial_distress,2018-10-11,감사의견거절(감사범위제한)
+트레이스,,financial_distress,2018-10-11,감사의견거절(감사범위 제한)
+에프티이앤이,,financial_distress,2019-05-03,감사의견 거절(감사범위 제한)
+차이나하오란,,financial_distress,2019-01-02,제28조제1항제9호에 따라 관리종목 지정 후 공시규정 제19조 제1항에 따른 분기보고서 법정기한 내 미제출
+이엠네트웍스,,financial_distress,2021-10-08,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+엠피씨플러스,,financial_distress,2023-05-08,감사의견 거절(감사범위 제한)
+아이엠텍,,financial_distress,2021-06-11,감사의견 거절(감사범위 제한)
+이노와이즈,,financial_distress,2021-08-31,감사의견 거절(감사범위 제한)
+에스에프씨,,financial_distress,2020-06-30,감사의견 거절(감사범위 제한)
+에이치디,,financial_distress,2021-04-19,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+아리온,,financial_distress,2024-05-03,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+피앤텔,,financial_distress,2020-05-21,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+자안바이오,,financial_distress,2022-01-05,발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지
+현진소재,,financial_distress,2022-04-26,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+지유온,,financial_distress,2021-09-30,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+세영디앤씨,,financial_distress,2022-05-27,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+뉴로스,,financial_distress,2022-10-26,감사의견 거절(감사범위 제한 및 계속기업 존속능력 불확실성)
+지나인제약,,financial_distress,2023-07-21,감사의견 거절(감사범위 제한 및 계속기업가정 불확실성)
+제이테크놀로지,,financial_distress,2019-12-12,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+코썬바이오,,financial_distress,2020-08-11,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+팍스넷,,financial_distress,2021-08-23,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+제이웨이,,financial_distress,2023-04-14,감사의견 거절(감사범위 제한 및 계속기업가정 불확실성)
+파인넥스,,financial_distress,2020-04-10,"제28조제1항제9호에 따라 관리종목 지정 후 공시규정 제19조제1항에 따른 사업보고서 법정제출기한 내 미제출, 최근 2년간 3회 이상 공시규정 제19조제1항의 규정에 의한 사업보고서, 반기보고서 또는 분기보고서 법정제출기한 내 미제출"
+에이치엔티,,financial_distress,2022-06-27,기업의 계속성 및 경영의 투명성 등을 종합적을 고려하여 상장폐지기준에 해당한다고 결정
+이엘케이,,financial_distress,2020-05-22,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+차이나그레이트,,financial_distress,2020-05-22,"법정제출기한까지 사업보고서를 제출하지 아니한 후, 법정제출기한의 다음날부터 10일이내에 사업보고서를 제출하지 아니함"
+코원플레이,,financial_distress,2023-03-30,감사의견 거절(감사범위 제한 및 계속기업가정 불확실성)
+데코앤이,,financial_distress,2019-11-20,발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지
+럭슬,,financial_distress,2021-08-11,감사의견 거절(감사범위 제한)
+바이오빌,,financial_distress,2020-07-31,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+에스제이케이,,financial_distress,2021-09-13,해산사유 발생(파산선고)
+에이아이비트,,financial_distress,2021-10-06,감사의견 거절(감사범위 제한)
+미래SCI,,financial_distress,2021-04-13,"최근 2년간 3회 이상 공시규정 제19조제1항의 규정에 의한 사업보고서, 반기보고서 또는 분기보고서 법정제출기한 내 미제출"
+지스마트글로벌,,financial_distress,2022-02-23,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+화진,,financial_distress,2020-07-02,감사의견거절(감사범위제한)
+썬텍,,financial_distress,2020-02-12,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+행남사,,financial_distress,2021-06-07,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+레드로버,,financial_distress,2022-11-04,기업의 계속성 및 경영의 투명성 등을 종합적을 고려하여 상장폐지기준에 해당한다고 결정
+리드,,financial_distress,2020-05-14,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+이매진아시아,,financial_distress,2021-02-15,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당
+GV,,financial_distress,2021-12-20,해산사유 발생(파산선고)
+스포츠서울,,financial_distress,2022-04-20,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+유네코,,financial_distress,2023-01-17,감사의견 거절(감사범위 제한 및 계속기업 존속능력 불확실성)
+에이팸,,financial_distress,2021-06-04,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당
+에스에이치엔엘,,financial_distress,2022-05-31,감사의견 거절
+한프,,financial_distress,2022-04-06,감사의견 거절(감사범위 제한)
+에스앤씨엔진그룹,,financial_distress,2021-06-14,"법정제출기한까지 사업보고서를 제출하지 아니한 후, 법정제출기한의 다음날부터 10일이내에 사업보고서를 제출하지 아니함"
+멜파스,,financial_distress,2023-07-17,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+퓨전,,financial_distress,2021-06-10,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+소리바다,,financial_distress,2022-09-07,감사의견 거절(감사범위 제한)
+매직마이크로,,financial_distress,2022-09-22,감사의견 거절(감사범위 제한 및 계속기업 존속능력 불확실성)
+디에스티,,financial_distress,2021-09-02,감사의견 한정(감사범위 제한)
+연이비앤티,,financial_distress,2022-10-17,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+맥스로텍,,financial_distress,2021-09-16,발행한 어음 또는 수표가 주거래은행에 의하여 최종부도로 결정되거나 거래은행에 의한 거래정지
+테라셈,,financial_distress,2022-10-17,감사의견 거절(감사범위 제한)
+코스온,,financial_distress,2023-10-20,감사의견 거절(감사범위 제한)
+코너스톤네트웍스,,financial_distress,2021-10-08,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+에스마크,,financial_distress,2020-05-21,감사의견거절(감사범위제한 및 계속기업 존속 불확실)
+참존글로벌,,financial_distress,2022-11-09,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+제낙스,,financial_distress,2021-08-09,감사의견 거절(감사범위 제한 및 계속기업 존속능력에 대한 불확실성)
+THE MIDONG,,financial_distress,2024-06-17,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+이큐셀,,financial_distress,2025-02-14,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+위니아,,financial_distress,2025-06-18,감사의견 거절(감사범위 제한 및 계속기업가정 불확실성)
+인트로메딕,,financial_distress,2026-01-26,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+아이엠,,financial_distress,2026-07-01,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+프로브잇,,financial_distress,2026-07-01,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+노블엠앤비,,financial_distress,2026-07-01,감사의견 거절(계속기업 존속능력 불확실성)
+MIT,,financial_distress,2025-03-28,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+바이온,,financial_distress,2026-07-01,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+셀리버리,,financial_distress,2025-03-07,감사의견 거절(감사범위 제한 및 계속기업 가정 불확실성)
+어스앤에어로스페이스,,financial_distress,2024-11-06,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+한국테크놀로지,,financial_distress,2024-10-07,해산사유 발생(파산선고)
+KH 건설,,financial_distress,2026-01-14,감사의견 거절(감사범위 제한)
+제일바이오,,financial_distress,2026-02-23,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+이화전기,,financial_distress,2025-09-10,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+선샤인푸드,,financial_distress,2026-05-08,감사의견 거절(감사범위 제한 및 계속기업 존속능력 불확실성)
+크루셜텍,,financial_distress,2024-02-15,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+조광ILI,,financial_distress,2025-08-21,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+파나케이아,,financial_distress,2024-06-25,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+에이티세미콘,,financial_distress,2024-09-06,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지 기준에 해당한다고 결정
+비유테크놀러지,,financial_distress,2026-06-05,감사의견 거절(감사범위 제한 및 계속기업 존속능력 불확실성)
+지더블유바이텍,,financial_distress,2026-03-17,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+CNH,,financial_distress,2025-07-14,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+장원테크,,financial_distress,2026-01-14,감사의견 한정(감사범위 제한)
+한울BnC,,financial_distress,2025-03-31,감사의견 거절(감사범위 제한 및 계속기업가정 불확실성)
+스튜디오산타클로스,,financial_distress,2026-03-18,감사의견 한정(감사범위 제한)
+NPX,,financial_distress,2026-07-07,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+스타코링크,,financial_distress,2026-07-24,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+비디아이,,financial_distress,2024-06-07,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+녹원씨엔아이,,financial_distress,2024-07-29,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+아크솔루션스,,financial_distress,2026-07-08,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+파멥신,,financial_distress,2026-01-27,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+디에스앤엘,,financial_distress,2024-01-03,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+스마트솔루션즈,,financial_distress,2024-07-25,감사의견 거절
+푸른소나무,,financial_distress,2026-01-22,감사의견 거절(감사범위 제한 및 계속기업 존속능력 불확실성)
+제넨바이오,,financial_distress,2025-06-18,감사의견 거절(감사범위 제한 및 계속기업 가정 불확실성)
+엘아이에스,,financial_distress,2023-12-06,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+이즈미디어,,financial_distress,2024-07-10,감사범위 제한
+에스엘에너지,,financial_distress,2024-12-23,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+퀀타피아,,financial_distress,2025-02-19,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+골든센츄리,,financial_distress,2025-01-08,"사업보고서, 반기보고서 또는 분기보고서 미제출로 상장규정 제53조제1항제6호에 따라 관리종목으로 지정된 상태에서 공시규정 제19조제1항에 따른 사업보고서, 반기보고서 또는 분기보고서를 법정제출기한내 미제출"
+퓨처코어,,financial_distress,2025-11-26,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+대유,,financial_distress,2025-08-21,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+에이디칩스,,financial_distress,2025-12-30,감사의견 거절(계속기업 존속능력 불확실성)
+BF랩스,,financial_distress,2026-05-08,감사의견 거절(감사범위 제한)
+KH 미래물산,,financial_distress,2026-01-14,감사의견 거절(감사범위 제한)
+세토피아,,financial_distress,2026-03-16,감사의견 거절(계속기업 존속능력 불확실성)
+한송네오텍,,financial_distress,2025-06-19,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+광림,,financial_distress,2025-11-26,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+에스유앤피,,financial_distress,2025-09-08,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+티엘아이,,financial_distress,2024-11-14,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+애닉,,financial_distress,2025-02-14,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+엠에프엠코리아,,financial_distress,2025-06-19,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+이트론,,financial_distress,2025-09-10,기업의 계속성 및 경영의 투명성 등을 종합적으로 고려하여 상장폐지기준에 해당한다고 결정
+디지아이,043360,healthy_benchmark,,
+그린생명과학,114450,healthy_benchmark,,
+화인써키트,127980,healthy_benchmark,,
+해성옵틱스,076610,healthy_benchmark,,
+테라사이언스,073640,healthy_benchmark,,
+인티큐브,070590,healthy_benchmark,,
+하나32호스팩,475240,healthy_benchmark,,
+모바일어플라이언스,087260,healthy_benchmark,,
+엔바이오니아,317870,healthy_benchmark,,
+브이엠,089970,healthy_benchmark,,
+대림제지,017650,healthy_benchmark,,
+엣지파운드리,105550,healthy_benchmark,,
+인스웨이브,450520,healthy_benchmark,,
+마이크로컨텍솔,098120,healthy_benchmark,,
+페니트리움바이오,187660,healthy_benchmark,,
+에이에프더블류,312610,healthy_benchmark,,
+제노레이,122310,healthy_benchmark,,
+코아스템켐온,166480,healthy_benchmark,,
+APS이노베이션,079810,healthy_benchmark,,
+세명전기,017510,healthy_benchmark,,
+한솔아이원스,114810,healthy_benchmark,,
+바이오솔루션,086820,healthy_benchmark,,
+에이치피오,357230,healthy_benchmark,,
+영우디에스피,143540,healthy_benchmark,,
+엠아이텍,179290,healthy_benchmark,,
+에스에너지,095910,healthy_benchmark,,
+서연탑메탈,019770,healthy_benchmark,,
+에스트래픽,234300,healthy_benchmark,,
+캐리,313760,healthy_benchmark,,
+소프트캠프,258790,healthy_benchmark,,
+스코넥,276040,healthy_benchmark,,
+케이씨피드,025880,healthy_benchmark,,
+로보로보,215100,healthy_benchmark,,
+우리기술,032820,healthy_benchmark,,
+NHN벅스,104200,healthy_benchmark,,
+해성산업,034810,healthy_benchmark,,
+인터로조,119610,healthy_benchmark,,
+대화제약,067080,healthy_benchmark,,
+아시아종묘,154030,healthy_benchmark,,
+큐에이드,377460,healthy_benchmark,,
+알톤,123750,healthy_benchmark,,
+노바렉스,194700,healthy_benchmark,,
+필에너지,378340,healthy_benchmark,,
+쎄트렉아이,099320,healthy_benchmark,,
+이스트소프트,047560,healthy_benchmark,,
+대명에너지,389260,healthy_benchmark,,
+로지시스,067730,healthy_benchmark,,
+디와이씨,310870,healthy_benchmark,,
+로킷헬스케어,376900,healthy_benchmark,,
+감성코퍼레이션,036620,healthy_benchmark,,
+포니링크,064800,healthy_benchmark,,
+마이크로디지탈,305090,healthy_benchmark,,
+대주산업,003310,healthy_benchmark,,
+에스오에스랩,464080,healthy_benchmark,,
+그린광학,0015G0,healthy_benchmark,,
+한국팩키지,037230,healthy_benchmark,,
+한국알콜,017890,healthy_benchmark,,
+대륙제관,004780,healthy_benchmark,,
+피엠티,147760,healthy_benchmark,,
+유비벨록스,089850,healthy_benchmark,,
+씨티씨바이오,060590,healthy_benchmark,,
+에스팀,458350,healthy_benchmark,,
+아이로보틱스,066430,healthy_benchmark,,
+아이센스,099190,healthy_benchmark,,
+네오이뮨텍,950220,healthy_benchmark,,
+미래에셋비전스팩5호,477470,healthy_benchmark,,
+에피소드컴퍼니,317530,healthy_benchmark,,
+세코닉스,053450,healthy_benchmark,,
+수성웹툰,084180,healthy_benchmark,,
+원일티엔아이,136150,healthy_benchmark,,
+바이오다인,314930,healthy_benchmark,,
+엑시온그룹,069920,healthy_benchmark,,
+와이엠텍,273640,healthy_benchmark,,
+쏘닉스,088280,healthy_benchmark,,
+KB제30호스팩,486630,healthy_benchmark,,
+한국첨단소재,062970,healthy_benchmark,,
+광진실업,026910,healthy_benchmark,,
+티로보틱스,117730,healthy_benchmark,,
+제일일렉트릭,199820,healthy_benchmark,,
+에이럭스,475580,healthy_benchmark,,
+씨엔알리서치,359090,healthy_benchmark,,
+샤페론,378800,healthy_benchmark,,
+엘컴텍,037950,healthy_benchmark,,
+알에프세미,096610,healthy_benchmark,,
+모베이스전자,012860,healthy_benchmark,,
+알리코제약,260660,healthy_benchmark,,
+로체시스템즈,071280,healthy_benchmark,,
+에스코넥,096630,healthy_benchmark,,
+시너지이노베이션,048870,healthy_benchmark,,
+넥사다이내믹스,351320,healthy_benchmark,,
+현대에이치티,039010,healthy_benchmark,,
+경동제약,011040,healthy_benchmark,,
+포바이포,389140,healthy_benchmark,,
+차바이오텍,085660,healthy_benchmark,,
+더블유에스아이,299170,healthy_benchmark,,
+신흥에스이씨,243840,healthy_benchmark,,
+유바이오로직스,206650,healthy_benchmark,,
+지엔씨에너지,119850,healthy_benchmark,,
+지투파워,388050,healthy_benchmark,,
+스튜디오삼익,415380,healthy_benchmark,,
+톱텍,108230,healthy_benchmark,,
+신화프리텍,095190,healthy_benchmark,,
+빅솔론,093190,healthy_benchmark,,
+하이젠알앤엠,160190,healthy_benchmark,,
+프레스티지바이오로직스,334970,healthy_benchmark,,
+디에이피,066900,healthy_benchmark,,
+YW,051390,healthy_benchmark,,
+안랩,053800,healthy_benchmark,,
+한국정보인증,053300,healthy_benchmark,,
+LB인베스트먼트,309960,healthy_benchmark,,
+셀바이오휴먼텍,318160,healthy_benchmark,,
+코어라인소프트,384470,healthy_benchmark,,
+와토스코리아,079000,healthy_benchmark,,
+아이디피,332370,healthy_benchmark,,
+피아이이,452450,healthy_benchmark,,
+모다이노칩,080420,healthy_benchmark,,
+에스앤더블류,103230,healthy_benchmark,,
+코스텍시스,355150,healthy_benchmark,,
+피엔티엠에스,257370,healthy_benchmark,,
+퓨릿,445180,healthy_benchmark,,
+노타,486990,healthy_benchmark,,
+파워넷,037030,healthy_benchmark,,
+비케이홀딩스,050090,healthy_benchmark,,
+유신,054930,healthy_benchmark,,
+브이원텍,251630,healthy_benchmark,,
+씨피시스템,413630,healthy_benchmark,,
+제이엘케이,322510,healthy_benchmark,,
+신원종합개발,017000,healthy_benchmark,,
+에코볼트,097780,healthy_benchmark,,
+노랑풍선,104620,healthy_benchmark,,
+일진파워,094820,healthy_benchmark,,
+조이시티,067000,healthy_benchmark,,
+이엠앤아이,083470,healthy_benchmark,,
+케이엔제이,272110,healthy_benchmark,,
+한네트,052600,healthy_benchmark,,
+엔에이치스팩33호,0130H0,healthy_benchmark,,
+빛과전자,069540,healthy_benchmark,,
+씨엠티엑스,388210,healthy_benchmark,,
+우양,103840,healthy_benchmark,,
+비츠로시스,054220,healthy_benchmark,,
+솔디펜스,215090,healthy_benchmark,,
+위지윅스튜디오,299900,healthy_benchmark,,
+삼지전자,037460,healthy_benchmark,,
+옴니시스템,057540,healthy_benchmark,,
+에코프로에이치엔,383310,healthy_benchmark,,
+티피씨글로벌,130740,healthy_benchmark,,
+코스나인,082660,healthy_benchmark,,
+흥구석유,024060,healthy_benchmark,,
+쇼박스,086980,healthy_benchmark,,
+HLB이노베이션,024850,healthy_benchmark,,
+블루엠텍,439580,healthy_benchmark,,
+그래디언트,035080,healthy_benchmark,,
+한주라이트메탈,198940,healthy_benchmark,,
+골드앤에스,035290,healthy_benchmark,,
+SFA넥셀,222080,healthy_benchmark,,
+라닉스,317120,healthy_benchmark,,
+한국피아이엠,448900,healthy_benchmark,,
+소룩스,290690,healthy_benchmark,,
+파트론,091700,healthy_benchmark,,
+우림피티에스,101170,healthy_benchmark,,
+PN풍년,024940,healthy_benchmark,,
+디에스케이,109740,healthy_benchmark,,
+다우데이타,032190,healthy_benchmark,,
+경남제약,053950,healthy_benchmark,,
+율촌,146060,healthy_benchmark,,
+옵투스제약,131030,healthy_benchmark,,
+메가엠디,133750,healthy_benchmark,,
+퓨런티어,370090,healthy_benchmark,,
+신한제12호스팩,474660,healthy_benchmark,,
+동운아나텍,094170,healthy_benchmark,,
+엔에이치스팩31호,481890,healthy_benchmark,,
+젝시믹스,337930,healthy_benchmark,,
+크리스에프앤씨,110790,healthy_benchmark,,
+삼성스팩13호,0115H0,healthy_benchmark,,
+오텍,067170,healthy_benchmark,,
+태성,323280,healthy_benchmark,,
+KBI메탈,024840,healthy_benchmark,,
+엠디바이스,226590,healthy_benchmark,,
+동화기업,025900,healthy_benchmark,,
+스톤브릿지벤처스,330730,healthy_benchmark,,
+매커스,093520,healthy_benchmark,,
+에스에이엠티,031330,healthy_benchmark,,
+키움히어로제1호스팩,466690,healthy_benchmark,,
+이화공영,001840,healthy_benchmark,,
+넥스트바이오메디컬,389650,healthy_benchmark,,
+iMBC,052220,healthy_benchmark,,
+제일엠앤에스,412540,healthy_benchmark,,
+에이치와이티씨,148930,healthy_benchmark,,
+우주일렉트로,065680,healthy_benchmark,,
+라파스,214260,healthy_benchmark,,
+신성델타테크,065350,healthy_benchmark,,
+비스토스,419540,healthy_benchmark,,
+인콘,083640,healthy_benchmark,,
+대주전자재료,078600,healthy_benchmark,,
+알멕,354320,healthy_benchmark,,
+KG에코솔루션,151860,healthy_benchmark,,
+유니크,011320,healthy_benchmark,,
+다날,064260,healthy_benchmark,,
+삼성스팩10호,0044K0,healthy_benchmark,,
+아로마티카,0015N0,healthy_benchmark,,
+티케이지애강,022220,healthy_benchmark,,
+바이오인프라,199730,healthy_benchmark,,
+삼성스팩11호,0071M0,healthy_benchmark,,
+지앤비에스 에코,382800,healthy_benchmark,,
+서울평가정보,036120,healthy_benchmark,,
+이노테크,469610,healthy_benchmark,,
+사이냅소프트,466410,healthy_benchmark,,
+한국가구,004590,healthy_benchmark,,
+빌리언스,044480,healthy_benchmark,,
+골프존,215000,healthy_benchmark,,
+대원미디어,048910,healthy_benchmark,,
+하이즈항공,221840,healthy_benchmark,,
+대동금속,020400,healthy_benchmark,,
+서울바이오시스,092190,healthy_benchmark,,
+바디텍메드,206640,healthy_benchmark,,
+아이씨디,040910,healthy_benchmark,,
+CS,065770,healthy_benchmark,,
+텔콘RF제약,200230,healthy_benchmark,,
+디케이앤디,263020,healthy_benchmark,,
+라이콤,388790,healthy_benchmark,,
+제이에스링크,127120,healthy_benchmark,,
+디비금융스팩12호,477760,healthy_benchmark,,
+그래피,318060,healthy_benchmark,,
+대신정보통신,020180,healthy_benchmark,,
+CMG제약,058820,healthy_benchmark,,
+대양전기공업,108380,healthy_benchmark,,
+NICE인프라,063570,healthy_benchmark,,
+에이프릴바이오,397030,healthy_benchmark,,
+인벤티지랩,389470,healthy_benchmark,,
+이노진,344860,healthy_benchmark,,
+창해에탄올,004650,healthy_benchmark,,
+케이웨더,068100,healthy_benchmark,,
+신성에스티,416180,healthy_benchmark,,
+코이즈,121850,healthy_benchmark,,
+유안타제15호스팩,473050,healthy_benchmark,,
+푸드나무,290720,healthy_benchmark,,
+덕양에너젠,0001A0,healthy_benchmark,,
+앱토크롬,109960,healthy_benchmark,,
+에이텀,355690,healthy_benchmark,,
+제룡산업,147830,healthy_benchmark,,
+크리스탈신소재,900250,healthy_benchmark,,
+이엠텍,091120,healthy_benchmark,,
+오공,045060,healthy_benchmark,,
+메지온,140410,healthy_benchmark,,
+한성크린텍,066980,healthy_benchmark,,
+국보디자인,066620,healthy_benchmark,,
+케이지에이,455180,healthy_benchmark,,
+화일약품,061250,healthy_benchmark,,
+에스피지,058610,healthy_benchmark,,
+삼현철강,017480,healthy_benchmark,,
+나라스페이스테크놀로지,478340,healthy_benchmark,,
+유니온바이오메트릭스,203450,healthy_benchmark,,
+퓨쳐켐,220100,healthy_benchmark,,
+닷밀,464580,healthy_benchmark,,
+드림시큐리티,203650,healthy_benchmark,,
+에이전트AI,060900,healthy_benchmark,,
+에프에스티,036810,healthy_benchmark,,
+DH오토웨어,025440,healthy_benchmark,,
+티에스아이,277880,healthy_benchmark,,
+아가방컴퍼니,013990,healthy_benchmark,,
+넥스턴앤롤코리아,089140,healthy_benchmark,,
+이엘피,063760,healthy_benchmark,,
+바이브컴퍼니,301300,healthy_benchmark,,
+글로벌텍스프리,204620,healthy_benchmark,,
+인포바인,115310,healthy_benchmark,,
+셀비온,308430,healthy_benchmark,,
+헬릭스미스,084990,healthy_benchmark,,
+KNN,058400,healthy_benchmark,,
+국전,307750,healthy_benchmark,,
+나무기술,242040,healthy_benchmark,,
+마음AI,377480,healthy_benchmark,,
+SM C&C,048550,healthy_benchmark,,
+S&K폴리텍,091340,healthy_benchmark,,
+잉글우드랩,950140,healthy_benchmark,,
+인카금융서비스,211050,healthy_benchmark,,
+뉴로메카,348340,healthy_benchmark,,
+피씨디렉트,051380,healthy_benchmark,,
+에스엠씨지,460870,healthy_benchmark,,
+신도기연,290520,healthy_benchmark,,
+씨앤씨인터내셔널,352480,healthy_benchmark,,
+시그네틱스,033170,healthy_benchmark,,
+엑시콘,092870,healthy_benchmark,,
+크라우드웍스,355390,healthy_benchmark,,
+본느,226340,healthy_benchmark,,
+와이엠티,251370,healthy_benchmark,,
+M83,476080,healthy_benchmark,,
+청담글로벌,362320,healthy_benchmark,,
+SAMG엔터,419530,healthy_benchmark,,
+삼양케이씨아이,036670,healthy_benchmark,,
+티비씨,033830,healthy_benchmark,,
+삼영이엔씨,065570,healthy_benchmark,,
+헥토이노베이션,214180,healthy_benchmark,,
+세나테크놀로지,061090,healthy_benchmark,,
+이지트로닉스,377330,healthy_benchmark,,
+켄코아에어로스페이스,274090,healthy_benchmark,,
+삼기,122350,healthy_benchmark,,
+오리엔탈정공,014940,healthy_benchmark,,
+루멘스,038060,healthy_benchmark,,
+대성창투,027830,healthy_benchmark,,
+동국알앤에스,075970,healthy_benchmark,,
+팅크웨어,084730,healthy_benchmark,,
+에스디생명공학,217480,healthy_benchmark,,
+리메드,302550,healthy_benchmark,,
+유진테크,084370,healthy_benchmark,,
+에이엘티,172670,healthy_benchmark,,
+인터엠,017250,healthy_benchmark,,
+아비코전자,036010,healthy_benchmark,,
+메디콕스,054180,healthy_benchmark,,
+샌즈랩,411080,healthy_benchmark,,
+모아데이타,288980,healthy_benchmark,,
+HK이노엔,195940,healthy_benchmark,,
+금강철강,053260,healthy_benchmark,,
+PS일렉트로닉스,332570,healthy_benchmark,,
+서산,079650,healthy_benchmark,,
+현대힘스,460930,healthy_benchmark,,
+대한광통신,010170,healthy_benchmark,,
+엔젤로보틱스,455900,healthy_benchmark,,
+지아이에스,306620,healthy_benchmark,,
+신테카바이오,226330,healthy_benchmark,,
+진영,285800,healthy_benchmark,,
+데브시스터즈,194480,healthy_benchmark,,
+3S,060310,healthy_benchmark,,
+씨엔플러스,115530,healthy_benchmark,,
+덕우전자,263600,healthy_benchmark,,
+하이퍼코퍼레이션,065650,healthy_benchmark,,
+삼익제약,014950,healthy_benchmark,,
+디케이티,290550,healthy_benchmark,,
+이닉스,452400,healthy_benchmark,,
+이지스,261520,healthy_benchmark,,
+노을,376930,healthy_benchmark,,
+케이엔더블유,105330,healthy_benchmark,,
+젬백스,082270,healthy_benchmark,,
+기가비스,420770,healthy_benchmark,,
+상지건설,042940,healthy_benchmark,,
+성우테크론,045300,healthy_benchmark,,
+펨트론,168360,healthy_benchmark,,
+HLB펩,196300,healthy_benchmark,,
+마크로젠,038290,healthy_benchmark,,
+가온그룹,078890,healthy_benchmark,,
+오션인더블유,052300,healthy_benchmark,,
+탑머티리얼,360070,healthy_benchmark,,
+아이퀘스트,262840,healthy_benchmark,,
+미투온,201490,healthy_benchmark,,
+큐캐피탈,016600,healthy_benchmark,,
+지아이텍,382480,healthy_benchmark,,
+라온로보틱스,232680,healthy_benchmark,,
+아이스크림미디어,461300,healthy_benchmark,,
+포인트모바일,318020,healthy_benchmark,,
+졸스,018700,healthy_benchmark,,
+네패스아크,330860,healthy_benchmark,,
+휴림에이텍,078590,healthy_benchmark,,
+체리부로,066360,healthy_benchmark,,
+유안타제17호스팩,493790,healthy_benchmark,,
+이녹스,088390,healthy_benchmark,,
+한국정보공학,039740,healthy_benchmark,,
+동일기연,032960,healthy_benchmark,,
+슈어소프트테크,298830,healthy_benchmark,,
+웹스,196700,healthy_benchmark,,
+제이앤티씨,204270,healthy_benchmark,,
+넥슨게임즈,225570,healthy_benchmark,,
+LS머트리얼즈,417200,healthy_benchmark,,
+인스피언,465480,healthy_benchmark,,
+신신제약,002800,healthy_benchmark,,
+케이엔알시스템,199430,healthy_benchmark,,
+디알텍,214680,healthy_benchmark,,
+효성오앤비,097870,healthy_benchmark,,
+참좋은여행,094850,healthy_benchmark,,
+세원물산,024830,healthy_benchmark,,
+셀레스트라,352770,healthy_benchmark,,
+세림B&G,340440,healthy_benchmark,,
+링크드,193250,healthy_benchmark,,
+우리기술투자,041190,healthy_benchmark,,
+특수건설,026150,healthy_benchmark,,
+하나마이크론,067310,healthy_benchmark,,
+코셈,360350,healthy_benchmark,,
+엔에프씨,265740,healthy_benchmark,,
+아이컴포넌트,059100,healthy_benchmark,,
+윈스테크넷,136540,healthy_benchmark,,
+제룡전기,033100,healthy_benchmark,,
+네오티스,085910,healthy_benchmark,,
+탑코미디어,134580,healthy_benchmark,,
+BGF에코머티리얼즈,126600,healthy_benchmark,,
+씨엑스아이,900120,healthy_benchmark,,
+TS인베스트먼트,246690,healthy_benchmark,,
+아이톡시,052770,healthy_benchmark,,
+아스타,246720,healthy_benchmark,,
+SV인베스트먼트,289080,healthy_benchmark,,
+네패스,033640,healthy_benchmark,,
+셀레믹스,331920,healthy_benchmark,,
+루미르,474170,healthy_benchmark,,
+에어레인,163280,healthy_benchmark,,
+유진테크놀로지,240600,healthy_benchmark,,
+셀피글로벌,068940,healthy_benchmark,,
+미디어젠,279600,healthy_benchmark,,
+레뷰코퍼레이션,443250,healthy_benchmark,,
+비트컴퓨터,032850,healthy_benchmark,,
+캠시스,050110,healthy_benchmark,,
+에스에이티,060540,healthy_benchmark,,
+비엠티,086670,healthy_benchmark,,
+경창산업,024910,healthy_benchmark,,
+우리산업,215360,healthy_benchmark,,
+메타바이오메드,059210,healthy_benchmark,,
+모트렉스,118990,healthy_benchmark,,
+티에프이,425420,healthy_benchmark,,
+와이씨,232140,healthy_benchmark,,
+리튬포어스,073570,healthy_benchmark,,
+툴젠,199800,healthy_benchmark,,
+케이엠제약,225430,healthy_benchmark,,
+메드팩토,235980,healthy_benchmark,,
+성우,458650,healthy_benchmark,,
+파이버프로,368770,healthy_benchmark,,
+메디아나,041920,healthy_benchmark,,
+예스24,053280,healthy_benchmark,,
+디바이스,187870,healthy_benchmark,,
+모니터랩,434480,healthy_benchmark,,
+한국전자인증,041460,healthy_benchmark,,
+엘티씨,170920,healthy_benchmark,,
+피에스텍,002230,healthy_benchmark,,
+큐로홀딩스,051780,healthy_benchmark,,
+타이거일렉,219130,healthy_benchmark,,
+디오,039840,healthy_benchmark,,
+알체라,347860,healthy_benchmark,,
+유라클,088340,healthy_benchmark,,
+신한제18호스팩,0129K0,healthy_benchmark,,
+우진엔텍,457550,healthy_benchmark,,
+레몬,294140,healthy_benchmark,,
+와이지-원,019210,healthy_benchmark,,
+에스티팜,237690,healthy_benchmark,,
+삼영에스앤씨,361670,healthy_benchmark,,
+이녹스첨단소재,272290,healthy_benchmark,,
+카카오게임즈,293490,healthy_benchmark,,
+아미노로직스,074430,healthy_benchmark,,
+포시에스,189690,healthy_benchmark,,
+데이타솔루션,263800,healthy_benchmark,,
+로젠,033290,healthy_benchmark,,
+교보16호스팩,482520,healthy_benchmark,,
+조아제약,034940,healthy_benchmark,,
+현대에버다임,041440,healthy_benchmark,,
+네오크레마,311390,healthy_benchmark,,
+빛샘전자,072950,healthy_benchmark,,
+GST,083450,healthy_benchmark,,
+SM Life Design,063440,healthy_benchmark,,
+파인디지털,038950,healthy_benchmark,,
+위메이드,112040,healthy_benchmark,,
+삼보모터스,053700,healthy_benchmark,,
+케이엠,083550,healthy_benchmark,,
+대창스틸,140520,healthy_benchmark,,
+캔버스엔,210120,healthy_benchmark,,
+미래에셋비전스팩9호,0096D0,healthy_benchmark,,
+풍전약품,298060,healthy_benchmark,,
+프리시젼바이오,335810,healthy_benchmark,,
+에스티오,098660,healthy_benchmark,,
+삼일,032280,healthy_benchmark,,
+대원산업,005710,healthy_benchmark,,
+알지노믹스,476830,healthy_benchmark,,
+지씨지놈,340450,healthy_benchmark,,
+와이바이오로직스,338840,healthy_benchmark,,
+멀티캠퍼스,067280,healthy_benchmark,,
+제이오,418550,healthy_benchmark,,
+링크솔루션,474650,healthy_benchmark,,
+루트K,195990,healthy_benchmark,,
+네오리진,094860,healthy_benchmark,,
+바이오포트,188040,healthy_benchmark,,
+아이비김영,339950,healthy_benchmark,,
+삼륭물산,014970,healthy_benchmark,,
+메이슨캐피탈,021880,healthy_benchmark,,
+비덴트,121800,healthy_benchmark,,
+위메이드맥스,101730,healthy_benchmark,,
+티앤엘,340570,healthy_benchmark,,
+야스,255440,healthy_benchmark,,
+브이씨,365900,healthy_benchmark,,
+피에스케이홀딩스,031980,healthy_benchmark,,
+뷰웍스,100120,healthy_benchmark,,
+위너스일렉,479960,healthy_benchmark,,
+에스엠,041510,healthy_benchmark,,
+인크로스,216050,healthy_benchmark,,
+한울앤제주,276730,healthy_benchmark,,
+이렘,009730,healthy_benchmark,,
+대창솔루션,096350,healthy_benchmark,,
+동일금속,109860,healthy_benchmark,,
+비나텍,126340,healthy_benchmark,,
+진시스템,363250,healthy_benchmark,,
+셀바스헬스케어,208370,healthy_benchmark,,
+코스맥스엔비티,222040,healthy_benchmark,,
+디젠스,113810,healthy_benchmark,,
+이미지스,115610,healthy_benchmark,,
+동양파일,228340,healthy_benchmark,,
+글로본,019660,healthy_benchmark,,
+유아이엘,049520,healthy_benchmark,,
+와이엔텍,067900,healthy_benchmark,,
+유니슨,018000,healthy_benchmark,,
+넥스트아이,137940,healthy_benchmark,,
+주성엔지니어링,036930,healthy_benchmark,,
+케이피티유,054410,healthy_benchmark,,
+티케이케미칼,104480,healthy_benchmark,,
+레이저쎌,412350,healthy_benchmark,,
+이루온,065440,healthy_benchmark,,
+태웅,044490,healthy_benchmark,,
+백금T&A,046310,healthy_benchmark,,

@@ -28,6 +28,24 @@ export default function Home() {
         </p>
       </section>
 
+      <div
+        style={{
+          background: "#fdf3e0",
+          border: "1px solid #f0dcae",
+          borderRadius: "var(--radius)",
+          padding: "12px 16px",
+          fontSize: 13,
+          lineHeight: 1.6,
+          color: "#6b5b1f",
+          marginBottom: 24,
+        }}
+      >
+        ⚠️ 개인 포트폴리오/학습 목적의 데모입니다. 소규모 표본으로 학습된 실험적 모델의 결과이며
+        통계적으로 검증되지 않았습니다. <strong>실제 투자 판단, 신용평가, 거래 의사결정에
+        사용하지 마세요.</strong> 표시된 기업명은 모델 검증을 위한 예시일 뿐, 해당 기업의 재무
+        건전성을 공식적으로 나타내지 않습니다.
+      </div>
+
       <input
         value={query}
         onChange={(e) => setQuery(e.target.value)}

@@ -1,12 +1,11 @@
-fastapi==0.115.0
-uvicorn[standard]==0.30.6
-pydantic-settings==2.5.2
-requests==2.32.3
-pandas==2.2.3
-numpy==2.1.1
-statsmodels==0.14.6
-scikit-learn==1.5.2
-pyarrow==17.0.0
-python-multipart==0.0.9
+# Streamlit Cloud 배포(streamlit_app.py)에 필요한 최소 의존성.
+# 사전 계산된 결과(data/processed/*)만 읽어서 보여주므로 API 수집/학습 관련 패키지는 불필요.
+# 전체 개발 환경은 requirements-dev.txt 참고.
 streamlit==1.39.0
 plotly==5.24.1
+pandas==2.2.3
+numpy==2.1.1
+scikit-learn==1.5.2
+joblib==1.4.2
+pyarrow==17.0.0
+pydantic-settings==2.5.2

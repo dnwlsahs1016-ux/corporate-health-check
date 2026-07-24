@@ -1,0 +1,10 @@
+# 로컬 개발/데이터 파이프라인 실행용 전체 의존성.
+# (DART/ECOS 수집, FastAPI 서버, 모델 재학습까지 전부 포함)
+# 설치: ./.venv/Scripts/python.exe -m pip install -r requirements-dev.txt
+-r requirements.txt
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+requests==2.32.3
+statsmodels==0.14.6
+python-multipart==0.0.9

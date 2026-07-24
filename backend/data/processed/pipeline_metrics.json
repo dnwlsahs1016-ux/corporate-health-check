@@ -1,5 +1,5 @@
 {
-  "n_samples": 4094,
-  "n_positive": 67,
-  "in_sample_auc": 0.8898368846109654
+  "n_samples": 5029,
+  "n_positive": 79,
+  "in_sample_auc": 0.8706725482674851
 }

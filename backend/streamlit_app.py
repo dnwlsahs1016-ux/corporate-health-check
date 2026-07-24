@@ -118,6 +118,8 @@ def render_risk_explanation(explanation: dict):
 
 def render_ratio_chart(timeline: pd.DataFrame, ratio_key: str, commentary: str):
     meta = RATIO_META[ratio_key]
+    st.markdown(f"**{meta['label']}**")
+
     fig = go.Figure()
     fig.add_trace(
         go.Scatter(
@@ -131,10 +133,13 @@ def render_ratio_chart(timeline: pd.DataFrame, ratio_key: str, commentary: str):
             line=dict(color="#DB4E18", width=2),
         )
     )
+    # 제목은 위 st.markdown으로 따로 빼서 plotly 자체 title과 상단 범례가 겹치지 않게 한다.
     fig.update_layout(
-        title=meta["label"], height=260, margin=dict(t=40, b=10, l=10, r=10),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02),
+        height=240,
+        margin=dict(t=30, b=10, l=10, r=10),
+        legend=dict(orientation="h", yanchor="top", y=-0.15, x=0),
     )
+    fig.update_xaxes(dtick=1, tickformat="d")  # 연도는 정수로만(2021.5 같은 소수 눈금 방지)
     st.plotly_chart(fig, use_container_width=True)
     st.caption(commentary)
 

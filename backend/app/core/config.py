@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     ecos_api_key: str = ""
 
     start_year: int = 2015
-    end_year: int = 2024
+    end_year: int = 2025
 
 
 settings = Settings()

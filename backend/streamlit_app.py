@@ -24,6 +24,7 @@ from app.pipeline.features import RATIO_COLUMNS, RATIO_META
 from app.pipeline.model import MODEL_FEATURES, explain_score, load_model, prepare_model_frame
 
 PANEL_PATH = PROCESSED_DIR / "panel.parquet"
+MARKET_CAP_PATH = PROCESSED_DIR / "market_cap.csv"
 
 st.set_page_config(page_title="기업건강검진", page_icon="🩺", layout="wide")
 
@@ -31,6 +32,24 @@ st.set_page_config(page_title="기업건강검진", page_icon="🩺", layout="wi
 @st.cache_data
 def load_panel() -> pd.DataFrame:
     return pd.read_parquet(PANEL_PATH)
+
+
+@st.cache_data
+def load_market_cap() -> pd.DataFrame:
+    if not MARKET_CAP_PATH.exists():
+        return pd.DataFrame(columns=["corp_name", "market_cap_rank", "market_cap"])
+    return pd.read_csv(MARKET_CAP_PATH)
+
+
+def build_company_list(panel: pd.DataFrame) -> pd.DataFrame:
+    """기준연도 내림차순 -> 시총 순위 오름차순(없으면 맨 뒤) -> 위험점수 내림차순으로 정렬한 목록."""
+    latest = panel.sort_values("year").groupby("corp_name").tail(1).copy()
+    market_cap = load_market_cap()
+    latest = latest.merge(market_cap[["corp_name", "market_cap_rank"]], on="corp_name", how="left")
+    latest["market_cap_rank"] = latest["market_cap_rank"].fillna(10**9)
+    return latest.sort_values(
+        ["year", "market_cap_rank", "risk_score"], ascending=[False, True, False]
+    )
 
 
 @st.cache_resource
@@ -234,13 +253,41 @@ def main():
         render_company_detail(panel, st.session_state.selected_corp, bundle)
         return
 
-    latest = panel.sort_values("year").groupby("corp_name").tail(1).sort_values(
-        "risk_score", ascending=False
-    )
+    latest = build_company_list(panel)
+    latest["risk_label"] = latest["risk_score"].apply(risk_label)
 
     search = st.text_input("기업명 검색", "")
-    table = latest[latest["corp_name"].str.contains(search)] if search else latest
-    st.caption("표에서 기업 행을 클릭하면 상세 위험도 분석을 볼 수 있습니다.")
+
+    filter_cols = st.columns(2)
+    with filter_cols[0]:
+        category_filter = st.multiselect(
+            "구분 필터",
+            options=["상장폐지 사례(검증용)", "건전기업 벤치마크"],
+            default=["상장폐지 사례(검증용)", "건전기업 벤치마크"],
+        )
+    with filter_cols[1]:
+        risk_filter = st.multiselect(
+            "위험도 필터", options=["고위험", "주의", "안전"], default=["고위험", "주의", "안전"]
+        )
+
+    category_map = {
+        "상장폐지 사례(검증용)": "financial_distress",
+        "건전기업 벤치마크": "healthy_benchmark",
+    }
+
+    table = latest.copy()
+    if search:
+        table = table[table["corp_name"].str.contains(search)]
+    if category_filter:
+        table = table[table["category"].isin([category_map[c] for c in category_filter])]
+    else:
+        table = table.iloc[0:0]
+    if risk_filter:
+        table = table[table["risk_label"].isin(risk_filter)]
+    else:
+        table = table.iloc[0:0]
+
+    st.caption(f"{len(table)}개 기업 표시 중 · 표에서 기업 행을 클릭하면 상세 위험도 분석을 볼 수 있습니다.")
 
     display_df = table[["corp_name", "stock_code", "category", "year", "risk_score", "capital_impairment"]].rename(
         columns={

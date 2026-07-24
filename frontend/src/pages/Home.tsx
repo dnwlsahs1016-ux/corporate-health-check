@@ -3,10 +3,55 @@ import { fetchCompanies } from "../api";
 import CompanyCard from "../components/CompanyCard";
 import type { CompanySummary } from "../types";
 
+const CATEGORY_OPTIONS: { value: CompanySummary["category"]; label: string }[] = [
+  { value: "financial_distress", label: "상장폐지 사례(검증용)" },
+  { value: "healthy_benchmark", label: "건전기업 벤치마크" },
+];
+
+const RISK_OPTIONS = ["고위험", "주의", "안전"] as const;
+
+function riskLabel(score: number): (typeof RISK_OPTIONS)[number] {
+  if (score >= 60) return "고위험";
+  if (score >= 30) return "주의";
+  return "안전";
+}
+
+function FilterChip({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      style={{
+        padding: "6px 12px",
+        borderRadius: 999,
+        border: `1px solid ${active ? "var(--color-primary)" : "var(--color-border)"}`,
+        background: active ? "var(--color-primary-light)" : "var(--color-surface)",
+        color: active ? "var(--color-primary-dark)" : "var(--color-text-muted)",
+        fontSize: 12.5,
+        fontWeight: 600,
+        cursor: "pointer",
+      }}
+    >
+      {children}
+    </button>
+  );
+}
+
 export default function Home() {
   const [companies, setCompanies] = useState<CompanySummary[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const [categoryFilter, setCategoryFilter] = useState<Set<string>>(
+    new Set(CATEGORY_OPTIONS.map((c) => c.value))
+  );
+  const [riskFilter, setRiskFilter] = useState<Set<string>>(new Set(RISK_OPTIONS));
 
   useEffect(() => {
     fetchCompanies()
@@ -14,7 +59,19 @@ export default function Home() {
       .catch((err) => setError(err.message));
   }, []);
 
-  const filtered = companies?.filter((c) => c.corp_name.includes(query.trim()));
+  const toggle = (set: Set<string>, setSet: (s: Set<string>) => void, value: string) => {
+    const next = new Set(set);
+    if (next.has(value)) next.delete(value);
+    else next.add(value);
+    setSet(next);
+  };
+
+  const filtered = companies?.filter(
+    (c) =>
+      c.corp_name.includes(query.trim()) &&
+      categoryFilter.has(c.category) &&
+      riskFilter.has(riskLabel(c.risk_score ?? 0))
+  );
 
   return (
     <div style={{ maxWidth: 880, margin: "0 auto", padding: "48px 24px" }}>
@@ -59,13 +116,37 @@ export default function Home() {
           borderRadius: "var(--radius)",
           border: "1px solid var(--color-border)",
           fontSize: 14,
-          marginBottom: 20,
+          marginBottom: 14,
           outline: "none",
         }}
       />
 
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 8 }}>
+        {CATEGORY_OPTIONS.map((opt) => (
+          <FilterChip
+            key={opt.value}
+            active={categoryFilter.has(opt.value)}
+            onClick={() => toggle(categoryFilter, setCategoryFilter, opt.value)}
+          >
+            {opt.label}
+          </FilterChip>
+        ))}
+      </div>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 16 }}>
+        {RISK_OPTIONS.map((opt) => (
+          <FilterChip key={opt} active={riskFilter.has(opt)} onClick={() => toggle(riskFilter, setRiskFilter, opt)}>
+            {opt}
+          </FilterChip>
+        ))}
+      </div>
+
       {error && <p style={{ color: "var(--color-danger)" }}>{error}</p>}
       {!companies && !error && <p style={{ color: "var(--color-text-muted)" }}>불러오는 중...</p>}
+      {companies && (
+        <p style={{ color: "var(--color-text-muted)", fontSize: 13, margin: "0 0 12px" }}>
+          {filtered?.length ?? 0}개 기업 표시 중
+        </p>
+      )}
 
       <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
         {filtered?.map((company) => (

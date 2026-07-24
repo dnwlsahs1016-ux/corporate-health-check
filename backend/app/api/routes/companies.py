@@ -13,6 +13,7 @@ from app.pipeline.model import MODEL_FEATURES, explain_score, load_model, prepar
 router = APIRouter(prefix="/companies", tags=["companies"])
 
 PANEL_PATH = PROCESSED_DIR / "panel.parquet"
+MARKET_CAP_PATH = PROCESSED_DIR / "market_cap.csv"
 
 
 def _load_panel() -> pd.DataFrame:
@@ -22,6 +23,12 @@ def _load_panel() -> pd.DataFrame:
             detail="파이프라인 결과가 없습니다. scripts/run_pipeline.py를 먼저 실행하세요.",
         )
     return pd.read_parquet(PANEL_PATH)
+
+
+def _load_market_cap() -> pd.DataFrame:
+    if not MARKET_CAP_PATH.exists():
+        return pd.DataFrame(columns=["corp_name", "market_cap_rank", "market_cap"])
+    return pd.read_csv(MARKET_CAP_PATH)
 
 
 def _clean(value):
@@ -35,8 +42,14 @@ def _clean(value):
 @router.get("")
 def list_companies():
     panel = _load_panel()
-    latest = panel.sort_values("year").groupby("corp_name").tail(1)
-    rows = latest.sort_values("risk_score", ascending=False)
+    latest = panel.sort_values("year").groupby("corp_name").tail(1).copy()
+
+    market_cap = _load_market_cap()
+    latest = latest.merge(market_cap[["corp_name", "market_cap_rank"]], on="corp_name", how="left")
+    latest["market_cap_rank"] = latest["market_cap_rank"].fillna(10**9)
+
+    # 기준연도가 최신인 기업 먼저, 그 안에서는 시가총액이 큰(순위가 낮은 숫자) 기업 먼저.
+    rows = latest.sort_values(["year", "market_cap_rank", "risk_score"], ascending=[False, True, False])
     return [
         {
             "corp_name": row["corp_name"],

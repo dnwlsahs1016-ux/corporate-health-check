@@ -1,11 +1,13 @@
 # Streamlit Cloud 배포(streamlit_app.py)에 필요한 최소 의존성.
 # 사전 계산된 결과(data/processed/*)만 읽어서 보여주므로 API 수집/학습 관련 패키지는 불필요.
 # 전체 개발 환경은 requirements-dev.txt 참고.
-streamlit==1.39.0
-plotly==5.24.1
-pandas==2.2.3
-numpy==2.1.1
-scikit-learn==1.5.2
-joblib==1.4.2
-pyarrow==17.0.0
-pydantic-settings==2.5.2
+# 버전을 느슨하게 둔 이유: Streamlit Cloud의 Python 버전이 매우 최신이라(3.14),
+# 오래된 버전을 못박으면 사전빌드된 wheel이 없어 소스 빌드하다 실패한다.
+streamlit>=1.39
+plotly>=5.24
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+joblib>=1.4
+pyarrow>=18
+pydantic-settings>=2.5

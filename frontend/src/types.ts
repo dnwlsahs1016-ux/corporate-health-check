@@ -19,7 +19,7 @@ export interface TimelineEntry {
 export interface RatioCommentary {
   peer_avg: number | null;
   n_peers: number;
-  scope: "industry" | "market" | "none";
+  scope: "industry_size" | "industry" | "market" | "none";
   text: string;
 }
 
@@ -51,6 +51,27 @@ export interface CompanyDetail {
   timeline: TimelineEntry[];
   ratio_commentary: Record<string, RatioCommentary>;
   risk_explanation: RiskExplanation;
+}
+
+export interface ModelMetrics {
+  in_sample: { n_samples: number; n_positive: number; in_sample_auc: number | null };
+  temporal_holdout: {
+    split_year: number;
+    n_train: number;
+    n_train_positive: number;
+    n_test: number;
+    n_test_positive: number;
+    roc_auc?: number;
+    precision?: number;
+    recall?: number;
+    confusion_matrix?: {
+      true_negative: number;
+      false_positive: number;
+      false_negative: number;
+      true_positive: number;
+    };
+    error?: string;
+  };
 }
 
 export const RATIO_LABELS: Record<string, string> = {

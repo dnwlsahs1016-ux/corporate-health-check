@@ -1,5 +1,23 @@
 {
-  "n_samples": 5029,
-  "n_positive": 79,
-  "in_sample_auc": 0.8706725482674851
+  "in_sample": {
+    "n_samples": 5029,
+    "n_positive": 79,
+    "in_sample_auc": 0.8706725482674851
+  },
+  "temporal_holdout": {
+    "split_year": 2022,
+    "n_train": 3399,
+    "n_train_positive": 49,
+    "n_test": 1630,
+    "n_test_positive": 30,
+    "roc_auc": 0.8051145833333334,
+    "precision": 0.07916666666666666,
+    "recall": 0.6333333333333333,
+    "confusion_matrix": {
+      "true_negative": 1379,
+      "false_positive": 221,
+      "false_negative": 11,
+      "true_positive": 19
+    }
+  }
 }

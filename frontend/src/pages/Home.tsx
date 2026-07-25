@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { fetchCompanies } from "../api";
+import { fetchCompanies, fetchModelMetrics } from "../api";
 import CompanyCard from "../components/CompanyCard";
-import type { CompanySummary } from "../types";
+import ModelValidation from "../components/ModelValidation";
+import type { CompanySummary, ModelMetrics } from "../types";
 
 const CATEGORY_OPTIONS: { value: CompanySummary["category"]; label: string }[] = [
   { value: "financial_distress", label: "상장폐지 사례(검증용)" },
@@ -46,6 +47,7 @@ function FilterChip({
 
 export default function Home() {
   const [companies, setCompanies] = useState<CompanySummary[] | null>(null);
+  const [metrics, setMetrics] = useState<ModelMetrics | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<Set<string>>(
@@ -57,6 +59,7 @@ export default function Home() {
     fetchCompanies()
       .then(setCompanies)
       .catch((err) => setError(err.message));
+    fetchModelMetrics().then(setMetrics);
   }, []);
 
   const toggle = (set: Set<string>, setSet: (s: Set<string>) => void, value: string) => {
@@ -105,6 +108,8 @@ export default function Home() {
         기업명은 모델 검증을 위한 예시일 뿐, 해당 기업의 재무 건전성을 공식적으로 나타내지
         않습니다.
       </div>
+
+      {metrics && <ModelValidation metrics={metrics} />}
 
       <input
         value={query}

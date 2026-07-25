@@ -1,0 +1,77 @@
+import { useState } from "react";
+import type { ModelMetrics } from "../types";
+
+export default function ModelValidation({ metrics }: { metrics: ModelMetrics }) {
+  const [open, setOpen] = useState(false);
+  const h = metrics.temporal_holdout;
+
+  if (h.error || h.roc_auc == null) return null;
+
+  return (
+    <div
+      style={{
+        border: "1px solid var(--color-border)",
+        borderRadius: "var(--radius)",
+        marginBottom: 20,
+        overflow: "hidden",
+      }}
+    >
+      <button
+        onClick={() => setOpen(!open)}
+        style={{
+          width: "100%",
+          textAlign: "left",
+          padding: "12px 16px",
+          background: "var(--color-surface)",
+          border: "none",
+          cursor: "pointer",
+          fontSize: 14,
+          fontWeight: 700,
+        }}
+      >
+        📊 모델 검증 결과 (시계열 학습/검증 분리) {open ? "▲" : "▼"}
+      </button>
+      {open && (
+        <div style={{ padding: "4px 16px 16px" }}>
+          <p style={{ fontSize: 12.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+            {h.split_year}년까지의 데이터로만 학습한 뒤, {h.split_year + 1}년 이후(실제
+            상장폐지 사례 포함)로 검증했습니다. 학습 시점에 미래 정보를 전혀 사용하지 않았을
+            때도 부실기업을 구분할 수 있는지 확인하기 위한 것으로, 실제 서비스에 쓰이는
+            모델(전체 기간 학습)과는 별개의 평가용 모델입니다.
+          </p>
+          <div style={{ display: "flex", gap: 24, flexWrap: "wrap", margin: "8px 0" }}>
+            <Stat label="ROC-AUC" value={h.roc_auc!.toFixed(3)} />
+            <Stat label="Recall(재현율)" value={`${(h.recall! * 100).toFixed(1)}%`} />
+            <Stat label="Precision(정밀도)" value={`${(h.precision! * 100).toFixed(1)}%`} />
+            <Stat label="검증 구간 폐지 사례" value={`${h.n_test_positive}건`} />
+          </div>
+          {h.confusion_matrix && (
+            <p style={{ fontSize: 12.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+              혼동행렬(임계값 0.5 기준): 실제 폐지 {h.n_test_positive}건 중{" "}
+              {h.confusion_matrix.true_positive}건 적중(재현율 {(h.recall! * 100).toFixed(1)}%),{" "}
+              {h.confusion_matrix.false_negative}건 놓침. 위험 예측{" "}
+              {h.confusion_matrix.true_positive + h.confusion_matrix.false_positive}건 중 실제로
+              맞은 건 {h.confusion_matrix.true_positive}건(정밀도{" "}
+              {(h.precision! * 100).toFixed(1)}%).
+            </p>
+          )}
+          <p style={{ fontSize: 11.5, color: "var(--color-text-muted)", lineHeight: 1.6, margin: "8px 0 0" }}>
+            ※ 정밀도가 낮은 건 예상된 트레이드오프입니다: 부실기업이 전체의 2%도 안 되는 극단적
+            불균형 데이터에서 class_weight='balanced'로 재현율을 우선했기 때문에, 위험하다고
+            예측한 기업 중 실제로 폐지된 비율은 낮지만 실제 폐지 사례의 상당수는 놓치지
+            않습니다.
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Stat({ label, value }: { label: string; value: string }) {
+  return (
+    <div>
+      <div style={{ fontSize: 11, color: "var(--color-text-muted)" }}>{label}</div>
+      <div style={{ fontSize: 20, fontWeight: 700 }}>{value}</div>
+    </div>
+  );
+}

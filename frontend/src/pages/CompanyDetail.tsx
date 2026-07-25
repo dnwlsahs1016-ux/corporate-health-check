@@ -73,8 +73,8 @@ export default function CompanyDetail() {
 
       <h2 style={{ fontSize: 18, marginBottom: 4 }}>재무지표 추이 (원지표 vs 거시조정 고유위험)</h2>
       <p style={{ fontSize: 12.5, color: "var(--color-text-muted)", margin: "0 0 16px" }}>
-        각 그래프 아래 문구는 최신 연도 기준으로 동종업계(비교 기업 수가 적을 경우 비교기업 전체)
-        평균과 비교한 해설입니다.
+        각 그래프 아래 문구는 최신 연도 기준으로 동종업계·유사규모(총자산 1/3~3배, 부족하면 동종업계
+        전체 → 비교기업 전체 순으로 범위를 넓힘) 평균과 비교한 해설입니다.
       </p>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
         {Object.entries(RATIO_LABELS).map(([key, label]) => (

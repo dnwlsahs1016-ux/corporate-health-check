@@ -15,17 +15,31 @@ def format_value(value: float | None, fmt: str) -> str:
     return f"{value:.2f}"
 
 
+SIZE_BAND_LOW = 1 / 3  # 총자산이 대상 기업의 1/3 ~ 3배인 기업까지를 "유사 규모"로 본다
+SIZE_BAND_HIGH = 3
+
+
 def peer_average(panel: pd.DataFrame, corp_name: str, year: int, ratio_key: str) -> dict:
-    """동종업계(같은 industry_code) 평균. 동종업계 표본이 부족하면 전체(같은 연도) 평균으로 대체."""
+    """비교군을 동일 연도 -> 동종업계 -> 유사 규모(총자산 1/3~3배) 순으로 좁혀서 평균을 낸다.
+    한 단계라도 표본이 없으면 그 앞 단계(더 넓은 비교군)로 되돌아간다(cascading fallback)."""
     company_row = panel[(panel["corp_name"] == corp_name) & (panel["year"] == year)]
     if company_row.empty:
         return {"peer_avg": None, "n_peers": 0, "scope": "none"}
 
     industry_code = company_row.iloc[0]["industry_code"]
+    assets = company_row.iloc[0].get("raw_assets")
     same_year = panel[(panel["year"] == year) & (panel["corp_name"] != corp_name)]
     industry_peers = same_year[same_year["industry_code"] == industry_code]
 
-    if len(industry_peers) >= 1 and industry_peers[ratio_key].notna().any():
+    size_peers = pd.DataFrame()
+    if assets is not None and pd.notna(assets) and assets > 0 and not industry_peers.empty:
+        size_peers = industry_peers[
+            industry_peers["raw_assets"].between(assets * SIZE_BAND_LOW, assets * SIZE_BAND_HIGH)
+        ]
+
+    if len(size_peers) >= 1 and size_peers[ratio_key].notna().any():
+        peers, scope = size_peers, "industry_size"
+    elif len(industry_peers) >= 1 and industry_peers[ratio_key].notna().any():
         peers, scope = industry_peers, "industry"
     else:
         peers, scope = same_year, "market"
@@ -49,7 +63,10 @@ def build_commentary(ratio_key: str, company_value: float | None, peer_info: dic
     is_higher = company_value >= peer_avg
     is_better = is_higher == meta["higher_is_better"]
     verdict = "양호한" if is_better else "우려되는"
-    scope_label = "동종업계" if scope == "industry" else "비교기업 전체"
+    scope_label = {
+        "industry_size": "동종업계·유사규모",
+        "industry": "동종업계",
+    }.get(scope, "비교기업 전체")
 
     company_fmt = format_value(company_value, meta["format"])
     peer_fmt = format_value(peer_avg, meta["format"])

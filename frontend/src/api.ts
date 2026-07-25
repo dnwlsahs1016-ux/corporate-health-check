@@ -1,4 +1,4 @@
-import type { CompanyDetail, CompanySummary } from "./types";
+import type { CompanyDetail, CompanySummary, ModelMetrics } from "./types";
 
 const API_BASE = "http://localhost:8000";
 
@@ -12,4 +12,11 @@ export async function fetchCompanyDetail(corpName: string): Promise<CompanyDetai
   const res = await fetch(`${API_BASE}/companies/${encodeURIComponent(corpName)}`);
   if (!res.ok) throw new Error("기업 상세 정보를 불러오지 못했습니다.");
   return res.json();
+}
+
+export async function fetchModelMetrics(): Promise<ModelMetrics | null> {
+  const res = await fetch(`${API_BASE}/model-metrics`);
+  if (!res.ok) return null;
+  const data = await res.json();
+  return data.temporal_holdout ? data : null;
 }

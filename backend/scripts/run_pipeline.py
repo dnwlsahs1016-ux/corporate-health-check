@@ -17,7 +17,7 @@ from app.pipeline import collect, labels, macro_adjust, model, score  # noqa: E4
 
 
 def main() -> None:
-    print("[1/5] DART/ECOS 원자료 수집 및 재무비율 계산 중...")
+    print("[1/6] DART/ECOS 원자료 수집 및 재무비율 계산 중...")
     panel = collect.collect_all()
     if panel.empty:
         print("수집된 데이터가 없습니다. delisted_companies.csv와 API 키를 확인하세요.")
@@ -31,17 +31,22 @@ def main() -> None:
     panel = labels.add_labels(panel)
     print(f"  -> label=1 로우 수: {int(panel['label'].sum())}")
 
-    print("[4/5] 모델 학습 중...")
+    print("[4/6] 모델 학습 중 (서빙용, 전체 기간 데이터)...")
     metrics = model.train_model(panel)
     print(f"  -> {metrics}")
 
-    print("[5/5] 위험점수 계산 및 저장 중...")
+    print("[5/6] 시계열 학습/검증 분리 평가 중 (2022년까지 학습 -> 2023년 이후 검증)...")
+    holdout = model.evaluate_temporal_holdout(panel, split_year=2022)
+    print(f"  -> {holdout}")
+
+    print("[6/6] 위험점수 계산 및 저장 중...")
     scored = score.score_panel(panel)
     summary = score.build_company_summary(scored)
 
     scored.to_parquet(PROCESSED_DIR / "panel.parquet", index=False)
     (PROCESSED_DIR / "pipeline_metrics.json").write_text(
-        json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps({"in_sample": metrics, "temporal_holdout": holdout}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
     )
 
     print("\n=== 기업별 최신 위험점수 ===")

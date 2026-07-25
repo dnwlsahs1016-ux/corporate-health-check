@@ -9,6 +9,7 @@ FastAPI+React 버전과 동일한 사전 계산 결과(data/processed/panel.parq
 
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 
@@ -25,6 +26,7 @@ from app.pipeline.model import MODEL_FEATURES, explain_score, load_model, prepar
 
 PANEL_PATH = PROCESSED_DIR / "panel.parquet"
 MARKET_CAP_PATH = PROCESSED_DIR / "market_cap.csv"
+METRICS_PATH = PROCESSED_DIR / "pipeline_metrics.json"
 
 st.set_page_config(page_title="기업건강검진", page_icon="🩺", layout="wide")
 
@@ -207,7 +209,10 @@ def render_company_detail(panel: pd.DataFrame, corp_name: str, bundle: dict):
     render_risk_explanation(explanation)
 
     st.subheader("재무지표 추이 (원지표 vs 거시조정 고유위험)")
-    st.caption("각 그래프 아래 문구는 최신 연도 기준으로 동종업계(부족하면 비교기업 전체) 평균과 비교한 해설입니다.")
+    st.caption(
+        "각 그래프 아래 문구는 최신 연도 기준으로 동종업계·유사규모(총자산 1/3~3배, 부족하면 "
+        "동종업계 전체 → 비교기업 전체 순으로 범위를 넓힘) 평균과 비교한 해설입니다."
+    )
 
     cols = st.columns(2)
     for i, ratio_key in enumerate(RATIO_COLUMNS):
@@ -215,6 +220,45 @@ def render_company_detail(panel: pd.DataFrame, corp_name: str, bundle: dict):
         commentary = build_commentary(ratio_key, latest_row[ratio_key], peer_info)
         with cols[i % 2]:
             render_ratio_chart(company_rows, ratio_key, commentary)
+
+
+def render_model_validation():
+    if not METRICS_PATH.exists():
+        return
+    metrics = json.loads(METRICS_PATH.read_text(encoding="utf-8"))
+    holdout = metrics.get("temporal_holdout")
+    if not holdout or "error" in holdout:
+        return
+
+    with st.expander("📊 모델 검증 결과 (시계열 학습/검증 분리)", expanded=False):
+        st.caption(
+            f"{holdout['split_year']}년까지의 데이터로만 학습한 뒤, {holdout['split_year'] + 1}년 이후"
+            "(실제 상장폐지 사례 포함)로 검증했습니다. 학습 시점에 미래 정보를 전혀 사용하지 않았을 때도 "
+            "부실기업을 구분할 수 있는지 확인하기 위한 것으로, 실제 서비스에 쓰이는 모델(전체 기간 학습)과는 "
+            "별개의 평가용 모델입니다."
+        )
+        cols = st.columns(4)
+        cols[0].metric("ROC-AUC", f"{holdout['roc_auc']:.3f}")
+        cols[1].metric("Recall(재현율)", f"{holdout['recall'] * 100:.1f}%")
+        cols[2].metric("Precision(정밀도)", f"{holdout['precision'] * 100:.1f}%")
+        cols[3].metric(
+            "검증 구간 폐지 사례",
+            f"{holdout['n_test_positive']}건",
+            help=f"학습 {holdout['n_train']}건(양성 {holdout['n_train_positive']}) / "
+            f"검증 {holdout['n_test']}건(양성 {holdout['n_test_positive']})",
+        )
+        cm = holdout["confusion_matrix"]
+        st.caption(
+            f"혼동행렬(임계값 0.5 기준): 실제 폐지 {holdout['n_test_positive']}건 중 "
+            f"{cm['true_positive']}건 적중(재현율 {holdout['recall']*100:.1f}%), "
+            f"{cm['false_negative']}건 놓침. 위험 예측 {cm['true_positive'] + cm['false_positive']}건 중 "
+            f"실제로 맞은 건 {cm['true_positive']}건(정밀도 {holdout['precision']*100:.1f}%)."
+        )
+        st.caption(
+            "※ 정밀도가 낮은 건 예상된 트레이드오프입니다: 부실기업이 전체의 2%도 안 되는 "
+            "극단적 불균형 데이터에서 class_weight='balanced'로 재현율을 우선했기 때문에, "
+            "위험하다고 예측한 기업 중 실제로 폐지된 비율은 낮지만 실제 폐지 사례의 상당수는 놓치지 않습니다."
+        )
 
 
 def main():
@@ -252,6 +296,8 @@ def main():
         st.divider()
         render_company_detail(panel, st.session_state.selected_corp, bundle)
         return
+
+    render_model_validation()
 
     latest = build_company_list(panel)
     latest["risk_label"] = latest["risk_score"].apply(risk_label)

@@ -21,7 +21,7 @@ import streamlit as st
 
 from app.core.config import PROCESSED_DIR
 from app.pipeline.benchmark import build_commentary, peer_average
-from app.pipeline.features import RATIO_COLUMNS, RATIO_META, altman_zone
+from app.pipeline.features import RATIO_COLUMNS, RATIO_META, altman_zone, is_manufacturing
 from app.pipeline.model import MODEL_FEATURES, explain_score, load_model, prepare_model_frame
 
 PANEL_PATH = PROCESSED_DIR / "panel.parquet"
@@ -270,13 +270,8 @@ def render_model_validation():
         )
         shown = holdout.get("threshold_tuned") or holdout.get("threshold_default")
 
-        roc_auc_label = f"{holdout['roc_auc']:.3f}"
-        ci = holdout.get("roc_auc_ci95")
-        if ci:
-            roc_auc_label += f" (95% CI {ci['lower']:.2f}~{ci['upper']:.2f})"
-
         cols = st.columns(4)
-        cols[0].metric("ROC-AUC", roc_auc_label)
+        cols[0].metric("ROC-AUC", f"{holdout['roc_auc']:.3f}")
         if shown:
             cols[1].metric("Recall(재현율)", f"{shown['recall'] * 100:.1f}%")
             cols[2].metric("Precision(정밀도)", f"{shown['precision'] * 100:.1f}%")
@@ -312,38 +307,31 @@ def render_model_validation():
             )
 
         altman = metrics.get("altman_benchmark")
-        if altman and "error" not in altman and altman.get("roc_auc") is not None:
+        ensemble = metrics.get("ensemble_benchmark")
+        if (
+            altman
+            and "error" not in altman
+            and altman.get("roc_auc") is not None
+            and ensemble
+            and "error" not in ensemble
+            and ensemble.get("logistic_only_auc") is not None
+        ):
             st.divider()
-            st.markdown("**전통적 Altman Z'-Score 대비**")
+            st.markdown("**전통적 Altman Z'-Score 대비 (제조업 기업만)**")
             st.caption(
                 f"같은 검증 구간({holdout['split_year'] + 1}년 이후)에서, 감사·신용평가 실무에서 "
                 "흔히 쓰이는 전통적 부실예측 공식인 Altman Z'-Score를 위험 순위로 사용했을 때의 "
-                "판별력과 비교했습니다."
+                "판별력과 비교했습니다. Altman Z-Score는 제조업 기업에만 계산되므로, 이 비교도 "
+                f"제조업 기업({altman['n_test']}건)만을 대상으로 합니다. 그래서 로지스틱회귀 모델 "
+                "AUC도 같은 제조업 부분집합으로 다시 계산한 값이라, 맨 위 전체 검증구간 AUC와는 "
+                "소수점에서 차이가 날 수 있습니다."
             )
             zcols = st.columns(2)
-            zcols[0].metric("로지스틱회귀 모델 AUC", f"{holdout['roc_auc']:.3f}")
+            zcols[0].metric("로지스틱회귀 모델 AUC", f"{ensemble['logistic_only_auc']:.3f}")
             zcols[1].metric("Altman Z'-Score AUC", f"{altman['roc_auc']:.3f}")
             st.caption(
                 "고정된 계수식인 Z-Score와 달리, 로지스틱 회귀는 거시조정된 지표로 데이터에 맞춰 "
                 "계수를 학습해 이 검증 구간에서 더 높은 판별력을 보였습니다."
-            )
-
-        ensemble = metrics.get("ensemble_benchmark")
-        if ensemble and "error" not in ensemble and ensemble.get("ensemble_auc") is not None:
-            st.divider()
-            st.markdown("**로지스틱회귀 + Altman Z-Score 앙상블 실험**")
-            st.caption("두 모델의 예측 확률을 단순평균해서 결합하면 더 나아지는지도 같은 검증 구간에서 테스트했습니다.")
-            ecols = st.columns(3)
-            ecols[0].metric("로지스틱 단독 (Altman 비교 가능 구간)", f"{ensemble['logistic_only_auc']:.3f}")
-            ecols[1].metric("Altman 단독", f"{ensemble['altman_only_auc']:.3f}")
-            ecols[2].metric("단순평균 앙상블", f"{ensemble['ensemble_auc']:.3f}")
-            st.caption(
-                f"※ '로지스틱 단독' 수치는 Altman Z-Score를 계산할 수 있는 기업만 남긴 부분집합"
-                f"({ensemble['n_test']}건)으로 다시 계산한 값이라, 맨 위 전체 검증구간 AUC"
-                f"({holdout['roc_auc']:.3f})와 표본이 달라 소수점에서 차이가 날 수 있습니다. "
-                "정직하게 보고하면, 이 앙상블은 로지스틱 단독보다 오히려 낮은 AUC가 나왔습니다. "
-                "Altman 단독 성능이 상대적으로 약해서 평균을 내면 로지스틱의 신호를 끌어내리는 효과가 "
-                "난 것으로 보입니다. 그래서 서비스에는 앙상블 대신 로지스틱회귀 단독 점수를 사용합니다."
             )
 
         random_split = metrics.get("random_split_benchmark")
@@ -394,10 +382,13 @@ def render_search_stage(panel: pd.DataFrame):
 
     latest = build_company_list(panel)
     latest["risk_label"] = latest["risk_score"].apply(risk_label)
+    latest["industry_label"] = latest["industry_code"].apply(
+        lambda c: "제조업" if is_manufacturing(c) else "비제조업"
+    )
 
     search = st.text_input("기업명 검색", "")
 
-    filter_cols = st.columns(2)
+    filter_cols = st.columns(3)
     with filter_cols[0]:
         category_filter = st.multiselect(
             "구분 필터",
@@ -407,6 +398,10 @@ def render_search_stage(panel: pd.DataFrame):
     with filter_cols[1]:
         risk_filter = st.multiselect(
             "위험도 필터", options=["고위험", "주의", "안전"], default=["고위험", "주의", "안전"]
+        )
+    with filter_cols[2]:
+        industry_filter = st.multiselect(
+            "업종 필터", options=["제조업", "비제조업"], default=["제조업", "비제조업"]
         )
 
     category_map = {
@@ -425,14 +420,19 @@ def render_search_stage(panel: pd.DataFrame):
         table = table[table["risk_label"].isin(risk_filter)]
     else:
         table = table.iloc[0:0]
+    if industry_filter:
+        table = table[table["industry_label"].isin(industry_filter)]
+    else:
+        table = table.iloc[0:0]
 
     st.caption(f"{len(table)}개 기업 표시 중 · 표에서 기업 행을 클릭하면 상세 위험도 분석을 볼 수 있습니다.")
 
-    display_df = table[["corp_name", "stock_code", "category", "risk_score"]].rename(
+    display_df = table[["corp_name", "stock_code", "category", "industry_label", "risk_score"]].rename(
         columns={
             "corp_name": "기업명",
             "stock_code": "종목코드",
             "category": "구분",
+            "industry_label": "업종구분",
             "risk_score": "위험점수",
         }
     )

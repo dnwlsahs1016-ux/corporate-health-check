@@ -232,6 +232,23 @@ def compute_altman_zscore(curr: dict[str, float | None]) -> float | None:
     return sum(w * c for w, c in zip(weights, components))
 
 
+# 한국표준산업분류(KSIC) 대분류 C(제조업)의 2자리 코드 범위: 10~34
+MANUFACTURING_INDUSTRY_RANGE = (10, 34)
+
+
+def is_manufacturing(industry_code: str | None) -> bool:
+    """Altman Z-Score(원판·Z'-Score 변형 모두)는 원래 제조업 상장사 데이터로 만들어진 공식이라,
+    재고자산·설비자산 비중이 크게 다른 금융업·서비스업 등에 그대로 적용하면 점수가 왜곡될 수
+    있다. 그래서 제조업(KSIC 코드 10~34)에 해당하는 기업에만 Z-Score를 계산한다."""
+    if not industry_code or industry_code == "unknown":
+        return False
+    try:
+        code = int(industry_code)
+    except ValueError:
+        return False
+    return MANUFACTURING_INDUSTRY_RANGE[0] <= code <= MANUFACTURING_INDUSTRY_RANGE[1]
+
+
 def altman_zone(z_score: float | None) -> str | None:
     if z_score is None:
         return None

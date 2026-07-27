@@ -7,7 +7,7 @@ import pandas as pd
 from app.clients import dart_client
 from app.clients.dart_client import DartAPIError, DartQuotaExceeded
 from app.core.config import DATA_DIR, PROCESSED_DIR, settings
-from app.pipeline.features import compute_altman_zscore, compute_ratios, extract_line_items
+from app.pipeline.features import compute_altman_zscore, compute_ratios, extract_line_items, is_manufacturing
 
 SEED_CSV = DATA_DIR / "delisted_companies.csv"
 
@@ -56,7 +56,7 @@ def collect_company_panel(corp_name: str, stock_code: str | None) -> pd.DataFram
             "year": year,
             **{f"raw_{k}": v for k, v in curr.items()},
             **ratios,
-            "altman_zscore": compute_altman_zscore(curr),
+            "altman_zscore": compute_altman_zscore(curr) if is_manufacturing(industry_code) else None,
         }
         rows.append(row)
 

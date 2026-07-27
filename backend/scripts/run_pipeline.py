@@ -105,7 +105,7 @@ def main() -> None:
     print("\n=== 기업별 최신 위험점수 ===")
     print(
         f"(주의: 사업연도 {confirmed_max_year + 1}년 이후 로우의 label은 아직 확정되지 않은 "
-        f"우측절단 값입니다 — 예측 결과일 뿐 정답이 아닙니다)"
+        f"우측절단 값입니다 - 예측 결과일 뿐 정답이 아닙니다)"
     )
     for row in sorted(summary, key=lambda r: -r["risk_score"]):
         print(

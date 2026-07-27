@@ -127,18 +127,18 @@ def render_risk_explanation(explanation: dict):
     fig.update_layout(
         height=320,
         margin=dict(t=10, b=10, l=10, r=10),
-        xaxis_title="위험도(로그오즈) 기여도",
+        xaxis_title="위험도 기여도",
     )
     st.plotly_chart(fig, use_container_width=True)
 
     top = contributions[0]
     direction = "위험도를 높이는" if top["contribution"] > 0 else "위험도를 낮추는"
-    summary = f"**가장 큰 영향을 미친 지표는 '{top['label']}'**이며, {direction} 방향으로 작용했습니다."
+    summary = f"가장 큰 영향을 미친 지표는 '{top['label']}'이며, {direction} 방향으로 작용했습니다."
     if len(contributions) > 1:
         second = contributions[1]
         direction2 = "높이는" if second["contribution"] > 0 else "낮추는"
         summary += f" 그다음으로는 '{second['label']}'이 위험도를 {direction2} 방향으로 크게 작용했습니다."
-    st.markdown(summary)
+    st.write(summary)
 
     st.caption(
         "※ 학습 표본이 작아(상장폐지 확정 사례 기준) 일부 지표의 기여 방향이 재무이론과 다르게 "
@@ -206,10 +206,23 @@ def render_company_detail(panel: pd.DataFrame, corp_name: str, bundle: dict):
                 "Altman Z-Score는 1968년 에드워드 알트만 교수가 만든, 지금도 감사·신용평가 실무에서 "
                 "널리 쓰이는 전통적 부실예측 공식입니다. 순운전자본·이익잉여금·영업이익·자기자본·매출액을 "
                 "총자산(또는 부채) 대비 비율로 조합해 하나의 점수(Z)로 계산하며, 점수가 낮을수록 부실 "
-                "위험이 크다고 봅니다(2.9 이상 안전지대, 1.23~2.9 회색지대, 1.23 미만 부실위험지대). "
+                "위험이 크다고 봅니다(2.9 이상 안전지대, 1.23–2.9 회색지대, 1.23 미만 부실위험지대). "
                 "이 서비스는 연도별 시가총액 이력이 없어 시장가치 대신 장부가 자기자본을 쓰는 변형인 "
-                "Z'-Score를 사용했습니다. '환산 위험점수'는 Z-Score를 우리 모델과 같은 0~100 척도로 "
-                "비교할 수 있도록 별도의 1변수 로지스틱회귀로 보정한 값입니다."
+                "Z'-Score를 사용했습니다."
+            )
+            st.caption(
+                "이 공식은 원래 제조업 상장사 데이터로 만들어져, 자산 구성이 크게 다른 금융업·서비스업 "
+                "등에 그대로 적용하면 왜곡될 수 있습니다. 그래서 한국표준산업분류상 제조업(코드 10–34)에 "
+                "해당하는 기업에만 Z-Score를 계산해서 보여주며, 그 외 업종은 이 항목 자체가 표시되지 "
+                "않습니다."
+            )
+            st.caption(
+                "'환산 위험점수'는 Z-Score 하나만 입력으로 쓰는 별도의 1변수 로지스틱회귀를 전체 기간 "
+                "데이터로 학습해서 만들었습니다 — 실제로 상장폐지됐던 기업들의 당시 Z-Score와 결과(폐지 "
+                "여부)를 학습해 'Z-Score가 이 정도면 내년 상장폐지될 확률이 몇 %였는가'라는 곡선을 "
+                "피팅한 것입니다(Platt scaling과 같은 방식). 이 확률에 100을 곱한 값이 0–100 환산 "
+                "위험점수이며, 이 덕분에 임의 스케일인 Z-Score를 우리 모델의 위험점수와 같은 척도로 "
+                "나란히 비교할 수 있습니다."
             )
 
     prepared_panel = prepare_model_frame(panel)
@@ -248,7 +261,7 @@ def render_model_validation():
     if not holdout or "error" in holdout:
         return
 
-    with st.expander("📊 모델 검증 결과 (시계열 학습/검증 분리)", expanded=False):
+    with st.expander("📊 모델 검증 결과 (시계열 학습/검증 분리)", expanded=True):
         st.caption(
             f"{holdout['split_year']}년까지의 데이터로만 학습한 뒤, {holdout['split_year'] + 1}년 이후"
             "(실제 상장폐지 사례 포함)로 검증했습니다. 학습 시점에 미래 정보를 전혀 사용하지 않았을 때도 "
@@ -321,11 +334,14 @@ def render_model_validation():
             st.markdown("**로지스틱회귀 + Altman Z-Score 앙상블 실험**")
             st.caption("두 모델의 예측 확률을 단순평균해서 결합하면 더 나아지는지도 같은 검증 구간에서 테스트했습니다.")
             ecols = st.columns(3)
-            ecols[0].metric("로지스틱 단독", f"{ensemble['logistic_only_auc']:.3f}")
+            ecols[0].metric("로지스틱 단독 (Altman 비교 가능 구간)", f"{ensemble['logistic_only_auc']:.3f}")
             ecols[1].metric("Altman 단독", f"{ensemble['altman_only_auc']:.3f}")
             ecols[2].metric("단순평균 앙상블", f"{ensemble['ensemble_auc']:.3f}")
             st.caption(
-                "※ 정직하게 보고하면, 이 앙상블은 로지스틱 단독보다 오히려 낮은 AUC가 나왔습니다. "
+                f"※ '로지스틱 단독' 수치는 Altman Z-Score를 계산할 수 있는 기업만 남긴 부분집합"
+                f"({ensemble['n_test']}건)으로 다시 계산한 값이라, 맨 위 전체 검증구간 AUC"
+                f"({holdout['roc_auc']:.3f})와 표본이 달라 소수점에서 차이가 날 수 있습니다. "
+                "정직하게 보고하면, 이 앙상블은 로지스틱 단독보다 오히려 낮은 AUC가 나왔습니다. "
                 "Altman 단독 성능이 상대적으로 약해서 평균을 내면 로지스틱의 신호를 끌어내리는 효과가 "
                 "난 것으로 보입니다. 그래서 서비스에는 앙상블 대신 로지스틱회귀 단독 점수를 사용합니다."
             )
@@ -349,12 +365,7 @@ def render_model_validation():
             )
 
 
-def main():
-    st.markdown(
-        "<span style='font-size:30px; font-weight:800;'>기업건강검진</span> "
-        "<span style='color:#DB4E18; font-weight:600;'>AI 기반 코스닥 재무위험 진단</span>",
-        unsafe_allow_html=True,
-    )
+def render_intro_stage():
     st.write(
         "class-weighted 로지스틱 회귀 AI 모델이 **DART 전자공시 재무제표(2015~2025년, 코스닥 상장사 600여 곳)**, "
         "**한국은행 ECOS 기준금리**, **KRX 상장폐지 이력(2015년 이후 재무적 사유로 폐지된 100여 건)** 데이터를 "
@@ -367,25 +378,19 @@ def main():
         "표시된 기업명은 모델 검증을 위한 예시일 뿐, 해당 기업의 재무 건전성을 공식적으로 나타내지 않습니다."
     )
 
-    if not PANEL_PATH.exists():
-        st.error("파이프라인 결과가 없습니다. scripts/run_pipeline.py를 먼저 실행하세요.")
-        return
-
-    panel = load_panel()
-    bundle = get_model_bundle()
-
-    if "selected_corp" not in st.session_state:
-        st.session_state.selected_corp = None
-
-    if st.session_state.selected_corp is not None:
-        if st.button("← 목록으로"):
-            st.session_state.selected_corp = None
-            st.rerun()
-        st.divider()
-        render_company_detail(panel, st.session_state.selected_corp, bundle)
-        return
-
     render_model_validation()
+
+    st.divider()
+    if st.button("🔍 기업 검색 시작하기", type="primary"):
+        st.session_state.stage = "search"
+        st.rerun()
+
+
+def render_search_stage(panel: pd.DataFrame):
+    if st.button("← 처음으로"):
+        st.session_state.stage = "intro"
+        st.rerun()
+    st.divider()
 
     latest = build_company_list(panel)
     latest["risk_label"] = latest["risk_score"].apply(risk_label)
@@ -423,14 +428,12 @@ def main():
 
     st.caption(f"{len(table)}개 기업 표시 중 · 표에서 기업 행을 클릭하면 상세 위험도 분석을 볼 수 있습니다.")
 
-    display_df = table[["corp_name", "stock_code", "category", "year", "risk_score", "capital_impairment"]].rename(
+    display_df = table[["corp_name", "stock_code", "category", "risk_score"]].rename(
         columns={
             "corp_name": "기업명",
             "stock_code": "종목코드",
             "category": "구분",
-            "year": "기준연도",
             "risk_score": "위험점수",
-            "capital_impairment": "완전자본잠식",
         }
     )
     display_df["구분"] = display_df["구분"].map(
@@ -448,7 +451,43 @@ def main():
 
     if event.selection and event.selection.get("rows"):
         st.session_state.selected_corp = table.iloc[event.selection["rows"][0]]["corp_name"]
+        st.session_state.stage = "detail"
         st.rerun()
+
+
+def main():
+    st.markdown(
+        "<span style='font-size:30px; font-weight:800;'>기업건강검진</span> "
+        "<span style='color:#DB4E18; font-weight:600;'>AI 기반 코스닥 재무위험 진단</span>",
+        unsafe_allow_html=True,
+    )
+
+    if not PANEL_PATH.exists():
+        st.error("파이프라인 결과가 없습니다. scripts/run_pipeline.py를 먼저 실행하세요.")
+        return
+
+    panel = load_panel()
+    bundle = get_model_bundle()
+
+    if "stage" not in st.session_state:
+        st.session_state.stage = "intro"
+    if "selected_corp" not in st.session_state:
+        st.session_state.selected_corp = None
+
+    if st.session_state.stage == "detail" and st.session_state.selected_corp is not None:
+        if st.button("← 기업 목록으로"):
+            st.session_state.selected_corp = None
+            st.session_state.stage = "search"
+            st.rerun()
+        st.divider()
+        render_company_detail(panel, st.session_state.selected_corp, bundle)
+        return
+
+    if st.session_state.stage == "search":
+        render_search_stage(panel)
+        return
+
+    render_intro_stage()
 
 
 if __name__ == "__main__":

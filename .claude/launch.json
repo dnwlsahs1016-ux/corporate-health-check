@@ -9,12 +9,12 @@
     },
     {
       "name": "streamlit",
-      "runtimeExecutable": "C:\\Users\\dlstj\\Documents\\corporate-health-check\\backend\\.venv\\Scripts\\python.exe",
+      "runtimeExecutable": "C:\\기업 건강검진\\backend\\.venv\\Scripts\\python.exe",
       "runtimeArgs": [
         "-m",
         "streamlit",
         "run",
-        "C:\\Users\\dlstj\\Documents\\corporate-health-check\\backend\\streamlit_app.py",
+        "C:\\기업 건강검진\\backend\\streamlit_app.py",
         "--server.port",
         "8501",
         "--server.headless",

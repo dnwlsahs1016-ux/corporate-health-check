@@ -16,7 +16,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 42.5,
-    "delisting_probability": 0.4246897828717458,
+    "delisting_probability": 0.4246897828717454,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -27,7 +27,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 44.5,
-    "delisting_probability": 0.4450373011100606,
+    "delisting_probability": 0.44503730111006135,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -38,7 +38,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 19.3,
-    "delisting_probability": 0.19344277691825687,
+    "delisting_probability": 0.19344277691825712,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -49,7 +49,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 49.7,
-    "delisting_probability": 0.4968761171766336,
+    "delisting_probability": 0.4968761171766334,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -60,7 +60,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 80.5,
-    "delisting_probability": 0.8046955277298334,
+    "delisting_probability": 0.8046955277298338,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -71,7 +71,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 29.6,
-    "delisting_probability": 0.2958387436097267,
+    "delisting_probability": 0.2958387436097261,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -82,7 +82,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 53.7,
-    "delisting_probability": 0.5365257963889023,
+    "delisting_probability": 0.5365257963889032,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -93,7 +93,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 45.1,
-    "delisting_probability": 0.45125107158604033,
+    "delisting_probability": 0.4512510715860401,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -104,7 +104,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 57.3,
-    "delisting_probability": 0.5732021707194892,
+    "delisting_probability": 0.57320217071949,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -115,7 +115,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 96.9,
-    "delisting_probability": 0.9693146495175449,
+    "delisting_probability": 0.9693146495175451,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -126,7 +126,7 @@
     "category": "financial_distress",
     "year": 2015,
     "risk_score": 79.6,
-    "delisting_probability": 0.7963343332703898,
+    "delisting_probability": 0.7963343332703902,
     "label": 1,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -137,7 +137,7 @@
     "category": "financial_distress",
     "year": 2016,
     "risk_score": 84.3,
-    "delisting_probability": 0.8432381776368986,
+    "delisting_probability": 0.8432381776368989,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -148,7 +148,7 @@
     "category": "financial_distress",
     "year": 2016,
     "risk_score": 71.5,
-    "delisting_probability": 0.7148811003082882,
+    "delisting_probability": 0.7148811003082888,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -159,7 +159,7 @@
     "category": "financial_distress",
     "year": 2016,
     "risk_score": 85.6,
-    "delisting_probability": 0.8560249288682409,
+    "delisting_probability": 0.8560249288682419,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -170,7 +170,7 @@
     "category": "financial_distress",
     "year": 2017,
     "risk_score": 27.0,
-    "delisting_probability": 0.27035594915468314,
+    "delisting_probability": 0.2703559491546831,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -181,7 +181,7 @@
     "category": "financial_distress",
     "year": 2017,
     "risk_score": 63.6,
-    "delisting_probability": 0.6355500431543711,
+    "delisting_probability": 0.6355500431543712,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -192,7 +192,7 @@
     "category": "financial_distress",
     "year": 2017,
     "risk_score": 98.2,
-    "delisting_probability": 0.9819750707097556,
+    "delisting_probability": 0.9819750707097559,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -203,7 +203,7 @@
     "category": "financial_distress",
     "year": 2017,
     "risk_score": 74.9,
-    "delisting_probability": 0.7485065503344711,
+    "delisting_probability": 0.7485065503344709,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -214,7 +214,7 @@
     "category": "financial_distress",
     "year": 2017,
     "risk_score": 65.0,
-    "delisting_probability": 0.6499047181665282,
+    "delisting_probability": 0.6499047181665292,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -225,7 +225,7 @@
     "category": "financial_distress",
     "year": 2017,
     "risk_score": 93.9,
-    "delisting_probability": 0.9393042469123578,
+    "delisting_probability": 0.9393042469123583,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -236,7 +236,7 @@
     "category": "financial_distress",
     "year": 2018,
     "risk_score": 87.6,
-    "delisting_probability": 0.8762105050026283,
+    "delisting_probability": 0.8762105050026285,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -247,7 +247,7 @@
     "category": "financial_distress",
     "year": 2018,
     "risk_score": 60.1,
-    "delisting_probability": 0.6006522756801487,
+    "delisting_probability": 0.6006522756801493,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -258,7 +258,7 @@
     "category": "financial_distress",
     "year": 2018,
     "risk_score": 54.0,
-    "delisting_probability": 0.5401943221871174,
+    "delisting_probability": 0.5401943221871173,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -269,7 +269,7 @@
     "category": "financial_distress",
     "year": 2018,
     "risk_score": 48.3,
-    "delisting_probability": 0.482589987141824,
+    "delisting_probability": 0.48258998714182444,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -280,7 +280,7 @@
     "category": "financial_distress",
     "year": 2018,
     "risk_score": 53.8,
-    "delisting_probability": 0.5379593480583873,
+    "delisting_probability": 0.5379593480583883,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -291,7 +291,7 @@
     "category": "financial_distress",
     "year": 2018,
     "risk_score": 82.3,
-    "delisting_probability": 0.8226344224480764,
+    "delisting_probability": 0.8226344224480766,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -302,7 +302,7 @@
     "category": "financial_distress",
     "year": 2019,
     "risk_score": 93.4,
-    "delisting_probability": 0.9336020324328405,
+    "delisting_probability": 0.9336020324328406,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -313,7 +313,7 @@
     "category": "financial_distress",
     "year": 2019,
     "risk_score": 18.4,
-    "delisting_probability": 0.18412849165741885,
+    "delisting_probability": 0.18412849165741832,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -324,7 +324,7 @@
     "category": "financial_distress",
     "year": 2019,
     "risk_score": 76.1,
-    "delisting_probability": 0.7609622776028835,
+    "delisting_probability": 0.7609622776028843,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -335,7 +335,7 @@
     "category": "financial_distress",
     "year": 2019,
     "risk_score": 53.1,
-    "delisting_probability": 0.5305301190938477,
+    "delisting_probability": 0.5305301190938476,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -346,7 +346,7 @@
     "category": "financial_distress",
     "year": 2019,
     "risk_score": 95.0,
-    "delisting_probability": 0.9503679464403634,
+    "delisting_probability": 0.9503679464403636,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -357,7 +357,7 @@
     "category": "financial_distress",
     "year": 2020,
     "risk_score": 90.1,
-    "delisting_probability": 0.9007191897068572,
+    "delisting_probability": 0.9007191897068575,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -368,7 +368,7 @@
     "category": "financial_distress",
     "year": 2020,
     "risk_score": 66.2,
-    "delisting_probability": 0.6624245906402536,
+    "delisting_probability": 0.6624245906402552,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -379,7 +379,7 @@
     "category": "financial_distress",
     "year": 2020,
     "risk_score": 71.6,
-    "delisting_probability": 0.7158513714592255,
+    "delisting_probability": 0.7158513714592274,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -390,7 +390,7 @@
     "category": "financial_distress",
     "year": 2020,
     "risk_score": 84.4,
-    "delisting_probability": 0.8435471494001031,
+    "delisting_probability": 0.8435471494001039,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -401,7 +401,7 @@
     "category": "financial_distress",
     "year": 2020,
     "risk_score": 93.5,
-    "delisting_probability": 0.9354000438839162,
+    "delisting_probability": 0.9354000438839166,
     "label": 1,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -412,7 +412,7 @@
     "category": "financial_distress",
     "year": 2020,
     "risk_score": 91.8,
-    "delisting_probability": 0.917670609191975,
+    "delisting_probability": 0.9176706091919753,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -434,7 +434,7 @@
     "category": "financial_distress",
     "year": 2020,
     "risk_score": 31.2,
-    "delisting_probability": 0.31154332623972375,
+    "delisting_probability": 0.3115433262397233,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -445,7 +445,7 @@
     "category": "financial_distress",
     "year": 2020,
     "risk_score": 92.0,
-    "delisting_probability": 0.9195676130407708,
+    "delisting_probability": 0.9195676130407712,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -456,7 +456,7 @@
     "category": "financial_distress",
     "year": 2021,
     "risk_score": 99.2,
-    "delisting_probability": 0.992010739672838,
+    "delisting_probability": 0.9920107396728383,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -467,7 +467,7 @@
     "category": "financial_distress",
     "year": 2021,
     "risk_score": 93.6,
-    "delisting_probability": 0.9356768161287982,
+    "delisting_probability": 0.9356768161287984,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -478,7 +478,7 @@
     "category": "financial_distress",
     "year": 2021,
     "risk_score": 94.8,
-    "delisting_probability": 0.9478283739688547,
+    "delisting_probability": 0.9478283739688548,
     "label": 1,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -489,7 +489,7 @@
     "category": "financial_distress",
     "year": 2021,
     "risk_score": 96.6,
-    "delisting_probability": 0.9655800056625464,
+    "delisting_probability": 0.9655800056625469,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -500,7 +500,7 @@
     "category": "financial_distress",
     "year": 2021,
     "risk_score": 70.9,
-    "delisting_probability": 0.7089935822150046,
+    "delisting_probability": 0.7089935822150047,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -511,7 +511,7 @@
     "category": "financial_distress",
     "year": 2021,
     "risk_score": 85.9,
-    "delisting_probability": 0.8588206969118101,
+    "delisting_probability": 0.8588206969118105,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -522,7 +522,7 @@
     "category": "financial_distress",
     "year": 2021,
     "risk_score": 66.1,
-    "delisting_probability": 0.6608147121242012,
+    "delisting_probability": 0.6608147121242016,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -533,7 +533,7 @@
     "category": "financial_distress",
     "year": 2021,
     "risk_score": 89.0,
-    "delisting_probability": 0.8904099960842257,
+    "delisting_probability": 0.8904099960842266,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -555,7 +555,7 @@
     "category": "financial_distress",
     "year": 2022,
     "risk_score": 42.9,
-    "delisting_probability": 0.42899703659052674,
+    "delisting_probability": 0.4289970365905264,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -599,7 +599,7 @@
     "category": "financial_distress",
     "year": 2022,
     "risk_score": 79.0,
-    "delisting_probability": 0.7902627969139617,
+    "delisting_probability": 0.7902627969139595,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -610,7 +610,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 72.4,
-    "delisting_probability": 0.7236104910262694,
+    "delisting_probability": 0.7236104910262704,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -621,7 +621,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 80.1,
-    "delisting_probability": 0.8011336783320475,
+    "delisting_probability": 0.8011336783320492,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -632,7 +632,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 74.8,
-    "delisting_probability": 0.7481012722358003,
+    "delisting_probability": 0.7481012722358011,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -643,7 +643,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 95.5,
-    "delisting_probability": 0.9547688160015417,
+    "delisting_probability": 0.954768816001542,
     "label": 1,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -654,7 +654,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 95.2,
-    "delisting_probability": 0.9520604937976126,
+    "delisting_probability": 0.9520604937976128,
     "label": 1,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -676,7 +676,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 51.2,
-    "delisting_probability": 0.512089774372844,
+    "delisting_probability": 0.5120897743728452,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -698,7 +698,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 44.2,
-    "delisting_probability": 0.44152023988999733,
+    "delisting_probability": 0.44152023988999706,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -709,7 +709,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 90.0,
-    "delisting_probability": 0.8999399474459094,
+    "delisting_probability": 0.8999399474459098,
     "label": 1,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -720,7 +720,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 86.5,
-    "delisting_probability": 0.8645491808639321,
+    "delisting_probability": 0.8645491808639327,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -742,7 +742,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 78.4,
-    "delisting_probability": 0.7838854329544255,
+    "delisting_probability": 0.7838854329544268,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -753,7 +753,7 @@
     "category": "financial_distress",
     "year": 2023,
     "risk_score": 94.9,
-    "delisting_probability": 0.9488447882383185,
+    "delisting_probability": 0.9488447882383187,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -764,7 +764,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 6.7,
-    "delisting_probability": 0.0669300763805003,
+    "delisting_probability": 0.06693007638050014,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -775,7 +775,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 70.0,
-    "delisting_probability": 0.6889652402659266,
+    "delisting_probability": 0.6889652402659262,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": true
@@ -786,7 +786,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 78.9,
-    "delisting_probability": 0.7885603031994048,
+    "delisting_probability": 0.7885603031994054,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -797,7 +797,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 6.8,
-    "delisting_probability": 0.0683292211950658,
+    "delisting_probability": 0.06832922119506558,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -808,7 +808,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 13.1,
-    "delisting_probability": 0.13092302017012328,
+    "delisting_probability": 0.13092302017012292,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -819,7 +819,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 11.4,
-    "delisting_probability": 0.11392228706966984,
+    "delisting_probability": 0.11392228706966956,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -830,7 +830,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 81.2,
-    "delisting_probability": 0.8122118555916206,
+    "delisting_probability": 0.8122118555916212,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -841,7 +841,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 6.1,
-    "delisting_probability": 0.06057734404709763,
+    "delisting_probability": 0.060577344047097303,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -852,7 +852,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 80.1,
-    "delisting_probability": 0.8009205477358478,
+    "delisting_probability": 0.8009205477358491,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -863,7 +863,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 62.2,
-    "delisting_probability": 0.6223067358847877,
+    "delisting_probability": 0.6223067358847879,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -874,7 +874,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 5.0,
-    "delisting_probability": 0.04997049285238701,
+    "delisting_probability": 0.049970492852386715,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -885,7 +885,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 24.5,
-    "delisting_probability": 0.24529211867034012,
+    "delisting_probability": 0.24529211867034006,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -896,7 +896,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 19.3,
-    "delisting_probability": 0.19317548914257085,
+    "delisting_probability": 0.19317548914257077,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -907,7 +907,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 16.0,
-    "delisting_probability": 0.1601076138184804,
+    "delisting_probability": 0.16010761381847996,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -918,7 +918,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 29.7,
-    "delisting_probability": 0.29746036924583374,
+    "delisting_probability": 0.2974603692458337,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -929,7 +929,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 6.4,
-    "delisting_probability": 0.06352504892186463,
+    "delisting_probability": 0.06352504892186445,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -940,7 +940,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 9.8,
-    "delisting_probability": 0.09825204534770786,
+    "delisting_probability": 0.09825204534770762,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -951,7 +951,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 75.9,
-    "delisting_probability": 0.7589091707075201,
+    "delisting_probability": 0.7589091707075207,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -962,7 +962,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 94.5,
-    "delisting_probability": 0.9451197411395973,
+    "delisting_probability": 0.9451197411395977,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -973,7 +973,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 7.4,
-    "delisting_probability": 0.07411448577788225,
+    "delisting_probability": 0.074114485777882,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -984,7 +984,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 38.2,
-    "delisting_probability": 0.3817320341684937,
+    "delisting_probability": 0.38173203416849366,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -995,7 +995,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 17.6,
-    "delisting_probability": 0.17612992504848843,
+    "delisting_probability": 0.1761299250484883,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1006,7 +1006,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 13.1,
-    "delisting_probability": 0.13084562307936193,
+    "delisting_probability": 0.1308456230793614,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1017,7 +1017,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 83.2,
-    "delisting_probability": 0.8317132442527712,
+    "delisting_probability": 0.8317132442527718,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1028,7 +1028,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 74.2,
-    "delisting_probability": 0.7421372656941225,
+    "delisting_probability": 0.7421372656941227,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -1039,7 +1039,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 52.5,
-    "delisting_probability": 0.5254404675936968,
+    "delisting_probability": 0.5254404675936966,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1061,7 +1061,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 28.9,
-    "delisting_probability": 0.288788208390651,
+    "delisting_probability": 0.28878820839065006,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1072,7 +1072,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 14.4,
-    "delisting_probability": 0.14384611482429904,
+    "delisting_probability": 0.1438461148242986,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1083,7 +1083,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 5.1,
-    "delisting_probability": 0.0512180986918597,
+    "delisting_probability": 0.05121809869185934,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1094,7 +1094,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 18.9,
-    "delisting_probability": 0.18887010437160395,
+    "delisting_probability": 0.18887010437160362,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1105,7 +1105,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 22.3,
-    "delisting_probability": 0.22338206240252725,
+    "delisting_probability": 0.2233820624025269,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1116,7 +1116,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 15.2,
-    "delisting_probability": 0.1520023738174464,
+    "delisting_probability": 0.1520023738174463,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1127,7 +1127,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 36.1,
-    "delisting_probability": 0.36112670506042704,
+    "delisting_probability": 0.3611267050604268,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1138,7 +1138,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 94.6,
-    "delisting_probability": 0.9463780709754539,
+    "delisting_probability": 0.9463780709754542,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1149,7 +1149,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 81.0,
-    "delisting_probability": 0.8097237208260932,
+    "delisting_probability": 0.8097237208260939,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1160,7 +1160,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 10.6,
-    "delisting_probability": 0.10591118878525627,
+    "delisting_probability": 0.10591118878525567,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1171,7 +1171,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 87.0,
-    "delisting_probability": 0.8695336903900831,
+    "delisting_probability": 0.8695336903900839,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1182,7 +1182,7 @@
     "category": "healthy_benchmark",
     "year": 2024,
     "risk_score": 4.5,
-    "delisting_probability": 0.04526819100958999,
+    "delisting_probability": 0.04526819100958993,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1193,7 +1193,7 @@
     "category": "financial_distress",
     "year": 2024,
     "risk_score": 7.1,
-    "delisting_probability": 0.07100584141310703,
+    "delisting_probability": 0.07100584141310672,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1215,7 +1215,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 25.4,
-    "delisting_probability": 0.2541886588854311,
+    "delisting_probability": 0.2541886588854312,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1226,7 +1226,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 2.6,
-    "delisting_probability": 0.025575280811017266,
+    "delisting_probability": 0.025575280811017124,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1248,7 +1248,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.7,
-    "delisting_probability": 0.06723570675462055,
+    "delisting_probability": 0.06723570675462025,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1259,7 +1259,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.5,
-    "delisting_probability": 0.0649378533226705,
+    "delisting_probability": 0.06493785332267019,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1270,7 +1270,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.0,
-    "delisting_probability": 0.1700730133885453,
+    "delisting_probability": 0.17007301338854477,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1281,7 +1281,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.4,
-    "delisting_probability": 0.08407880030437545,
+    "delisting_probability": 0.08407880030437513,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1292,7 +1292,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.2,
-    "delisting_probability": 0.0916300461560202,
+    "delisting_probability": 0.09163004615601977,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1303,7 +1303,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 21.5,
-    "delisting_probability": 0.21547802495851306,
+    "delisting_probability": 0.21547802495851248,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1314,7 +1314,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 81.8,
-    "delisting_probability": 0.8183402897330321,
+    "delisting_probability": 0.8183402897330316,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1325,7 +1325,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 58.6,
-    "delisting_probability": 0.5857544879324682,
+    "delisting_probability": 0.5857544879324689,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1336,7 +1336,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 12.2,
-    "delisting_probability": 0.12249366480891599,
+    "delisting_probability": 0.12249366480891564,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1347,7 +1347,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.9,
-    "delisting_probability": 0.1387400656445549,
+    "delisting_probability": 0.13874006564455452,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1358,7 +1358,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 20.7,
-    "delisting_probability": 0.20695943366045697,
+    "delisting_probability": 0.20695943366045677,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1369,7 +1369,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 23.5,
-    "delisting_probability": 0.23484137024030935,
+    "delisting_probability": 0.234841370240309,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1380,7 +1380,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 47.2,
-    "delisting_probability": 0.4722078813797021,
+    "delisting_probability": 0.4722078813797026,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1391,7 +1391,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 68.0,
-    "delisting_probability": 0.6801803894109972,
+    "delisting_probability": 0.6801803894109966,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1402,7 +1402,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.4,
-    "delisting_probability": 0.09417869020192322,
+    "delisting_probability": 0.0941786902019227,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1413,7 +1413,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.6,
-    "delisting_probability": 0.07600033269844096,
+    "delisting_probability": 0.07600033269844061,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1424,7 +1424,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 24.0,
-    "delisting_probability": 0.24000736791699212,
+    "delisting_probability": 0.24000736791699168,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1435,7 +1435,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.5,
-    "delisting_probability": 0.055283837638274554,
+    "delisting_probability": 0.055283837638274505,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1446,7 +1446,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.1,
-    "delisting_probability": 0.06131114978045424,
+    "delisting_probability": 0.06131114978045392,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1457,7 +1457,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.9,
-    "delisting_probability": 0.09854384712466657,
+    "delisting_probability": 0.09854384712466624,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1468,7 +1468,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 69.7,
-    "delisting_probability": 0.6973930984133049,
+    "delisting_probability": 0.6973930984133058,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1479,7 +1479,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 29.8,
-    "delisting_probability": 0.297839638799503,
+    "delisting_probability": 0.29783963879950276,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1501,7 +1501,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 81.5,
-    "delisting_probability": 0.8150070479663619,
+    "delisting_probability": 0.8150070479663628,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1512,7 +1512,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.5,
-    "delisting_probability": 0.1848558954666491,
+    "delisting_probability": 0.18485589546664868,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1523,7 +1523,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 29.6,
-    "delisting_probability": 0.2960474281805202,
+    "delisting_probability": 0.29604742818052115,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1534,7 +1534,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 15.5,
-    "delisting_probability": 0.155288161926875,
+    "delisting_probability": 0.1552881619268749,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1545,7 +1545,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 53.5,
-    "delisting_probability": 0.5354455577966707,
+    "delisting_probability": 0.5354455577966715,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1556,7 +1556,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.7,
-    "delisting_probability": 0.0674819425434369,
+    "delisting_probability": 0.06748194254343674,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1578,7 +1578,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.6,
-    "delisting_probability": 0.1863333439527259,
+    "delisting_probability": 0.18633334395272566,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1600,7 +1600,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.0,
-    "delisting_probability": 0.15988857136636928,
+    "delisting_probability": 0.15988857136636897,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1611,7 +1611,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.6,
-    "delisting_probability": 0.16643422588826787,
+    "delisting_probability": 0.16643422588826762,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1622,7 +1622,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.5,
-    "delisting_probability": 0.06518037309601504,
+    "delisting_probability": 0.0651803730960148,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1633,7 +1633,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.5,
-    "delisting_probability": 0.1846234277821301,
+    "delisting_probability": 0.18462342778212978,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1644,7 +1644,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.7,
-    "delisting_probability": 0.14703334590994172,
+    "delisting_probability": 0.14703334590994122,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1655,7 +1655,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 61.9,
-    "delisting_probability": 0.6185749573106447,
+    "delisting_probability": 0.6185749573106444,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1666,7 +1666,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 40.4,
-    "delisting_probability": 0.4041784942088281,
+    "delisting_probability": 0.4041784942088283,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1677,7 +1677,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 91.0,
-    "delisting_probability": 0.9098661750766286,
+    "delisting_probability": 0.9098661750766291,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1688,7 +1688,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 21.8,
-    "delisting_probability": 0.21811613160736573,
+    "delisting_probability": 0.21811613160736523,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1699,7 +1699,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 45.7,
-    "delisting_probability": 0.45727728914505344,
+    "delisting_probability": 0.4572772891450538,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1710,7 +1710,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 44.7,
-    "delisting_probability": 0.44677193445124735,
+    "delisting_probability": 0.4467719344512477,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1721,7 +1721,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 66.4,
-    "delisting_probability": 0.6635992901131491,
+    "delisting_probability": 0.6635992901131497,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1732,7 +1732,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 84.2,
-    "delisting_probability": 0.8421488424413172,
+    "delisting_probability": 0.8421488424413179,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1743,7 +1743,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 24.4,
-    "delisting_probability": 0.24403037014652376,
+    "delisting_probability": 0.24403037014652343,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1754,7 +1754,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.4,
-    "delisting_probability": 0.18442041148950383,
+    "delisting_probability": 0.18442041148950372,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1765,7 +1765,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 44.8,
-    "delisting_probability": 0.4478547278200127,
+    "delisting_probability": 0.4478547278200125,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1776,7 +1776,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 41.1,
-    "delisting_probability": 0.41100286214779724,
+    "delisting_probability": 0.4110028621477973,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1787,7 +1787,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.2,
-    "delisting_probability": 0.12187335536067204,
+    "delisting_probability": 0.12187335536067151,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1798,7 +1798,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 29.6,
-    "delisting_probability": 0.2957317907231081,
+    "delisting_probability": 0.2957317907231082,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1809,7 +1809,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 62.6,
-    "delisting_probability": 0.6258648399678814,
+    "delisting_probability": 0.625864839967882,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1820,7 +1820,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 37.5,
-    "delisting_probability": 0.37533897675923095,
+    "delisting_probability": 0.37533897675923117,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1831,7 +1831,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.7,
-    "delisting_probability": 0.18709590467680068,
+    "delisting_probability": 0.18709590467680018,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1842,7 +1842,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.7,
-    "delisting_probability": 0.08661230866743974,
+    "delisting_probability": 0.08661230866743946,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1853,7 +1853,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 36.1,
-    "delisting_probability": 0.36052062264156154,
+    "delisting_probability": 0.3605206226415619,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1864,7 +1864,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 73.0,
-    "delisting_probability": 0.7297552635273259,
+    "delisting_probability": 0.7297552635273263,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1875,7 +1875,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 26.8,
-    "delisting_probability": 0.26773106263298824,
+    "delisting_probability": 0.2677310626329882,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1886,7 +1886,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.3,
-    "delisting_probability": 0.13330539276528333,
+    "delisting_probability": 0.133305392765283,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1897,7 +1897,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.1,
-    "delisting_probability": 0.05111157868084263,
+    "delisting_probability": 0.05111157868084244,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1908,7 +1908,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 34.9,
-    "delisting_probability": 0.3494017105567528,
+    "delisting_probability": 0.3494017105567529,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1919,7 +1919,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 51.8,
-    "delisting_probability": 0.517614272159069,
+    "delisting_probability": 0.5176142721590695,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1930,7 +1930,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 79.8,
-    "delisting_probability": 0.7981860041438419,
+    "delisting_probability": 0.7981860041438426,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1941,7 +1941,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.3,
-    "delisting_probability": 0.18283978030307105,
+    "delisting_probability": 0.1828397803030708,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1952,7 +1952,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.6,
-    "delisting_probability": 0.1357027201752371,
+    "delisting_probability": 0.13570272017523677,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1963,7 +1963,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 23.8,
-    "delisting_probability": 0.23808148684403943,
+    "delisting_probability": 0.23808148684403913,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1974,7 +1974,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.1,
-    "delisting_probability": 0.09094758579386651,
+    "delisting_probability": 0.09094758579386608,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1985,7 +1985,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.3,
-    "delisting_probability": 0.1025102826425783,
+    "delisting_probability": 0.10251028264257786,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -1996,7 +1996,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 36.5,
-    "delisting_probability": 0.3652420523788959,
+    "delisting_probability": 0.3652420523788964,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2007,7 +2007,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 54.3,
-    "delisting_probability": 0.5428420966761415,
+    "delisting_probability": 0.5428420966761426,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2018,7 +2018,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 87.5,
-    "delisting_probability": 0.8752586189363148,
+    "delisting_probability": 0.8752586189363155,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2029,7 +2029,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.8,
-    "delisting_probability": 0.18763644241171498,
+    "delisting_probability": 0.18763644241171462,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2040,7 +2040,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.9,
-    "delisting_probability": 0.06867318919711837,
+    "delisting_probability": 0.06867318919711807,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2051,7 +2051,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.5,
-    "delisting_probability": 0.12471316421256116,
+    "delisting_probability": 0.12471316421256078,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2062,7 +2062,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 49.5,
-    "delisting_probability": 0.49544051831047303,
+    "delisting_probability": 0.49544051831047436,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2073,7 +2073,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.7,
-    "delisting_probability": 0.10745803336645479,
+    "delisting_probability": 0.1074580333664545,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2084,7 +2084,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.8,
-    "delisting_probability": 0.1279150127906572,
+    "delisting_probability": 0.1279150127906569,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2095,7 +2095,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 28.1,
-    "delisting_probability": 0.28105356701295325,
+    "delisting_probability": 0.2810535670129532,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2106,7 +2106,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.5,
-    "delisting_probability": 0.05545296726163895,
+    "delisting_probability": 0.055452967261638494,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2117,7 +2117,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 42.4,
-    "delisting_probability": 0.42417813511581737,
+    "delisting_probability": 0.42417813511581803,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2128,7 +2128,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.4,
-    "delisting_probability": 0.10379124917801415,
+    "delisting_probability": 0.10379124917801398,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2139,7 +2139,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 62.5,
-    "delisting_probability": 0.62504031559773,
+    "delisting_probability": 0.625040315597731,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2150,7 +2150,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.2,
-    "delisting_probability": 0.1916690475955924,
+    "delisting_probability": 0.19166904759559228,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2161,7 +2161,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 59.6,
-    "delisting_probability": 0.5958007843639139,
+    "delisting_probability": 0.5958007843639153,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2172,7 +2172,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 38.4,
-    "delisting_probability": 0.3844241045114661,
+    "delisting_probability": 0.38442410451146675,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2183,7 +2183,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 44.6,
-    "delisting_probability": 0.445546446085657,
+    "delisting_probability": 0.44554644608565824,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2194,7 +2194,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.4,
-    "delisting_probability": 0.05428452234113126,
+    "delisting_probability": 0.05428452234113103,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2205,7 +2205,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.7,
-    "delisting_probability": 0.09743070053498704,
+    "delisting_probability": 0.09743070053498641,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2216,7 +2216,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 76.1,
-    "delisting_probability": 0.7612171612376497,
+    "delisting_probability": 0.761217161237651,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2227,7 +2227,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.5,
-    "delisting_probability": 0.1053011425228185,
+    "delisting_probability": 0.10530114252281816,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2260,7 +2260,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 76.6,
-    "delisting_probability": 0.7664455521291703,
+    "delisting_probability": 0.76644555212917,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2271,7 +2271,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 52.9,
-    "delisting_probability": 0.528861369962529,
+    "delisting_probability": 0.5288613699625297,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2282,7 +2282,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 39.4,
-    "delisting_probability": 0.3937545658343886,
+    "delisting_probability": 0.39375456583438867,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2293,7 +2293,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 4.1,
-    "delisting_probability": 0.04084624728677488,
+    "delisting_probability": 0.040846247286774634,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2304,7 +2304,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.6,
-    "delisting_probability": 0.16553307210137727,
+    "delisting_probability": 0.16553307210137705,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2315,7 +2315,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 10.0,
-    "delisting_probability": 0.0999669400679801,
+    "delisting_probability": 0.09996694006797978,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2326,7 +2326,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 24.5,
-    "delisting_probability": 0.24535481047738894,
+    "delisting_probability": 0.24535481047738905,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2337,7 +2337,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 32.6,
-    "delisting_probability": 0.3258307129960227,
+    "delisting_probability": 0.32583071299602273,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2348,7 +2348,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.4,
-    "delisting_probability": 0.11438086089339546,
+    "delisting_probability": 0.11438086089339507,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2359,7 +2359,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.8,
-    "delisting_probability": 0.10831561961757309,
+    "delisting_probability": 0.10831561961757263,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2381,7 +2381,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 76.5,
-    "delisting_probability": 0.7645625736064383,
+    "delisting_probability": 0.7645625736064398,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2392,7 +2392,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 71.9,
-    "delisting_probability": 0.718502015190481,
+    "delisting_probability": 0.7185020151904815,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2403,7 +2403,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 15.6,
-    "delisting_probability": 0.15598909934833644,
+    "delisting_probability": 0.15598909934833613,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2414,7 +2414,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.1,
-    "delisting_probability": 0.0908048513742078,
+    "delisting_probability": 0.09080485137420748,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2425,7 +2425,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.7,
-    "delisting_probability": 0.06746749642221371,
+    "delisting_probability": 0.06746749642221332,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2436,7 +2436,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.3,
-    "delisting_probability": 0.1231822095295908,
+    "delisting_probability": 0.12318220952959076,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2447,7 +2447,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.0,
-    "delisting_probability": 0.08036322016823888,
+    "delisting_probability": 0.08036322016823849,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2458,7 +2458,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 36.2,
-    "delisting_probability": 0.36192923670260596,
+    "delisting_probability": 0.3619292367026057,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2469,7 +2469,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 66.4,
-    "delisting_probability": 0.6643441412691028,
+    "delisting_probability": 0.6643441412691025,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2480,7 +2480,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 26.8,
-    "delisting_probability": 0.26835802723518454,
+    "delisting_probability": 0.26835802723518426,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2491,7 +2491,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 59.6,
-    "delisting_probability": 0.5961039279752681,
+    "delisting_probability": 0.5961039279752695,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2502,7 +2502,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 40.1,
-    "delisting_probability": 0.40125234615251587,
+    "delisting_probability": 0.4012523461525154,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2513,7 +2513,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 45.2,
-    "delisting_probability": 0.45185995828494113,
+    "delisting_probability": 0.45185995828494085,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2524,7 +2524,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 75.0,
-    "delisting_probability": 0.7495755237087415,
+    "delisting_probability": 0.7495755237087423,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2535,7 +2535,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 3.1,
-    "delisting_probability": 0.030772044571139134,
+    "delisting_probability": 0.030772044571138885,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2546,7 +2546,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 32.0,
-    "delisting_probability": 0.3196551976507918,
+    "delisting_probability": 0.3196551976507917,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2557,7 +2557,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.1,
-    "delisting_probability": 0.08078233191202018,
+    "delisting_probability": 0.08078233191201982,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2568,7 +2568,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 44.9,
-    "delisting_probability": 0.4490504073210501,
+    "delisting_probability": 0.44905040732104995,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2579,7 +2579,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 44.2,
-    "delisting_probability": 0.44225730719018985,
+    "delisting_probability": 0.44225730719019046,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2590,7 +2590,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.9,
-    "delisting_probability": 0.13898606503857713,
+    "delisting_probability": 0.138986065038577,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2601,7 +2601,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 36.5,
-    "delisting_probability": 0.3648600483551817,
+    "delisting_probability": 0.3648600483551818,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2612,7 +2612,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 82.0,
-    "delisting_probability": 0.8200919777479813,
+    "delisting_probability": 0.820091977747982,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2623,7 +2623,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.8,
-    "delisting_probability": 0.14847462205328726,
+    "delisting_probability": 0.14847462205328707,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2634,7 +2634,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 30.7,
-    "delisting_probability": 0.30724955131319764,
+    "delisting_probability": 0.3072495513131977,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2645,7 +2645,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 24.7,
-    "delisting_probability": 0.24658281574873886,
+    "delisting_probability": 0.24658281574873853,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2656,7 +2656,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.5,
-    "delisting_probability": 0.055087014180201885,
+    "delisting_probability": 0.05508701418020164,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2667,7 +2667,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 22.4,
-    "delisting_probability": 0.22381332892447317,
+    "delisting_probability": 0.22381332892447303,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2678,7 +2678,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.6,
-    "delisting_probability": 0.09635641377374411,
+    "delisting_probability": 0.09635641377374377,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2689,7 +2689,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.1,
-    "delisting_probability": 0.10086603644231561,
+    "delisting_probability": 0.1008660364423152,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2700,7 +2700,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.3,
-    "delisting_probability": 0.10347930779718989,
+    "delisting_probability": 0.10347930779718956,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2711,7 +2711,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 50.8,
-    "delisting_probability": 0.5082019742630207,
+    "delisting_probability": 0.5082019742630214,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2722,7 +2722,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 31.9,
-    "delisting_probability": 0.31927421344735657,
+    "delisting_probability": 0.3192742134473565,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2733,7 +2733,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 54.8,
-    "delisting_probability": 0.5476738251153378,
+    "delisting_probability": 0.5476738251153388,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2744,7 +2744,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.4,
-    "delisting_probability": 0.06449325280041618,
+    "delisting_probability": 0.06449325280041589,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2755,7 +2755,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 49.1,
-    "delisting_probability": 0.49099136871873433,
+    "delisting_probability": 0.4909913687187345,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2766,7 +2766,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.6,
-    "delisting_probability": 0.19595063865394755,
+    "delisting_probability": 0.19595063865394716,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2777,7 +2777,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.7,
-    "delisting_probability": 0.08696538906865837,
+    "delisting_probability": 0.08696538906865801,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2788,7 +2788,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.1,
-    "delisting_probability": 0.12072058745999377,
+    "delisting_probability": 0.1207205874599932,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2799,7 +2799,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.2,
-    "delisting_probability": 0.1322567793523714,
+    "delisting_probability": 0.1322567793523711,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2810,7 +2810,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.4,
-    "delisting_probability": 0.0837498312082204,
+    "delisting_probability": 0.08374983120822048,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2821,7 +2821,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 27.4,
-    "delisting_probability": 0.2739688970745321,
+    "delisting_probability": 0.273968897074532,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2832,7 +2832,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.6,
-    "delisting_probability": 0.11636407800703637,
+    "delisting_probability": 0.11636407800703609,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2843,7 +2843,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.5,
-    "delisting_probability": 0.14517821532084338,
+    "delisting_probability": 0.14517821532084316,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2854,7 +2854,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 57.8,
-    "delisting_probability": 0.5782304517170072,
+    "delisting_probability": 0.5782304517170077,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2865,7 +2865,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 23.8,
-    "delisting_probability": 0.23818718537761455,
+    "delisting_probability": 0.2381871853776146,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2876,7 +2876,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.4,
-    "delisting_probability": 0.06396227621020178,
+    "delisting_probability": 0.06396227621020138,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2887,7 +2887,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 45.3,
-    "delisting_probability": 0.45335371543081027,
+    "delisting_probability": 0.4533537154308107,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2898,7 +2898,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.5,
-    "delisting_probability": 0.12477191715621032,
+    "delisting_probability": 0.1247719171562099,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2909,7 +2909,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 92.7,
-    "delisting_probability": 0.9268621289811232,
+    "delisting_probability": 0.9268621289811234,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2931,7 +2931,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 95.2,
-    "delisting_probability": 0.9521450244060745,
+    "delisting_probability": 0.9521450244060747,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -2942,7 +2942,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.4,
-    "delisting_probability": 0.11368326363756641,
+    "delisting_probability": 0.11368326363756619,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2953,7 +2953,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.4,
-    "delisting_probability": 0.1344796787309738,
+    "delisting_probability": 0.1344796787309735,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2964,7 +2964,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 31.7,
-    "delisting_probability": 0.3166672386925314,
+    "delisting_probability": 0.3166672386925313,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2975,7 +2975,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.4,
-    "delisting_probability": 0.06424896710427473,
+    "delisting_probability": 0.06424896710427447,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2986,7 +2986,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 4.6,
-    "delisting_probability": 0.04606551701278532,
+    "delisting_probability": 0.04606551701278493,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -2997,7 +2997,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.4,
-    "delisting_probability": 0.07405428346328886,
+    "delisting_probability": 0.07405428346328852,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3008,7 +3008,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 10.2,
-    "delisting_probability": 0.102071020289717,
+    "delisting_probability": 0.10207102028971693,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3019,7 +3019,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.2,
-    "delisting_probability": 0.16213728485112605,
+    "delisting_probability": 0.1621372848511258,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3041,7 +3041,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.4,
-    "delisting_probability": 0.07380251169217683,
+    "delisting_probability": 0.07380251169217637,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3052,7 +3052,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 25.4,
-    "delisting_probability": 0.25448996068394064,
+    "delisting_probability": 0.2544899606839406,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3063,7 +3063,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.1,
-    "delisting_probability": 0.08097660357578404,
+    "delisting_probability": 0.08097660357578391,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3074,7 +3074,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.6,
-    "delisting_probability": 0.10596721976960358,
+    "delisting_probability": 0.10596721976960319,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3085,7 +3085,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 43.1,
-    "delisting_probability": 0.43064628623270473,
+    "delisting_probability": 0.4306462862327072,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3096,7 +3096,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 68.9,
-    "delisting_probability": 0.688601767729727,
+    "delisting_probability": 0.6886017677297279,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3107,7 +3107,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.1,
-    "delisting_probability": 0.08120202440781231,
+    "delisting_probability": 0.08120202440781192,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3118,7 +3118,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.2,
-    "delisting_probability": 0.11223736773211379,
+    "delisting_probability": 0.11223736773211335,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3129,7 +3129,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.7,
-    "delisting_probability": 0.16686146323182943,
+    "delisting_probability": 0.166861463231829,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3140,7 +3140,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 81.9,
-    "delisting_probability": 0.8187311502530418,
+    "delisting_probability": 0.8187311502530427,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3151,7 +3151,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.5,
-    "delisting_probability": 0.09543709116920268,
+    "delisting_probability": 0.09543709116920257,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3162,7 +3162,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.3,
-    "delisting_probability": 0.1333469407551172,
+    "delisting_probability": 0.13334694075511677,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3173,7 +3173,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 72.0,
-    "delisting_probability": 0.7204802759115598,
+    "delisting_probability": 0.720480275911561,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3195,7 +3195,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.6,
-    "delisting_probability": 0.06554749554510231,
+    "delisting_probability": 0.06554749554510163,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3206,7 +3206,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.3,
-    "delisting_probability": 0.10308334161928231,
+    "delisting_probability": 0.10308334161928201,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3217,7 +3217,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.0,
-    "delisting_probability": 0.099854053146085,
+    "delisting_probability": 0.0998540531460846,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3228,7 +3228,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.4,
-    "delisting_probability": 0.08437836073831068,
+    "delisting_probability": 0.08437836073831026,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3239,7 +3239,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 43.5,
-    "delisting_probability": 0.4349450603205672,
+    "delisting_probability": 0.4349450603205676,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3261,7 +3261,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 23.2,
-    "delisting_probability": 0.2320335034873121,
+    "delisting_probability": 0.23203350348731178,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3272,7 +3272,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 30.1,
-    "delisting_probability": 0.30074720438732366,
+    "delisting_probability": 0.3007472043873238,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3283,7 +3283,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 61.9,
-    "delisting_probability": 0.6194549088112552,
+    "delisting_probability": 0.6194549088112555,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3294,7 +3294,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 28.8,
-    "delisting_probability": 0.28768946526306277,
+    "delisting_probability": 0.28768946526306266,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3305,7 +3305,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 4.4,
-    "delisting_probability": 0.044361319725666384,
+    "delisting_probability": 0.044361319725666155,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3316,7 +3316,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.5,
-    "delisting_probability": 0.14480529317512195,
+    "delisting_probability": 0.14480529317512122,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3327,7 +3327,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.0,
-    "delisting_probability": 0.09000445743949444,
+    "delisting_probability": 0.09000445743949416,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3338,7 +3338,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.5,
-    "delisting_probability": 0.09479943983629435,
+    "delisting_probability": 0.09479943983629405,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3349,7 +3349,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.8,
-    "delisting_probability": 0.13762734178545052,
+    "delisting_probability": 0.13762734178545036,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3360,7 +3360,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 73.8,
-    "delisting_probability": 0.7379987735732215,
+    "delisting_probability": 0.7379987735732213,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3371,7 +3371,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.2,
-    "delisting_probability": 0.11150991120061432,
+    "delisting_probability": 0.1115099112006141,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3382,7 +3382,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 30.9,
-    "delisting_probability": 0.30863629346550436,
+    "delisting_probability": 0.3086362934655045,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3404,7 +3404,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.3,
-    "delisting_probability": 0.18288032521241201,
+    "delisting_probability": 0.18288032521241118,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3415,7 +3415,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 29.8,
-    "delisting_probability": 0.29786438460551556,
+    "delisting_probability": 0.2978643846055145,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3426,7 +3426,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 65.5,
-    "delisting_probability": 0.6554335195609272,
+    "delisting_probability": 0.655433519560928,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3437,7 +3437,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.1,
-    "delisting_probability": 0.05132150054308036,
+    "delisting_probability": 0.05132150054308007,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3448,7 +3448,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 70.0,
-    "delisting_probability": 0.6587413499951779,
+    "delisting_probability": 0.6587413499951775,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": true
@@ -3459,7 +3459,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.9,
-    "delisting_probability": 0.10857220669825064,
+    "delisting_probability": 0.10857220669825025,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3470,7 +3470,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.9,
-    "delisting_probability": 0.07877796819154018,
+    "delisting_probability": 0.07877796819153986,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3481,7 +3481,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.0,
-    "delisting_probability": 0.11024557779361406,
+    "delisting_probability": 0.11024557779361367,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3492,7 +3492,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 1.6,
-    "delisting_probability": 0.01598436839058222,
+    "delisting_probability": 0.015984368390582124,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3503,7 +3503,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.2,
-    "delisting_probability": 0.051591707072392544,
+    "delisting_probability": 0.051591707072392204,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3514,7 +3514,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 61.2,
-    "delisting_probability": 0.6124893535514365,
+    "delisting_probability": 0.6124893535514369,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3525,7 +3525,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.1,
-    "delisting_probability": 0.09060671489417146,
+    "delisting_probability": 0.09060671489417117,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3536,7 +3536,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.3,
-    "delisting_probability": 0.08255848221390788,
+    "delisting_probability": 0.08255848221390757,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3547,7 +3547,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 45.3,
-    "delisting_probability": 0.4529506367835711,
+    "delisting_probability": 0.45295063678357145,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3558,7 +3558,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 27.0,
-    "delisting_probability": 0.2699343404230218,
+    "delisting_probability": 0.26993434042302156,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3569,7 +3569,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 45.9,
-    "delisting_probability": 0.4590128778950249,
+    "delisting_probability": 0.45901287789502515,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3580,7 +3580,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 37.1,
-    "delisting_probability": 0.37089688776195845,
+    "delisting_probability": 0.3708968877619582,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3591,7 +3591,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.7,
-    "delisting_probability": 0.06699771027722881,
+    "delisting_probability": 0.06699771027722819,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3613,7 +3613,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.6,
-    "delisting_probability": 0.16617339202876238,
+    "delisting_probability": 0.16617339202876188,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3624,7 +3624,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 4.5,
-    "delisting_probability": 0.044636628606861045,
+    "delisting_probability": 0.04463662860686084,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3635,7 +3635,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 15.0,
-    "delisting_probability": 0.1497085863648199,
+    "delisting_probability": 0.14970858636481954,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3646,7 +3646,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.5,
-    "delisting_probability": 0.0950911800888894,
+    "delisting_probability": 0.09509118008888898,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3657,7 +3657,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.1,
-    "delisting_probability": 0.13104343406548982,
+    "delisting_probability": 0.13104343406548932,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3668,7 +3668,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.4,
-    "delisting_probability": 0.0640449935608901,
+    "delisting_probability": 0.06404499356089001,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3679,7 +3679,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 23.9,
-    "delisting_probability": 0.23888766137576836,
+    "delisting_probability": 0.23888766137576783,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3690,7 +3690,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.0,
-    "delisting_probability": 0.12980022797564095,
+    "delisting_probability": 0.12980022797564061,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3701,7 +3701,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.2,
-    "delisting_probability": 0.19174269000344324,
+    "delisting_probability": 0.19174269000344307,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3712,7 +3712,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 71.3,
-    "delisting_probability": 0.7128140233940131,
+    "delisting_probability": 0.7128140233940127,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3723,7 +3723,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 39.2,
-    "delisting_probability": 0.392032304976664,
+    "delisting_probability": 0.39203230497666486,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3734,7 +3734,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 14.2,
-    "delisting_probability": 0.14186879679892114,
+    "delisting_probability": 0.14186879679892092,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3745,7 +3745,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.7,
-    "delisting_probability": 0.14656011476553912,
+    "delisting_probability": 0.1465601147655388,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3756,7 +3756,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 43.7,
-    "delisting_probability": 0.43656281799346525,
+    "delisting_probability": 0.4365628179934656,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3767,7 +3767,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.1,
-    "delisting_probability": 0.16115383044906334,
+    "delisting_probability": 0.16115383044906312,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3778,7 +3778,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 66.8,
-    "delisting_probability": 0.6684480961130349,
+    "delisting_probability": 0.6684480961130357,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3789,7 +3789,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 43.0,
-    "delisting_probability": 0.4295353250776585,
+    "delisting_probability": 0.42953532507765874,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3800,7 +3800,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 49.9,
-    "delisting_probability": 0.49942239169259345,
+    "delisting_probability": 0.4994223916925938,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3811,7 +3811,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 22.2,
-    "delisting_probability": 0.22167008886118503,
+    "delisting_probability": 0.22167008886118508,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3822,7 +3822,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 36.5,
-    "delisting_probability": 0.3654319771396693,
+    "delisting_probability": 0.3654319771396695,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3833,7 +3833,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 2.4,
-    "delisting_probability": 0.024097128376708448,
+    "delisting_probability": 0.024097128376708313,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3844,7 +3844,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 66.0,
-    "delisting_probability": 0.6602782314949664,
+    "delisting_probability": 0.6602782314949678,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3855,7 +3855,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 97.9,
-    "delisting_probability": 0.9791431723483023,
+    "delisting_probability": 0.9791431723483025,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3866,7 +3866,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 29.5,
-    "delisting_probability": 0.29539821378788034,
+    "delisting_probability": 0.29539821378788045,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3877,7 +3877,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 31.1,
-    "delisting_probability": 0.31141918658131634,
+    "delisting_probability": 0.31141918658131684,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3888,7 +3888,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.5,
-    "delisting_probability": 0.0847269443929706,
+    "delisting_probability": 0.08472694439297031,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3899,7 +3899,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 75.8,
-    "delisting_probability": 0.7575627191714721,
+    "delisting_probability": 0.7575627191714732,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3910,7 +3910,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 96.5,
-    "delisting_probability": 0.9653106937066,
+    "delisting_probability": 0.9653106937066003,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3921,7 +3921,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.3,
-    "delisting_probability": 0.06334435882193148,
+    "delisting_probability": 0.0633443588219313,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3932,7 +3932,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.8,
-    "delisting_probability": 0.11789727630308439,
+    "delisting_probability": 0.11789727630308411,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3943,7 +3943,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 69.0,
-    "delisting_probability": 0.6902390429625118,
+    "delisting_probability": 0.690239042962513,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3954,7 +3954,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 22.6,
-    "delisting_probability": 0.2258735092299689,
+    "delisting_probability": 0.22587350922996863,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3965,7 +3965,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 47.1,
-    "delisting_probability": 0.4714044071596314,
+    "delisting_probability": 0.4714044071596313,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3976,7 +3976,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 83.0,
-    "delisting_probability": 0.8295954440620505,
+    "delisting_probability": 0.829595444062051,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3987,7 +3987,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 36.7,
-    "delisting_probability": 0.366796921899062,
+    "delisting_probability": 0.36679692189906205,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -3998,7 +3998,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.3,
-    "delisting_probability": 0.052885266356321334,
+    "delisting_probability": 0.05288526635632107,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4009,7 +4009,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.4,
-    "delisting_probability": 0.09380861155709182,
+    "delisting_probability": 0.09380861155709144,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4020,7 +4020,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.5,
-    "delisting_probability": 0.135314040170681,
+    "delisting_probability": 0.13531404017068083,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4031,7 +4031,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.8,
-    "delisting_probability": 0.14831563747899876,
+    "delisting_probability": 0.14831563747899856,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4042,7 +4042,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 4.5,
-    "delisting_probability": 0.0449494830189648,
+    "delisting_probability": 0.0449494830189645,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4053,7 +4053,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 35.9,
-    "delisting_probability": 0.35875767311292683,
+    "delisting_probability": 0.3587576731129276,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4064,7 +4064,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 81.7,
-    "delisting_probability": 0.817491196611598,
+    "delisting_probability": 0.8174911966115989,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4075,7 +4075,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.7,
-    "delisting_probability": 0.1368732934114317,
+    "delisting_probability": 0.13687329341143134,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4086,7 +4086,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 3.7,
-    "delisting_probability": 0.03748540096907363,
+    "delisting_probability": 0.03748540096907342,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4097,7 +4097,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.6,
-    "delisting_probability": 0.09554865920160475,
+    "delisting_probability": 0.09554865920160434,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4108,7 +4108,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.9,
-    "delisting_probability": 0.08942770535512277,
+    "delisting_probability": 0.08942770535512248,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4119,7 +4119,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.9,
-    "delisting_probability": 0.1790316895345701,
+    "delisting_probability": 0.17903168953457005,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4130,7 +4130,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 53.1,
-    "delisting_probability": 0.5307491946786542,
+    "delisting_probability": 0.5307491946786546,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4141,7 +4141,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.3,
-    "delisting_probability": 0.09330790894231013,
+    "delisting_probability": 0.09330790894230977,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4152,7 +4152,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.9,
-    "delisting_probability": 0.17884543782185608,
+    "delisting_probability": 0.1788454378218562,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4163,7 +4163,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.5,
-    "delisting_probability": 0.19508364369764752,
+    "delisting_probability": 0.19508364369764786,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4174,7 +4174,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.5,
-    "delisting_probability": 0.08526197406016675,
+    "delisting_probability": 0.08526197406016664,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4185,7 +4185,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.1,
-    "delisting_probability": 0.1009073888362531,
+    "delisting_probability": 0.10090738883625289,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4196,7 +4196,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 14.9,
-    "delisting_probability": 0.14913806510738656,
+    "delisting_probability": 0.14913806510738628,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4207,7 +4207,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 30.6,
-    "delisting_probability": 0.30618311940622467,
+    "delisting_probability": 0.3061831194062251,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4218,7 +4218,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 20.2,
-    "delisting_probability": 0.20212733104279412,
+    "delisting_probability": 0.20212733104279362,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4229,7 +4229,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.3,
-    "delisting_probability": 0.1834566306089561,
+    "delisting_probability": 0.18345663060895578,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4240,7 +4240,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.7,
-    "delisting_probability": 0.08738058997898134,
+    "delisting_probability": 0.08738058997898106,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4251,7 +4251,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 42.5,
-    "delisting_probability": 0.42520452976218487,
+    "delisting_probability": 0.4252045297621849,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4262,7 +4262,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.8,
-    "delisting_probability": 0.12839896416118046,
+    "delisting_probability": 0.1283989641611803,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4273,7 +4273,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.9,
-    "delisting_probability": 0.10887091629282061,
+    "delisting_probability": 0.10887091629282028,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4284,7 +4284,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 30.2,
-    "delisting_probability": 0.30162219354972214,
+    "delisting_probability": 0.30162219354972253,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4295,7 +4295,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 51.1,
-    "delisting_probability": 0.5105417271054133,
+    "delisting_probability": 0.510541727105414,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4306,7 +4306,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 94.8,
-    "delisting_probability": 0.9476242216306967,
+    "delisting_probability": 0.9476242216306969,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4317,7 +4317,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.5,
-    "delisting_probability": 0.07484209790537345,
+    "delisting_probability": 0.07484209790537318,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4328,7 +4328,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 77.8,
-    "delisting_probability": 0.777587483311,
+    "delisting_probability": 0.7775874833110017,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4339,7 +4339,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.8,
-    "delisting_probability": 0.13834270270286472,
+    "delisting_probability": 0.1383427027028648,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4350,7 +4350,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.7,
-    "delisting_probability": 0.10660770303393051,
+    "delisting_probability": 0.10660770303393025,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4361,7 +4361,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.4,
-    "delisting_probability": 0.10392719901583257,
+    "delisting_probability": 0.1039271990158322,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4372,7 +4372,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.3,
-    "delisting_probability": 0.16332751400002207,
+    "delisting_probability": 0.163327514000022,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4383,7 +4383,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.0,
-    "delisting_probability": 0.09960359166385935,
+    "delisting_probability": 0.09960359166385911,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4394,7 +4394,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 61.7,
-    "delisting_probability": 0.616847859359017,
+    "delisting_probability": 0.6168478593590182,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4405,7 +4405,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.7,
-    "delisting_probability": 0.09708045279289977,
+    "delisting_probability": 0.09708045279289934,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4416,7 +4416,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 33.2,
-    "delisting_probability": 0.33212400159236,
+    "delisting_probability": 0.33212400159235955,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4427,7 +4427,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.8,
-    "delisting_probability": 0.0575123344344552,
+    "delisting_probability": 0.05751233443445488,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4438,7 +4438,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 90.4,
-    "delisting_probability": 0.9037294014798645,
+    "delisting_probability": 0.9037294014798656,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4449,7 +4449,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 23.9,
-    "delisting_probability": 0.23850910859541616,
+    "delisting_probability": 0.238509108595416,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4460,7 +4460,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 75.0,
-    "delisting_probability": 0.749936757062776,
+    "delisting_probability": 0.7499367570627746,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4471,7 +4471,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.9,
-    "delisting_probability": 0.11906789851671706,
+    "delisting_probability": 0.11906789851671679,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4482,7 +4482,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.0,
-    "delisting_probability": 0.19046823233360508,
+    "delisting_probability": 0.19046823233360496,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4493,7 +4493,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.1,
-    "delisting_probability": 0.06054814479808082,
+    "delisting_probability": 0.06054814479808044,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4504,7 +4504,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.4,
-    "delisting_probability": 0.0739025561715431,
+    "delisting_probability": 0.07390255617154261,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4515,7 +4515,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.2,
-    "delisting_probability": 0.17187068968823999,
+    "delisting_probability": 0.17187068968823976,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4526,7 +4526,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 4.6,
-    "delisting_probability": 0.04576832905976569,
+    "delisting_probability": 0.04576832905976543,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4537,7 +4537,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.2,
-    "delisting_probability": 0.08170483039170673,
+    "delisting_probability": 0.08170483039170633,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4559,7 +4559,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 64.4,
-    "delisting_probability": 0.6437680213897395,
+    "delisting_probability": 0.6437680213897404,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4570,7 +4570,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 40.8,
-    "delisting_probability": 0.4082122608712774,
+    "delisting_probability": 0.4082122608712781,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4581,7 +4581,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.6,
-    "delisting_probability": 0.08565974765688766,
+    "delisting_probability": 0.08565974765688762,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4592,7 +4592,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 72.6,
-    "delisting_probability": 0.7259258281677236,
+    "delisting_probability": 0.7259258281677239,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4603,7 +4603,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.1,
-    "delisting_probability": 0.05126929617321996,
+    "delisting_probability": 0.05126929617321963,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4614,7 +4614,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.0,
-    "delisting_probability": 0.10996115066795648,
+    "delisting_probability": 0.10996115066795609,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4625,7 +4625,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 99.2,
-    "delisting_probability": 0.9916378045194515,
+    "delisting_probability": 0.9916378045194517,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -4636,7 +4636,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 37.9,
-    "delisting_probability": 0.3787434354849761,
+    "delisting_probability": 0.37874343548497613,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4647,7 +4647,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 96.4,
-    "delisting_probability": 0.9637858070102804,
+    "delisting_probability": 0.9637858070102808,
     "label": 1,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -4658,7 +4658,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.7,
-    "delisting_probability": 0.13748029847141788,
+    "delisting_probability": 0.13748029847141766,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4669,7 +4669,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.8,
-    "delisting_probability": 0.11781744015437473,
+    "delisting_probability": 0.11781744015437454,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4680,7 +4680,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.7,
-    "delisting_probability": 0.07653314162968801,
+    "delisting_probability": 0.07653314162968773,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4691,7 +4691,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 45.6,
-    "delisting_probability": 0.4558793506418861,
+    "delisting_probability": 0.4558793506418862,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4702,7 +4702,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 3.4,
-    "delisting_probability": 0.034083560365559984,
+    "delisting_probability": 0.03408356036555982,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4713,7 +4713,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.7,
-    "delisting_probability": 0.19695015170743743,
+    "delisting_probability": 0.19695015170743757,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4724,7 +4724,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.2,
-    "delisting_probability": 0.06205015597744032,
+    "delisting_probability": 0.062050155977439965,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4735,7 +4735,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.3,
-    "delisting_probability": 0.13316391990425663,
+    "delisting_probability": 0.1331639199042563,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4746,7 +4746,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.9,
-    "delisting_probability": 0.06882932407580815,
+    "delisting_probability": 0.06882932407580784,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4757,7 +4757,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.2,
-    "delisting_probability": 0.19238606067135933,
+    "delisting_probability": 0.19238606067135877,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4768,7 +4768,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.9,
-    "delisting_probability": 0.08923892038052689,
+    "delisting_probability": 0.08923892038052678,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4779,7 +4779,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 15.7,
-    "delisting_probability": 0.1574148658445493,
+    "delisting_probability": 0.15741486584454928,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4790,7 +4790,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.5,
-    "delisting_probability": 0.09487147179063712,
+    "delisting_probability": 0.09487147179063689,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4812,7 +4812,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 97.2,
-    "delisting_probability": 0.971674857202003,
+    "delisting_probability": 0.9716748572020032,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4823,7 +4823,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 21.9,
-    "delisting_probability": 0.2192069717318125,
+    "delisting_probability": 0.21920697173181206,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4834,7 +4834,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.0,
-    "delisting_probability": 0.08025932603526514,
+    "delisting_probability": 0.08025932603526491,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4845,7 +4845,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.3,
-    "delisting_probability": 0.09327860875068086,
+    "delisting_probability": 0.09327860875068071,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4856,7 +4856,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 21.0,
-    "delisting_probability": 0.21022285522711465,
+    "delisting_probability": 0.21022285522711429,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4867,7 +4867,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.0,
-    "delisting_probability": 0.0501554781258864,
+    "delisting_probability": 0.05015547812588605,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4878,7 +4878,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.7,
-    "delisting_probability": 0.08729159822543835,
+    "delisting_probability": 0.08729159822543825,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4889,7 +4889,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.8,
-    "delisting_probability": 0.1379727478124909,
+    "delisting_probability": 0.13797274781249022,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4900,7 +4900,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.5,
-    "delisting_probability": 0.11507301714506739,
+    "delisting_probability": 0.11507301714506729,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4911,7 +4911,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 51.5,
-    "delisting_probability": 0.5148478050231726,
+    "delisting_probability": 0.5148478050231741,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4922,7 +4922,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 37.4,
-    "delisting_probability": 0.3737666685596127,
+    "delisting_probability": 0.37376666855961255,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4933,7 +4933,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.4,
-    "delisting_probability": 0.09388588243586063,
+    "delisting_probability": 0.09388588243586025,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4944,7 +4944,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 26.9,
-    "delisting_probability": 0.26935504371286045,
+    "delisting_probability": 0.2693550437128601,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4955,7 +4955,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 20.3,
-    "delisting_probability": 0.20282707162441574,
+    "delisting_probability": 0.2028270716244153,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4966,7 +4966,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 23.9,
-    "delisting_probability": 0.23923124877567428,
+    "delisting_probability": 0.23923124877567403,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4977,7 +4977,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.3,
-    "delisting_probability": 0.09345928043636315,
+    "delisting_probability": 0.09345928043636284,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4988,7 +4988,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.3,
-    "delisting_probability": 0.16294851039682104,
+    "delisting_probability": 0.1629485103968211,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -4999,7 +4999,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.3,
-    "delisting_probability": 0.12269600211255022,
+    "delisting_probability": 0.12269600211255001,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5010,7 +5010,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 3.9,
-    "delisting_probability": 0.0393167870814542,
+    "delisting_probability": 0.03931678708145396,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5021,7 +5021,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 95.4,
-    "delisting_probability": 0.9538168586458324,
+    "delisting_probability": 0.953816858645833,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5032,7 +5032,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.3,
-    "delisting_probability": 0.1133059394405769,
+    "delisting_probability": 0.1133059394405765,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5043,7 +5043,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 62.4,
-    "delisting_probability": 0.6236755577370815,
+    "delisting_probability": 0.6236755577370818,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5054,7 +5054,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.1,
-    "delisting_probability": 0.17070201250005043,
+    "delisting_probability": 0.17070201250004996,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5065,7 +5065,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.5,
-    "delisting_probability": 0.06531902937881787,
+    "delisting_probability": 0.06531902937881744,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5076,7 +5076,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.3,
-    "delisting_probability": 0.0828837898641105,
+    "delisting_probability": 0.0828837898641102,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5087,7 +5087,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 55.1,
-    "delisting_probability": 0.5506180235917969,
+    "delisting_probability": 0.5506180235917973,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5098,7 +5098,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 42.9,
-    "delisting_probability": 0.4287349729316349,
+    "delisting_probability": 0.42873497293163504,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5109,7 +5109,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 4.1,
-    "delisting_probability": 0.040552472834412906,
+    "delisting_probability": 0.040552472834412615,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5120,7 +5120,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 55.3,
-    "delisting_probability": 0.5525982025881476,
+    "delisting_probability": 0.5525982025881485,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5131,7 +5131,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.1,
-    "delisting_probability": 0.1214918766137468,
+    "delisting_probability": 0.12149187661374651,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5142,7 +5142,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.5,
-    "delisting_probability": 0.13546790761024555,
+    "delisting_probability": 0.13546790761024538,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5153,7 +5153,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.1,
-    "delisting_probability": 0.1714643715538154,
+    "delisting_probability": 0.17146437155381491,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5164,7 +5164,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 95.3,
-    "delisting_probability": 0.9531374220341359,
+    "delisting_probability": 0.9531374220341362,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -5175,7 +5175,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 40.5,
-    "delisting_probability": 0.4046763751478598,
+    "delisting_probability": 0.40467637514785937,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5186,7 +5186,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.2,
-    "delisting_probability": 0.14157662822581005,
+    "delisting_probability": 0.1415766282258098,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5197,7 +5197,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 15.8,
-    "delisting_probability": 0.15811095168240338,
+    "delisting_probability": 0.15811095168240327,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5208,7 +5208,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 36.4,
-    "delisting_probability": 0.3641572149402705,
+    "delisting_probability": 0.36415721494027037,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5219,7 +5219,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 42.5,
-    "delisting_probability": 0.4254012619471899,
+    "delisting_probability": 0.42540126194719013,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5230,7 +5230,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 38.8,
-    "delisting_probability": 0.3884352906442481,
+    "delisting_probability": 0.3884352906442483,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5241,7 +5241,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.5,
-    "delisting_probability": 0.08539274478193792,
+    "delisting_probability": 0.08539274478193772,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5252,7 +5252,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.1,
-    "delisting_probability": 0.08099031659389244,
+    "delisting_probability": 0.08099031659389211,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5263,7 +5263,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 39.3,
-    "delisting_probability": 0.3930518531670908,
+    "delisting_probability": 0.3930518531670912,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5274,7 +5274,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 38.3,
-    "delisting_probability": 0.3832734291527137,
+    "delisting_probability": 0.38327342915271306,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5285,7 +5285,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.8,
-    "delisting_probability": 0.0882883511662974,
+    "delisting_probability": 0.08828835116629706,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5296,7 +5296,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 57.1,
-    "delisting_probability": 0.5709023805807724,
+    "delisting_probability": 0.5709023805807735,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5307,7 +5307,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.5,
-    "delisting_probability": 0.12469599309663928,
+    "delisting_probability": 0.12469599309663915,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5318,7 +5318,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 25.8,
-    "delisting_probability": 0.25782581003168986,
+    "delisting_probability": 0.25782581003169025,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5329,7 +5329,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 63.0,
-    "delisting_probability": 0.6300139515857217,
+    "delisting_probability": 0.630013951585723,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5340,7 +5340,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.9,
-    "delisting_probability": 0.05945651531571317,
+    "delisting_probability": 0.059456515315712825,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5351,7 +5351,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 59.7,
-    "delisting_probability": 0.5965621505212803,
+    "delisting_probability": 0.596562150521281,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5362,7 +5362,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.6,
-    "delisting_probability": 0.10579306329774765,
+    "delisting_probability": 0.10579306329774747,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5373,7 +5373,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 27.7,
-    "delisting_probability": 0.27707629157897357,
+    "delisting_probability": 0.27707629157897384,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5384,7 +5384,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 49.3,
-    "delisting_probability": 0.49341394979057995,
+    "delisting_probability": 0.4934139497905804,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5395,7 +5395,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 32.0,
-    "delisting_probability": 0.31994060762849424,
+    "delisting_probability": 0.3199406076284944,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5406,7 +5406,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 51.9,
-    "delisting_probability": 0.5186511515646973,
+    "delisting_probability": 0.5186511515646978,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5417,7 +5417,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 61.7,
-    "delisting_probability": 0.6171611461254342,
+    "delisting_probability": 0.6171611461254352,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5428,7 +5428,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.0,
-    "delisting_probability": 0.12034952259284845,
+    "delisting_probability": 0.12034952259284815,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5439,7 +5439,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 24.1,
-    "delisting_probability": 0.24114345117688882,
+    "delisting_probability": 0.24114345117688893,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5450,7 +5450,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.2,
-    "delisting_probability": 0.08210056404576695,
+    "delisting_probability": 0.0821005640457665,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5461,7 +5461,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.2,
-    "delisting_probability": 0.10213431506911658,
+    "delisting_probability": 0.1021343150691162,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5472,7 +5472,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 81.3,
-    "delisting_probability": 0.8129133130975648,
+    "delisting_probability": 0.812913313097565,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5494,7 +5494,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 75.7,
-    "delisting_probability": 0.75690470221541,
+    "delisting_probability": 0.7569047022154102,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5505,7 +5505,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 28.5,
-    "delisting_probability": 0.28514504996163714,
+    "delisting_probability": 0.2851450499616369,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5516,7 +5516,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 62.7,
-    "delisting_probability": 0.6270824479596322,
+    "delisting_probability": 0.6270824479596332,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5527,7 +5527,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.0,
-    "delisting_probability": 0.059615280566467005,
+    "delisting_probability": 0.059615280566466616,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5538,7 +5538,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 46.6,
-    "delisting_probability": 0.46555048728371945,
+    "delisting_probability": 0.46555048728371906,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5549,7 +5549,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.0,
-    "delisting_probability": 0.07993522266394894,
+    "delisting_probability": 0.07993522266394867,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5560,7 +5560,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 23.9,
-    "delisting_probability": 0.23900710830502261,
+    "delisting_probability": 0.23900710830502292,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5571,7 +5571,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.1,
-    "delisting_probability": 0.16126964716948658,
+    "delisting_probability": 0.1612696471694864,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5582,7 +5582,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.9,
-    "delisting_probability": 0.09900220756355761,
+    "delisting_probability": 0.09900220756355729,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5593,7 +5593,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.5,
-    "delisting_probability": 0.16477549099483568,
+    "delisting_probability": 0.16477549099483557,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5604,7 +5604,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.0,
-    "delisting_probability": 0.15975187304915692,
+    "delisting_probability": 0.15975187304915636,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5615,7 +5615,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.7,
-    "delisting_probability": 0.08656244070317178,
+    "delisting_probability": 0.08656244070317129,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5626,7 +5626,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 59.2,
-    "delisting_probability": 0.5924827104590933,
+    "delisting_probability": 0.5924827104590927,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5637,7 +5637,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 73.2,
-    "delisting_probability": 0.7316123964974848,
+    "delisting_probability": 0.7316123964974853,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5648,7 +5648,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 72.0,
-    "delisting_probability": 0.7200802433535957,
+    "delisting_probability": 0.720080243353596,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5659,7 +5659,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 67.5,
-    "delisting_probability": 0.6750731475926335,
+    "delisting_probability": 0.6750731475926339,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5670,7 +5670,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 58.8,
-    "delisting_probability": 0.5880671717177045,
+    "delisting_probability": 0.588067171717706,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5681,7 +5681,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.1,
-    "delisting_probability": 0.13096136466796582,
+    "delisting_probability": 0.13096136466796543,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5692,7 +5692,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 2.2,
-    "delisting_probability": 0.02164292995799659,
+    "delisting_probability": 0.021642929957996382,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5703,7 +5703,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.0,
-    "delisting_probability": 0.08010163455718784,
+    "delisting_probability": 0.08010163455718765,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5714,7 +5714,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 63.1,
-    "delisting_probability": 0.631249515536887,
+    "delisting_probability": 0.6312495155368881,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5725,7 +5725,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.2,
-    "delisting_probability": 0.1822760279921754,
+    "delisting_probability": 0.18227602799217527,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5736,7 +5736,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 78.8,
-    "delisting_probability": 0.78789479034571,
+    "delisting_probability": 0.7878947903457107,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5747,7 +5747,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 46.0,
-    "delisting_probability": 0.45996721779617217,
+    "delisting_probability": 0.45996721779617206,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5758,7 +5758,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 23.9,
-    "delisting_probability": 0.23925861019042186,
+    "delisting_probability": 0.23925861019042155,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5769,7 +5769,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 93.5,
-    "delisting_probability": 0.9351556383258044,
+    "delisting_probability": 0.935155638325805,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5780,7 +5780,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.8,
-    "delisting_probability": 0.11789583163957494,
+    "delisting_probability": 0.11789583163957466,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5791,7 +5791,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.8,
-    "delisting_probability": 0.16796246399650677,
+    "delisting_probability": 0.16796246399650655,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5802,7 +5802,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.2,
-    "delisting_probability": 0.06159548188178212,
+    "delisting_probability": 0.06159548188178182,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5813,7 +5813,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 33.0,
-    "delisting_probability": 0.3296630631098026,
+    "delisting_probability": 0.32966306310980203,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5824,7 +5824,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 22.9,
-    "delisting_probability": 0.22908291719993945,
+    "delisting_probability": 0.22908291719993873,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5846,7 +5846,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.2,
-    "delisting_probability": 0.11163806565992823,
+    "delisting_probability": 0.11163806565992779,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5857,7 +5857,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 81.1,
-    "delisting_probability": 0.8112949605787653,
+    "delisting_probability": 0.8112949605787658,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5868,7 +5868,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 32.6,
-    "delisting_probability": 0.3255791934970834,
+    "delisting_probability": 0.32557919349708353,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5879,7 +5879,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 31.9,
-    "delisting_probability": 0.3194299652295208,
+    "delisting_probability": 0.3194299652295205,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5890,7 +5890,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.1,
-    "delisting_probability": 0.11076042287064945,
+    "delisting_probability": 0.11076042287064915,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5901,7 +5901,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 78.3,
-    "delisting_probability": 0.7825361134569254,
+    "delisting_probability": 0.7825361134569259,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5912,7 +5912,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.1,
-    "delisting_probability": 0.08051118141909244,
+    "delisting_probability": 0.0805111814190921,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5923,7 +5923,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.8,
-    "delisting_probability": 0.17791583635838298,
+    "delisting_probability": 0.17791583635838304,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5934,7 +5934,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.0,
-    "delisting_probability": 0.17016583601647683,
+    "delisting_probability": 0.1701658360164765,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5945,7 +5945,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.9,
-    "delisting_probability": 0.14946050046892617,
+    "delisting_probability": 0.149460500468926,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5956,7 +5956,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.8,
-    "delisting_probability": 0.13799117567473618,
+    "delisting_probability": 0.1379911756747359,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5967,7 +5967,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.7,
-    "delisting_probability": 0.13726724095379564,
+    "delisting_probability": 0.13726724095379533,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5978,7 +5978,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 69.4,
-    "delisting_probability": 0.6941829993168395,
+    "delisting_probability": 0.6941829993168399,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -5989,7 +5989,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 50.1,
-    "delisting_probability": 0.5009462381393657,
+    "delisting_probability": 0.5009462381393658,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6000,7 +6000,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 21.6,
-    "delisting_probability": 0.21644314943814288,
+    "delisting_probability": 0.2164431494381425,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6011,7 +6011,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.7,
-    "delisting_probability": 0.08705541392354917,
+    "delisting_probability": 0.08705541392354892,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6022,7 +6022,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 24.6,
-    "delisting_probability": 0.2459815344595074,
+    "delisting_probability": 0.2459815344595073,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6033,7 +6033,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.3,
-    "delisting_probability": 0.13298195108108213,
+    "delisting_probability": 0.13298195108108185,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6044,7 +6044,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.6,
-    "delisting_probability": 0.08574329589589975,
+    "delisting_probability": 0.08574329589589928,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6055,7 +6055,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.5,
-    "delisting_probability": 0.05514989999731512,
+    "delisting_probability": 0.05514989999731485,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6066,7 +6066,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 63.6,
-    "delisting_probability": 0.6358414199961524,
+    "delisting_probability": 0.6358414199961531,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6077,7 +6077,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.6,
-    "delisting_probability": 0.12578590420321895,
+    "delisting_probability": 0.12578590420321858,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6088,7 +6088,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 21.5,
-    "delisting_probability": 0.2145230349459605,
+    "delisting_probability": 0.21452303494596017,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6099,7 +6099,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 24.2,
-    "delisting_probability": 0.24186960876948452,
+    "delisting_probability": 0.24186960876948457,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6110,7 +6110,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 18.7,
-    "delisting_probability": 0.18696995680336922,
+    "delisting_probability": 0.18696995680336997,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6121,7 +6121,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.8,
-    "delisting_probability": 0.18765372967340788,
+    "delisting_probability": 0.1876537296734077,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6132,7 +6132,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.0,
-    "delisting_probability": 0.060037998185071134,
+    "delisting_probability": 0.060037998185070905,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6143,7 +6143,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.3,
-    "delisting_probability": 0.1729638896498164,
+    "delisting_probability": 0.17296388964981604,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6154,7 +6154,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.7,
-    "delisting_probability": 0.07657970120720294,
+    "delisting_probability": 0.07657970120720262,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6165,7 +6165,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.3,
-    "delisting_probability": 0.17256890008437223,
+    "delisting_probability": 0.17256890008437226,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6176,7 +6176,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 15.4,
-    "delisting_probability": 0.15357633572819365,
+    "delisting_probability": 0.15357633572819382,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6187,7 +6187,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 70.6,
-    "delisting_probability": 0.7058860523933558,
+    "delisting_probability": 0.7058860523933567,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6198,7 +6198,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.3,
-    "delisting_probability": 0.16316784482080834,
+    "delisting_probability": 0.1631678448208078,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6209,7 +6209,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 46.2,
-    "delisting_probability": 0.46168701724253136,
+    "delisting_probability": 0.4616870172425322,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6220,7 +6220,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.2,
-    "delisting_probability": 0.10249370428669842,
+    "delisting_probability": 0.10249370428669806,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6231,7 +6231,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.7,
-    "delisting_probability": 0.08699221529460331,
+    "delisting_probability": 0.08699221529460298,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6242,7 +6242,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 14.6,
-    "delisting_probability": 0.14563498822679452,
+    "delisting_probability": 0.14563498822679438,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6253,7 +6253,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 84.5,
-    "delisting_probability": 0.8452154272579252,
+    "delisting_probability": 0.8452154272579259,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6264,7 +6264,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.8,
-    "delisting_probability": 0.06792073788227107,
+    "delisting_probability": 0.06792073788227079,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6275,7 +6275,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.2,
-    "delisting_probability": 0.10183265114404089,
+    "delisting_probability": 0.10183265114404069,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6286,7 +6286,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 28.3,
-    "delisting_probability": 0.2830078799475369,
+    "delisting_probability": 0.28300787994753646,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6297,7 +6297,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.5,
-    "delisting_probability": 0.10463080165626783,
+    "delisting_probability": 0.10463080165626758,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6308,7 +6308,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.0,
-    "delisting_probability": 0.08988601159041222,
+    "delisting_probability": 0.08988601159041193,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6319,7 +6319,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.0,
-    "delisting_probability": 0.07952782191522802,
+    "delisting_probability": 0.07952782191522773,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6330,7 +6330,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.3,
-    "delisting_probability": 0.09311816393133225,
+    "delisting_probability": 0.09311816393133211,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6341,7 +6341,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 36.5,
-    "delisting_probability": 0.36524570313620836,
+    "delisting_probability": 0.3652457031362082,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6352,7 +6352,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.1,
-    "delisting_probability": 0.1209633247664046,
+    "delisting_probability": 0.12096332476640435,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6363,7 +6363,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.4,
-    "delisting_probability": 0.17410823833906156,
+    "delisting_probability": 0.17410823833906142,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6374,7 +6374,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.2,
-    "delisting_probability": 0.16170233653282223,
+    "delisting_probability": 0.16170233653282196,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6385,7 +6385,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 14.4,
-    "delisting_probability": 0.14432407313134835,
+    "delisting_probability": 0.1443240731313482,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6396,7 +6396,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 88.5,
-    "delisting_probability": 0.8846546578549803,
+    "delisting_probability": 0.8846546578549811,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6407,7 +6407,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 65.1,
-    "delisting_probability": 0.6505177461541805,
+    "delisting_probability": 0.650517746154181,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6429,7 +6429,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 38.3,
-    "delisting_probability": 0.383055810815578,
+    "delisting_probability": 0.38305581081557694,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6440,7 +6440,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.5,
-    "delisting_probability": 0.06510285703734113,
+    "delisting_probability": 0.06510285703734096,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6451,7 +6451,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 80.8,
-    "delisting_probability": 0.8080515540466658,
+    "delisting_probability": 0.8080515540466664,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6462,7 +6462,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.6,
-    "delisting_probability": 0.07559418518196975,
+    "delisting_probability": 0.07559418518196938,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6473,7 +6473,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.4,
-    "delisting_probability": 0.16392684905174043,
+    "delisting_probability": 0.16392684905174024,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6484,7 +6484,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.9,
-    "delisting_probability": 0.1992897354202598,
+    "delisting_probability": 0.19928973542025955,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6495,7 +6495,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 58.6,
-    "delisting_probability": 0.5855421368645594,
+    "delisting_probability": 0.58554213686456,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6506,7 +6506,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 29.9,
-    "delisting_probability": 0.2990535100076056,
+    "delisting_probability": 0.2990535100076053,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6517,7 +6517,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 36.2,
-    "delisting_probability": 0.3622237276082962,
+    "delisting_probability": 0.36222372760829596,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6528,7 +6528,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 9.4,
-    "delisting_probability": 0.09440656068465303,
+    "delisting_probability": 0.0944065606846528,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6539,7 +6539,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 69.9,
-    "delisting_probability": 0.699433337872853,
+    "delisting_probability": 0.6994333378728536,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6550,7 +6550,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 15.9,
-    "delisting_probability": 0.15924162921199933,
+    "delisting_probability": 0.15924162921199905,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6561,7 +6561,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.3,
-    "delisting_probability": 0.13286661665555466,
+    "delisting_probability": 0.1328666166555545,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6572,7 +6572,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.4,
-    "delisting_probability": 0.10382842233676982,
+    "delisting_probability": 0.1038284223367695,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6583,7 +6583,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.0,
-    "delisting_probability": 0.1401460390979513,
+    "delisting_probability": 0.14014603909795095,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6594,7 +6594,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 97.8,
-    "delisting_probability": 0.9777120020343152,
+    "delisting_probability": 0.9777120020343153,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6605,7 +6605,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.8,
-    "delisting_probability": 0.1184536592441732,
+    "delisting_probability": 0.11845365924417295,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6616,7 +6616,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 56.4,
-    "delisting_probability": 0.5639583271260388,
+    "delisting_probability": 0.5639583271260398,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6627,7 +6627,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 33.3,
-    "delisting_probability": 0.33323278878099005,
+    "delisting_probability": 0.3332327887809902,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6638,7 +6638,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 23.3,
-    "delisting_probability": 0.2331937618021297,
+    "delisting_probability": 0.2331937618021293,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6649,7 +6649,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.1,
-    "delisting_probability": 0.06060477534762766,
+    "delisting_probability": 0.06060477534762727,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6660,7 +6660,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 41.4,
-    "delisting_probability": 0.41448968138197523,
+    "delisting_probability": 0.4144896813819749,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6671,7 +6671,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.6,
-    "delisting_probability": 0.12628920200254823,
+    "delisting_probability": 0.12628920200254803,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6682,7 +6682,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 14.7,
-    "delisting_probability": 0.14674249123706765,
+    "delisting_probability": 0.14674249123706767,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6693,7 +6693,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.1,
-    "delisting_probability": 0.19134511320588599,
+    "delisting_probability": 0.19134511320588546,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6704,7 +6704,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 57.4,
-    "delisting_probability": 0.57363345160312,
+    "delisting_probability": 0.5736334516031198,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6715,7 +6715,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 21.3,
-    "delisting_probability": 0.21288733177750538,
+    "delisting_probability": 0.2128873317775057,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6726,7 +6726,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.6,
-    "delisting_probability": 0.10571654186119743,
+    "delisting_probability": 0.10571654186119714,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6737,7 +6737,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 19.8,
-    "delisting_probability": 0.19825523439893403,
+    "delisting_probability": 0.19825523439893364,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6759,7 +6759,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 10.5,
-    "delisting_probability": 0.1048083872432172,
+    "delisting_probability": 0.10480838724321681,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6770,7 +6770,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.0,
-    "delisting_probability": 0.07985567333951617,
+    "delisting_probability": 0.0798556733395159,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6781,7 +6781,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.5,
-    "delisting_probability": 0.0853660603582257,
+    "delisting_probability": 0.0853660603582255,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6792,7 +6792,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.4,
-    "delisting_probability": 0.12397812593529735,
+    "delisting_probability": 0.1239781259352969,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6803,7 +6803,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 32.9,
-    "delisting_probability": 0.32936889503668326,
+    "delisting_probability": 0.32936889503668315,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6814,7 +6814,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 4.0,
-    "delisting_probability": 0.04023973641400973,
+    "delisting_probability": 0.04023973641400944,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6825,7 +6825,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 18.2,
-    "delisting_probability": 0.1815216228603298,
+    "delisting_probability": 0.18152162286032988,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6836,7 +6836,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 33.2,
-    "delisting_probability": 0.33155901692134193,
+    "delisting_probability": 0.3315590169213425,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6847,7 +6847,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.4,
-    "delisting_probability": 0.06417149528969532,
+    "delisting_probability": 0.06417149528969492,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6858,7 +6858,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.3,
-    "delisting_probability": 0.17290444806521604,
+    "delisting_probability": 0.1729044480652159,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6869,7 +6869,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 40.6,
-    "delisting_probability": 0.40577551206625384,
+    "delisting_probability": 0.40577551206625445,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6880,7 +6880,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.3,
-    "delisting_probability": 0.06329038648950752,
+    "delisting_probability": 0.06329038648950726,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6891,7 +6891,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 4.5,
-    "delisting_probability": 0.045409582387379986,
+    "delisting_probability": 0.045409582387379646,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6902,7 +6902,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 67.3,
-    "delisting_probability": 0.6730818515955196,
+    "delisting_probability": 0.6730818515955199,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6913,7 +6913,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 16.2,
-    "delisting_probability": 0.1617675260075111,
+    "delisting_probability": 0.1617675260075107,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6924,7 +6924,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 27.9,
-    "delisting_probability": 0.2789618335986297,
+    "delisting_probability": 0.27896183359862947,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6935,7 +6935,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.1,
-    "delisting_probability": 0.1006309879904776,
+    "delisting_probability": 0.10063098799047732,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6946,7 +6946,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.7,
-    "delisting_probability": 0.12698277925257145,
+    "delisting_probability": 0.12698277925257154,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6957,7 +6957,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.2,
-    "delisting_probability": 0.10245101496816654,
+    "delisting_probability": 0.1024510149681662,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6968,7 +6968,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 22.6,
-    "delisting_probability": 0.226073246179519,
+    "delisting_probability": 0.22607324617951874,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6979,7 +6979,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 11.1,
-    "delisting_probability": 0.11143792791180936,
+    "delisting_probability": 0.11143792791180918,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -6990,7 +6990,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.2,
-    "delisting_probability": 0.07200391369801516,
+    "delisting_probability": 0.0720039136980149,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7012,7 +7012,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 9.4,
-    "delisting_probability": 0.0938019911446178,
+    "delisting_probability": 0.09380199114461743,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7023,7 +7023,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 21.1,
-    "delisting_probability": 0.21067242789588456,
+    "delisting_probability": 0.21067242789588495,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7034,7 +7034,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 42.4,
-    "delisting_probability": 0.42392897486390463,
+    "delisting_probability": 0.4239289748639052,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7045,7 +7045,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 27.9,
-    "delisting_probability": 0.27939614933174567,
+    "delisting_probability": 0.2793961493317454,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7056,7 +7056,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.4,
-    "delisting_probability": 0.1741702282611996,
+    "delisting_probability": 0.17417022826119932,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7067,7 +7067,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.5,
-    "delisting_probability": 0.10497158453606988,
+    "delisting_probability": 0.10497158453606935,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7078,7 +7078,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 13.9,
-    "delisting_probability": 0.13865213350244385,
+    "delisting_probability": 0.13865213350244363,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7089,7 +7089,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 45.8,
-    "delisting_probability": 0.45790653245791596,
+    "delisting_probability": 0.4579065324579167,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7100,7 +7100,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.1,
-    "delisting_probability": 0.06131490541232921,
+    "delisting_probability": 0.06131490541232894,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7111,7 +7111,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 10.4,
-    "delisting_probability": 0.10374610867899772,
+    "delisting_probability": 0.10374610867899726,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7122,7 +7122,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.3,
-    "delisting_probability": 0.08341850819867465,
+    "delisting_probability": 0.0834185081986745,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7133,7 +7133,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 36.9,
-    "delisting_probability": 0.36934503020601284,
+    "delisting_probability": 0.3693450302060122,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7144,7 +7144,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 20.8,
-    "delisting_probability": 0.20763663699902515,
+    "delisting_probability": 0.20763663699902482,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7155,7 +7155,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.0,
-    "delisting_probability": 0.17049664319193686,
+    "delisting_probability": 0.17049664319193625,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7166,7 +7166,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 5.0,
-    "delisting_probability": 0.049719919112173105,
+    "delisting_probability": 0.049719919112172856,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7177,7 +7177,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 3.0,
-    "delisting_probability": 0.029988295599903715,
+    "delisting_probability": 0.029988295599903486,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7188,7 +7188,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 3.2,
-    "delisting_probability": 0.03162584217418171,
+    "delisting_probability": 0.03162584217418149,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7199,7 +7199,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 92.1,
-    "delisting_probability": 0.9212454625729917,
+    "delisting_probability": 0.9212454625729922,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7221,7 +7221,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 49.8,
-    "delisting_probability": 0.4976559393721373,
+    "delisting_probability": 0.4976559393721374,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7232,7 +7232,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 7.7,
-    "delisting_probability": 0.07705521178801703,
+    "delisting_probability": 0.0770552117880169,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7243,7 +7243,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 6.0,
-    "delisting_probability": 0.06033304954626191,
+    "delisting_probability": 0.06033304954626168,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7254,7 +7254,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 24.5,
-    "delisting_probability": 0.24524143333839882,
+    "delisting_probability": 0.24524143333839876,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7265,7 +7265,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 37.2,
-    "delisting_probability": 0.3719303745185675,
+    "delisting_probability": 0.37193037451856803,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7276,7 +7276,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 71.1,
-    "delisting_probability": 0.7106439759137595,
+    "delisting_probability": 0.7106439759137605,
     "label": 0,
     "capital_impairment": 1,
     "rule_adjusted": false
@@ -7287,7 +7287,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 16.0,
-    "delisting_probability": 0.16023281451379043,
+    "delisting_probability": 0.16023281451379007,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7298,7 +7298,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 8.2,
-    "delisting_probability": 0.08204498786034714,
+    "delisting_probability": 0.08204498786034678,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7309,7 +7309,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 17.1,
-    "delisting_probability": 0.1713229019173936,
+    "delisting_probability": 0.1713229019173935,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7320,7 +7320,7 @@
     "category": "financial_distress",
     "year": 2025,
     "risk_score": 72.6,
-    "delisting_probability": 0.7259977071526458,
+    "delisting_probability": 0.7259977071526468,
     "label": 1,
     "capital_impairment": 0,
     "rule_adjusted": false
@@ -7331,7 +7331,7 @@
     "category": "healthy_benchmark",
     "year": 2025,
     "risk_score": 12.3,
-    "delisting_probability": 0.12316322382015127,
+    "delisting_probability": 0.1231632238201509,
     "label": 0,
     "capital_impairment": 0,
     "rule_adjusted": false

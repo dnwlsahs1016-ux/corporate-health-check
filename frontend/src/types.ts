@@ -82,6 +82,26 @@ export interface ModelMetrics {
     roc_auc?: number;
     error?: string;
   };
+  ensemble_benchmark: {
+    split_year: number;
+    n_test: number;
+    n_test_positive?: number;
+    logistic_only_auc?: number;
+    altman_only_auc?: number;
+    ensemble_auc?: number;
+    error?: string;
+  };
+  random_split_benchmark: {
+    test_size: number;
+    n_train?: number;
+    n_train_positive?: number;
+    n_test?: number;
+    n_test_positive?: number;
+    roc_auc?: number;
+    precision?: number;
+    recall?: number;
+    error?: string;
+  };
 }
 
 export const RATIO_LABELS: Record<string, string> = {

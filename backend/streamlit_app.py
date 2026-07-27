@@ -295,6 +295,39 @@ def render_model_validation():
                 "계수를 학습해 이 검증 구간에서 더 높은 판별력을 보였습니다."
             )
 
+        ensemble = metrics.get("ensemble_benchmark")
+        if ensemble and "error" not in ensemble and ensemble.get("ensemble_auc") is not None:
+            st.divider()
+            st.markdown("**로지스틱회귀 + Altman Z-Score 앙상블 실험**")
+            st.caption("두 모델의 예측 확률을 단순평균해서 결합하면 더 나아지는지도 같은 검증 구간에서 테스트했습니다.")
+            ecols = st.columns(3)
+            ecols[0].metric("로지스틱 단독", f"{ensemble['logistic_only_auc']:.3f}")
+            ecols[1].metric("Altman 단독", f"{ensemble['altman_only_auc']:.3f}")
+            ecols[2].metric("단순평균 앙상블", f"{ensemble['ensemble_auc']:.3f}")
+            st.caption(
+                "※ 정직하게 보고하면, 이 앙상블은 로지스틱 단독보다 오히려 낮은 AUC가 나왔습니다. "
+                "Altman 단독 성능이 상대적으로 약해서 평균을 내면 로지스틱의 신호를 끌어내리는 효과가 "
+                "난 것으로 보입니다. 그래서 서비스에는 앙상블 대신 로지스틱회귀 단독 점수를 사용합니다."
+            )
+
+        random_split = metrics.get("random_split_benchmark")
+        if random_split and "error" not in random_split and random_split.get("roc_auc") is not None:
+            st.divider()
+            train_pct = round((1 - random_split["test_size"]) * 100)
+            test_pct = round(random_split["test_size"] * 100)
+            st.markdown(f"**(참고) 시간 순서를 무시한 무작위 {train_pct}:{test_pct} 분할 결과**")
+            st.caption("기업-연도 로우를 연도 상관없이 라벨 비율을 유지한 채 무작위로 나눠 평가하면 어떻게 달라지는지도 확인했습니다.")
+            rcols = st.columns(2)
+            rcols[0].metric("무작위 분할 AUC", f"{random_split['roc_auc']:.3f}")
+            rcols[1].metric("시계열 분할 AUC(위 기준)", f"{holdout['roc_auc']:.3f}")
+            st.caption(
+                "※ 무작위 분할이 시계열 분할보다 수치가 더 높게 나옵니다. 무작위 분할은 2024년 데이터가 "
+                "학습에, 2020년 데이터가 검증에 들어가는 식으로 미래 정보가 은연중에 섞일 수 있어 실제보다 "
+                "낙관적인 성능으로 보이기 쉽습니다. \"내년도 위험을 예측한다\"는 이 서비스의 실제 사용 "
+                "시나리오와는 시계열 분할이 더 정직한 검증이라고 판단해, 대표 검증 지표로는 시계열 분할(위) "
+                "결과를 사용합니다."
+            )
+
 
 def main():
     st.markdown(

@@ -5,6 +5,8 @@ export default function ModelValidation({ metrics }: { metrics: ModelMetrics }) 
   const [open, setOpen] = useState(false);
   const h = metrics.temporal_holdout;
   const a = metrics.altman_benchmark;
+  const e = metrics.ensemble_benchmark;
+  const r = metrics.random_split_benchmark;
 
   if (h.error || h.roc_auc == null) return null;
 
@@ -81,6 +83,55 @@ export default function ModelValidation({ metrics }: { metrics: ModelMetrics }) 
               <p style={{ fontSize: 11.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
                 고정된 계수식인 Z-Score와 달리, 로지스틱 회귀는 거시조정된 지표로 데이터에 맞춰
                 계수를 학습해 이 검증 구간에서 더 높은 판별력을 보였습니다.
+              </p>
+            </>
+          )}
+
+          {e && !e.error && e.ensemble_auc != null && (
+            <>
+              <hr style={{ border: "none", borderTop: "1px solid var(--color-border)", margin: "14px 0" }} />
+              <p style={{ fontSize: 13, fontWeight: 700, margin: "0 0 6px" }}>
+                로지스틱회귀 + Altman Z-Score 앙상블 실험
+              </p>
+              <p style={{ fontSize: 12.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+                두 모델의 예측 확률을 단순평균해서 결합하면 더 나아지는지도 같은 검증 구간에서
+                테스트했습니다.
+              </p>
+              <div style={{ display: "flex", gap: 24, flexWrap: "wrap", margin: "8px 0" }}>
+                <Stat label="로지스틱 단독" value={e.logistic_only_auc!.toFixed(3)} highlight />
+                <Stat label="Altman 단독" value={e.altman_only_auc!.toFixed(3)} />
+                <Stat label="단순평균 앙상블" value={e.ensemble_auc!.toFixed(3)} />
+              </div>
+              <p style={{ fontSize: 11.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+                ※ 정직하게 보고하면, 이 앙상블은 로지스틱 단독보다 오히려 낮은 AUC가 나왔습니다.
+                Altman 단독 성능이 상대적으로 약해서 평균을 내면 로지스틱의 신호를 끌어내리는
+                효과가 난 것으로 보입니다. 그래서 서비스에는 앙상블 대신 로지스틱회귀 단독
+                점수를 사용합니다.
+              </p>
+            </>
+          )}
+
+          {r && !r.error && r.roc_auc != null && (
+            <>
+              <hr style={{ border: "none", borderTop: "1px solid var(--color-border)", margin: "14px 0" }} />
+              <p style={{ fontSize: 13, fontWeight: 700, margin: "0 0 6px" }}>
+                (참고) 시간 순서를 무시한 무작위 {Math.round((1 - r.test_size) * 100)}:
+                {Math.round(r.test_size * 100)} 분할 결과
+              </p>
+              <p style={{ fontSize: 12.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+                기업-연도 로우를 연도 상관없이 라벨 비율을 유지한 채 무작위로 나눠 평가하면
+                어떻게 달라지는지도 확인했습니다.
+              </p>
+              <div style={{ display: "flex", gap: 24, flexWrap: "wrap", margin: "8px 0" }}>
+                <Stat label="무작위 분할 AUC" value={r.roc_auc!.toFixed(3)} />
+                <Stat label="시계열 분할 AUC(위 기준)" value={h.roc_auc!.toFixed(3)} />
+              </div>
+              <p style={{ fontSize: 11.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+                ※ 무작위 분할이 시계열 분할보다 수치가 더 높게 나옵니다. 무작위 분할은 2024년
+                데이터가 학습에, 2020년 데이터가 검증에 들어가는 식으로 미래 정보가 은연중에
+                섞일 수 있어 실제보다 낙관적인 성능으로 보이기 쉽습니다. "내년도 위험을
+                예측한다"는 이 서비스의 실제 사용 시나리오와는 시계열 분할이 더 정직한
+                검증이라고 판단해, 대표 검증 지표로는 시계열 분할(위) 결과를 사용합니다.
               </p>
             </>
           )}

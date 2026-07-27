@@ -7,7 +7,7 @@ from fastapi import APIRouter, HTTPException
 
 from app.core.config import PROCESSED_DIR
 from app.pipeline.benchmark import build_commentary, peer_average
-from app.pipeline.features import RATIO_COLUMNS
+from app.pipeline.features import RATIO_COLUMNS, altman_zone
 from app.pipeline.model import MODEL_FEATURES, explain_score, load_model, prepare_model_frame
 
 router = APIRouter(prefix="/companies", tags=["companies"])
@@ -73,12 +73,16 @@ def get_company_detail(corp_name: str):
 
     timeline = []
     for _, row in company_rows.iterrows():
+        z = _clean(row.get("altman_zscore"))
         entry = {
             "year": int(row["year"]),
             "risk_score": _clean(row["risk_score"]),
             "label": int(row["label"]),
             "ratios": {r: _clean(row[r]) for r in RATIO_COLUMNS},
             "ratios_idiosyncratic": {r: _clean(row[f"{r}_idio"]) for r in RATIO_COLUMNS},
+            "altman_zscore": z,
+            "altman_zone": altman_zone(z),
+            "altman_risk_score": _clean(row.get("altman_risk_score")),
         }
         timeline.append(entry)
 

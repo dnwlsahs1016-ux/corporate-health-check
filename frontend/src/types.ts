@@ -14,6 +14,9 @@ export interface TimelineEntry {
   label: number;
   ratios: Record<string, number | null>;
   ratios_idiosyncratic: Record<string, number | null>;
+  altman_zscore: number | null;
+  altman_zone: string | null;
+  altman_risk_score: number | null;
 }
 
 export interface RatioCommentary {
@@ -70,6 +73,13 @@ export interface ModelMetrics {
       false_negative: number;
       true_positive: number;
     };
+    error?: string;
+  };
+  altman_benchmark: {
+    split_year: number;
+    n_test: number;
+    n_test_positive?: number;
+    roc_auc?: number;
     error?: string;
   };
 }

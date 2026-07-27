@@ -21,7 +21,7 @@ import streamlit as st
 
 from app.core.config import PROCESSED_DIR
 from app.pipeline.benchmark import build_commentary, peer_average
-from app.pipeline.features import RATIO_COLUMNS, RATIO_META
+from app.pipeline.features import RATIO_COLUMNS, RATIO_META, altman_zone
 from app.pipeline.model import MODEL_FEATURES, explain_score, load_model, prepare_model_frame
 
 PANEL_PATH = PROCESSED_DIR / "panel.parquet"
@@ -194,6 +194,24 @@ def render_company_detail(panel: pd.DataFrame, corp_name: str, bundle: dict):
     with header_cols[1]:
         render_gauge(float(latest_row["risk_score"]))
 
+    z = latest_row.get("altman_zscore")
+    if pd.notna(z):
+        az_score = latest_row.get("altman_risk_score")
+        line = f"Altman Z'-Score(전통적 부실예측 공식) **{z:.2f}** ({altman_zone(z)})"
+        if pd.notna(az_score):
+            line += f" · 환산 위험점수 **{az_score:.1f}**/100"
+        st.caption(line)
+        with st.expander("Altman Score란?", expanded=False):
+            st.caption(
+                "Altman Z-Score는 1968년 에드워드 알트만 교수가 만든, 지금도 감사·신용평가 실무에서 "
+                "널리 쓰이는 전통적 부실예측 공식입니다. 순운전자본·이익잉여금·영업이익·자기자본·매출액을 "
+                "총자산(또는 부채) 대비 비율로 조합해 하나의 점수(Z)로 계산하며, 점수가 낮을수록 부실 "
+                "위험이 크다고 봅니다(2.9 이상 안전지대, 1.23~2.9 회색지대, 1.23 미만 부실위험지대). "
+                "이 서비스는 연도별 시가총액 이력이 없어 시장가치 대신 장부가 자기자본을 쓰는 변형인 "
+                "Z'-Score를 사용했습니다. '환산 위험점수'는 Z-Score를 우리 모델과 같은 0~100 척도로 "
+                "비교할 수 있도록 별도의 1변수 로지스틱회귀로 보정한 값입니다."
+            )
+
     prepared_panel = prepare_model_frame(panel)
     prepared_row = prepared_panel[
         (prepared_panel["corp_name"] == corp_name) & (prepared_panel["year"] == latest_year)
@@ -259,6 +277,23 @@ def render_model_validation():
             "극단적 불균형 데이터에서 class_weight='balanced'로 재현율을 우선했기 때문에, "
             "위험하다고 예측한 기업 중 실제로 폐지된 비율은 낮지만 실제 폐지 사례의 상당수는 놓치지 않습니다."
         )
+
+        altman = metrics.get("altman_benchmark")
+        if altman and "error" not in altman and altman.get("roc_auc") is not None:
+            st.divider()
+            st.markdown("**전통적 Altman Z'-Score 대비**")
+            st.caption(
+                f"같은 검증 구간({holdout['split_year'] + 1}년 이후)에서, 감사·신용평가 실무에서 "
+                "흔히 쓰이는 전통적 부실예측 공식인 Altman Z'-Score를 위험 순위로 사용했을 때의 "
+                "판별력과 비교했습니다."
+            )
+            zcols = st.columns(2)
+            zcols[0].metric("로지스틱회귀 모델 AUC", f"{holdout['roc_auc']:.3f}")
+            zcols[1].metric("Altman Z'-Score AUC", f"{altman['roc_auc']:.3f}")
+            st.caption(
+                "고정된 계수식인 Z-Score와 달리, 로지스틱 회귀는 거시조정된 지표로 데이터에 맞춰 "
+                "계수를 학습해 이 검증 구간에서 더 높은 판별력을 보였습니다."
+            )
 
 
 def main():

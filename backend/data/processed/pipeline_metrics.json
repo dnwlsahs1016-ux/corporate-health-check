@@ -19,5 +19,11 @@
       "false_negative": 11,
       "true_positive": 19
     }
+  },
+  "altman_benchmark": {
+    "split_year": 2022,
+    "n_test": 1563,
+    "n_test_positive": 29,
+    "roc_auc": 0.7490558827496291
   }
 }

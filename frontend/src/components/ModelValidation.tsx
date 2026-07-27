@@ -4,6 +4,7 @@ import type { ModelMetrics } from "../types";
 export default function ModelValidation({ metrics }: { metrics: ModelMetrics }) {
   const [open, setOpen] = useState(false);
   const h = metrics.temporal_holdout;
+  const a = metrics.altman_benchmark;
 
   if (h.error || h.roc_auc == null) return null;
 
@@ -61,17 +62,41 @@ export default function ModelValidation({ metrics }: { metrics: ModelMetrics }) 
             예측한 기업 중 실제로 폐지된 비율은 낮지만 실제 폐지 사례의 상당수는 놓치지
             않습니다.
           </p>
+
+          {a && !a.error && a.roc_auc != null && (
+            <>
+              <hr style={{ border: "none", borderTop: "1px solid var(--color-border)", margin: "14px 0" }} />
+              <p style={{ fontSize: 13, fontWeight: 700, margin: "0 0 6px" }}>
+                전통적 Altman Z'-Score 대비
+              </p>
+              <p style={{ fontSize: 12.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+                같은 검증 구간({h.split_year + 1}년 이후)에서, 감사·신용평가 실무에서 흔히 쓰이는
+                전통적 부실예측 공식인 Altman Z'-Score를 위험 순위로 사용했을 때의 판별력과
+                비교했습니다.
+              </p>
+              <div style={{ display: "flex", gap: 24, flexWrap: "wrap", margin: "8px 0" }}>
+                <Stat label="로지스틱회귀 모델 AUC" value={h.roc_auc!.toFixed(3)} highlight />
+                <Stat label="Altman Z'-Score AUC" value={a.roc_auc!.toFixed(3)} />
+              </div>
+              <p style={{ fontSize: 11.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+                고정된 계수식인 Z-Score와 달리, 로지스틱 회귀는 거시조정된 지표로 데이터에 맞춰
+                계수를 학습해 이 검증 구간에서 더 높은 판별력을 보였습니다.
+              </p>
+            </>
+          )}
         </div>
       )}
     </div>
   );
 }
 
-function Stat({ label, value }: { label: string; value: string }) {
+function Stat({ label, value, highlight }: { label: string; value: string; highlight?: boolean }) {
   return (
     <div>
       <div style={{ fontSize: 11, color: "var(--color-text-muted)" }}>{label}</div>
-      <div style={{ fontSize: 20, fontWeight: 700 }}>{value}</div>
+      <div style={{ fontSize: 20, fontWeight: 700, color: highlight ? "var(--color-primary)" : undefined }}>
+        {value}
+      </div>
     </div>
   );
 }

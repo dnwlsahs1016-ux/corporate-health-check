@@ -97,6 +97,53 @@ def evaluate_temporal_holdout(panel: pd.DataFrame, split_year: int = 2022) -> di
     return result
 
 
+def evaluate_altman_benchmark(panel: pd.DataFrame, split_year: int = 2022) -> dict:
+    """같은 검증 구간(split_year 이후)에서 전통적 Altman Z'-Score를 위험 순위로 썼을 때의
+    판별력(AUC)을 계산해, 로지스틱회귀 모델과 나란히 비교한다. Z-Score가 낮을수록 위험하므로
+    부호를 뒤집어(-Z) 위험 점수로 사용한다. Z-Score 계산에 필요한 이익잉여금 등이 없는
+    기업-연도는 비교에서 제외한다."""
+    test = panel[panel["year"] > split_year].dropna(subset=["altman_zscore", "label"])
+    result = {"split_year": split_year, "n_test": int(len(test))}
+
+    if test.empty or test["label"].nunique() < 2:
+        result["error"] = "검증 구간에 Z-Score를 계산할 수 있는 양성/음성 사례가 부족합니다."
+        return result
+
+    result["n_test_positive"] = int(test["label"].sum())
+    result["roc_auc"] = float(roc_auc_score(test["label"], -test["altman_zscore"]))
+    return result
+
+
+ALTMAN_MODEL_PATH = PROCESSED_DIR / "altman_calibrator.joblib"
+
+
+def fit_altman_calibrator(panel: pd.DataFrame) -> LogisticRegression | None:
+    """Altman Z'-Score는 그 자체로는 0~100 확률이 아니라 임의 스케일의 점수라, 우리 모델의
+    위험점수와 나란히 비교하려면 같은 척도로 환산해야 한다. Z-Score 하나만 입력으로 쓰는
+    1변수 로지스틱회귀를 별도로 학습해서(Platt scaling과 같은 방식) '이 Z-Score를 가진 기업이
+    내년 상장폐지될 확률'로 보정한다. 전체 기간 데이터로 학습해 서빙용 모델과 동일한 철학을
+    따른다."""
+    frame = panel.dropna(subset=["altman_zscore", "label"])
+    if frame["label"].nunique() < 2:
+        return None
+    X = frame[["altman_zscore"]]
+    y = frame["label"]
+    calibrator = LogisticRegression(class_weight="balanced", max_iter=2000)
+    calibrator.fit(X, y)
+    joblib.dump(calibrator, ALTMAN_MODEL_PATH)
+    return calibrator
+
+
+def score_altman(panel: pd.DataFrame, calibrator: LogisticRegression) -> pd.Series:
+    """Z-Score를 0~100 위험점수로 환산. calibrator가 없거나 Z-Score가 없는 행은 NaN."""
+    scores = pd.Series(index=panel.index, dtype=float)
+    valid = panel["altman_zscore"].notna()
+    if calibrator is not None and valid.any():
+        proba = calibrator.predict_proba(panel.loc[valid, ["altman_zscore"]])[:, 1]
+        scores.loc[valid] = (proba * 100).round(1)
+    return scores
+
+
 def load_model():
     return joblib.load(MODEL_PATH)
 

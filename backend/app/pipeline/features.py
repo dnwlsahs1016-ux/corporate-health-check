@@ -44,6 +44,11 @@ LINE_ITEMS: dict[str, dict] = {
         "account_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
         "name_contains": "영업활동",
     },
+    "retained_earnings": {
+        "sj_div": {"BS"},
+        "account_id": "ifrs-full_RetainedEarnings",
+        "name_contains": "이익잉여금",
+    },
 }
 
 
@@ -180,3 +185,58 @@ RATIO_META: dict[str, dict] = {
     "ocf_to_assets": {"label": "영업현금흐름/총자산", "higher_is_better": True, "format": "percent"},
     "revenue_growth": {"label": "매출액증가율", "higher_is_better": True, "format": "percent"},
 }
+
+
+def compute_altman_zscore(curr: dict[str, float | None]) -> float | None:
+    """Altman Z'-Score(비상장/장부가 기준 변형, Altman 1983).
+
+    원래 Z-Score(1968)는 X4(자기자본/부채)를 '자기자본 시가총액'으로 계산하지만,
+    본 파이프라인은 연도별 시가총액 이력을 수집하지 않으므로 장부가 기준 자기자본을
+    쓰는 Z' 변형을 사용한다. 감사·신용평가 실무에서도 비상장기업 평가에 널리 쓰이는
+    공식이라 방법론적으로 통용되는 대안이다.
+
+    Z' = 0.717*X1 + 0.847*X2 + 3.107*X3 + 0.420*X4 + 0.998*X5
+    X1 = 순운전자본/총자산, X2 = 이익잉여금/총자산, X3 = 영업이익(EBIT 근사)/총자산,
+    X4 = 자기자본(장부가)/부채총계, X5 = 매출액/총자산
+
+    구간: Z' > 2.9 안전, 1.23~2.9 회색지대, Z' < 1.23 부실위험.
+    """
+    assets = curr.get("assets")
+    if not assets:
+        return None
+
+    def safe_div(a, b):
+        if a is None or b in (None, 0):
+            return None
+        return a / b
+
+    current_assets = curr.get("current_assets")
+    current_liabilities = curr.get("current_liabilities")
+    working_capital = (
+        current_assets - current_liabilities
+        if current_assets is not None and current_liabilities is not None
+        else None
+    )
+
+    x1 = safe_div(working_capital, assets)
+    x2 = safe_div(curr.get("retained_earnings"), assets)
+    x3 = safe_div(curr.get("operating_income"), assets)
+    x4 = safe_div(curr.get("equity"), curr.get("liabilities"))
+    x5 = safe_div(curr.get("revenue"), assets)
+
+    components = [x1, x2, x3, x4, x5]
+    if any(c is None for c in components):
+        return None
+
+    weights = [0.717, 0.847, 3.107, 0.420, 0.998]
+    return sum(w * c for w, c in zip(weights, components))
+
+
+def altman_zone(z_score: float | None) -> str | None:
+    if z_score is None:
+        return None
+    if z_score > 2.9:
+        return "안전지대"
+    if z_score >= 1.23:
+        return "회색지대"
+    return "부실위험지대"

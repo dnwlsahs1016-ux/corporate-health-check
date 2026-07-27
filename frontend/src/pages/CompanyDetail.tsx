@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { fetchCompanyDetail } from "../api";
+import AltmanCompare from "../components/AltmanCompare";
 import IndicatorChart from "../components/IndicatorChart";
 import RiskExplanation from "../components/RiskExplanation";
 import RiskGauge from "../components/RiskGauge";
@@ -67,7 +68,9 @@ export default function CompanyDetail() {
         {latest && <RiskGauge score={latest.risk_score ?? 0} size={110} />}
       </div>
 
-      <div style={{ marginBottom: 32 }}>
+      {latest && <AltmanCompare entry={latest} />}
+
+      <div style={{ marginTop: 32, marginBottom: 32 }}>
         <RiskExplanation explanation={detail.risk_explanation} />
       </div>
 

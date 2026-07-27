@@ -5,7 +5,13 @@ import json
 import pandas as pd
 
 from app.core.config import PROCESSED_DIR
-from app.pipeline.model import MODEL_FEATURES, load_model, prepare_model_frame
+from app.pipeline.model import (
+    MODEL_FEATURES,
+    fit_altman_calibrator,
+    load_model,
+    prepare_model_frame,
+    score_altman,
+)
 
 SCORES_PATH = PROCESSED_DIR / "scores.json"
 
@@ -29,6 +35,10 @@ def score_panel(panel: pd.DataFrame) -> pd.DataFrame:
     panel["risk_score"] = model_score.where(
         ~is_impaired, model_score.clip(lower=CAPITAL_IMPAIRMENT_SCORE_FLOOR)
     )
+
+    altman_calibrator = fit_altman_calibrator(panel)
+    panel["altman_risk_score"] = score_altman(panel, altman_calibrator)
+
     return panel
 
 

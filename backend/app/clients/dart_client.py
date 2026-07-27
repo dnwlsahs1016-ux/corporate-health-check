@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import io
 import json
+import re
 import xml.etree.ElementTree as ET
 import zipfile
 from functools import lru_cache
@@ -54,6 +55,16 @@ def get_corp_code_map() -> dict[str, dict]:
     return mapping
 
 
+# 회사명 표기 차이(공백, 법인형태 표기)만 제거하기 위한 패턴. 여기 없는 글자는 절대
+# 제거하지 않는다 — "한국전자"처럼 짧은 이름이 "한국전자통신"(완전히 다른 회사)과
+# 섞이는 걸 막으려면, 정규화는 반드시 "의미 없는 표기 차이"로만 한정해야 한다.
+_CORP_SUFFIX_PATTERN = re.compile(r"(\(주\)|㈜|주식회사|홀딩스|지주회사|지주|\s+)")
+
+
+def _normalize_corp_name(name: str) -> str:
+    return _CORP_SUFFIX_PATTERN.sub("", name)
+
+
 def resolve_corp_code(corp_name: str, stock_code: str | None = None) -> str | None:
     """회사명(정확히 일치) 또는 종목코드로 DART corp_code를 찾는다."""
     mapping = get_corp_code_map()
@@ -66,10 +77,28 @@ def resolve_corp_code(corp_name: str, stock_code: str | None = None) -> str | No
             if info.get("stock_code") == stock_code:
                 return info["corp_code"]
 
-    # 부분 일치 fallback (사명 변경/공백 차이 대응)
-    for name, info in mapping.items():
-        if corp_name in name or name in corp_name:
-            return info["corp_code"]
+    # 부분 일치(substring) fallback은 쓰지 않는다. dict 순회 순서에 의존해 "먼저 걸리는
+    # 아무 회사"를 채택하면 조용한 오매칭(silent mismatch)이 생긴다 — 예: "한국전자"를
+    # 찾다가 완전히 무관한 "한국전자통신"이 먼저 걸려 그 회사 재무데이터가 섞여 들어갈 수
+    # 있다. 대신 공백/법인형태 표기((주), 홀딩스 등) 차이만 제거한 뒤 "완전히 같아지는"
+    # 경우만 매칭으로 인정한다. 그마저도 후보가 여러 개면(모호하면) 매칭 실패로 남겨
+    # 수동 검토 대상이 되게 한다 — 틀린 데이터가 섞이는 것보다 실패가 눈에 보이는 편이
+    # 훨씬 안전하다.
+    normalized_target = _normalize_corp_name(corp_name)
+    normalized_candidates = [
+        (name, info) for name, info in mapping.items() if _normalize_corp_name(name) == normalized_target
+    ]
+
+    if len(normalized_candidates) == 1:
+        name, info = normalized_candidates[0]
+        print(f"[dart_client] '{corp_name}' -> '{name}' 표기차이 정규화로 매칭")
+        return info["corp_code"]
+
+    if len(normalized_candidates) > 1:
+        print(
+            f"[dart_client] '{corp_name}' 정규화 후에도 후보 {len(normalized_candidates)}개로 "
+            f"모호해 매칭 보류: {[name for name, _ in normalized_candidates[:5]]}"
+        )
 
     return None
 

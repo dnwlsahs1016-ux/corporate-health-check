@@ -9,6 +9,8 @@ export default function ModelValidation({ metrics }: { metrics: ModelMetrics }) 
   const r = metrics.random_split_benchmark;
 
   if (h.error || h.roc_auc == null) return null;
+  const tuned = h.threshold_tuned;
+  const shown = tuned ?? h.threshold_default;
 
   return (
     <div
@@ -43,26 +45,50 @@ export default function ModelValidation({ metrics }: { metrics: ModelMetrics }) 
             모델(전체 기간 학습)과는 별개의 평가용 모델입니다.
           </p>
           <div style={{ display: "flex", gap: 24, flexWrap: "wrap", margin: "8px 0" }}>
-            <Stat label="ROC-AUC" value={h.roc_auc!.toFixed(3)} />
-            <Stat label="Recall(재현율)" value={`${(h.recall! * 100).toFixed(1)}%`} />
-            <Stat label="Precision(정밀도)" value={`${(h.precision! * 100).toFixed(1)}%`} />
+            <Stat
+              label="ROC-AUC"
+              value={
+                h.roc_auc_ci95
+                  ? `${h.roc_auc!.toFixed(3)} (95% CI ${h.roc_auc_ci95.lower.toFixed(2)}~${h.roc_auc_ci95.upper.toFixed(2)})`
+                  : h.roc_auc!.toFixed(3)
+              }
+            />
+            {h.pr_auc != null && (
+              <Stat
+                label="PR-AUC"
+                value={`${h.pr_auc.toFixed(3)} (기준선 ${(h.pr_auc_baseline! * 100).toFixed(1)}%)`}
+              />
+            )}
+            {shown && <Stat label="Recall(재현율)" value={`${(shown.recall * 100).toFixed(1)}%`} />}
+            {shown && <Stat label="Precision(정밀도)" value={`${(shown.precision * 100).toFixed(1)}%`} />}
             <Stat label="검증 구간 폐지 사례" value={`${h.n_test_positive}건`} />
           </div>
-          {h.confusion_matrix && (
+          {shown && (
             <p style={{ fontSize: 12.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
-              혼동행렬(임계값 0.5 기준): 실제 폐지 {h.n_test_positive}건 중{" "}
-              {h.confusion_matrix.true_positive}건 적중(재현율 {(h.recall! * 100).toFixed(1)}%),{" "}
-              {h.confusion_matrix.false_negative}건 놓침. 위험 예측{" "}
-              {h.confusion_matrix.true_positive + h.confusion_matrix.false_positive}건 중 실제로
-              맞은 건 {h.confusion_matrix.true_positive}건(정밀도{" "}
-              {(h.precision! * 100).toFixed(1)}%).
+              혼동행렬(임계값 {shown.threshold.toFixed(2)} 기준): 실제 폐지 {h.n_test_positive}건 중{" "}
+              {shown.confusion_matrix.true_positive}건 적중(재현율{" "}
+              {(shown.recall * 100).toFixed(1)}%), {shown.confusion_matrix.false_negative}건 놓침.
+              위험 예측{" "}
+              {shown.confusion_matrix.true_positive + shown.confusion_matrix.false_positive}건 중
+              실제로 맞은 건 {shown.confusion_matrix.true_positive}건(정밀도{" "}
+              {(shown.precision * 100).toFixed(1)}%).
+            </p>
+          )}
+          {tuned && h.threshold_default && (
+            <p style={{ fontSize: 11.5, color: "var(--color-text-muted)", lineHeight: 1.6 }}>
+              ※ 기본 임계값 0.5는 class_weight='balanced'를 쓴 로지스틱회귀에서 "실제 위험확률
+              50%"를 뜻하지 않습니다. 학습구간 내부 교차검증만으로 고른 임계값
+              {" "}{tuned.threshold.toFixed(2)}을 대신 적용하면, 오탐(위험 예측{" "}
+              {h.threshold_default.confusion_matrix.true_positive +
+                h.threshold_default.confusion_matrix.false_positive}
+              건 → {tuned.confusion_matrix.true_positive + tuned.confusion_matrix.false_positive}
+              건)이 달라집니다. 재현율을 더 중시하는 F2 기준으로 골랐습니다.
             </p>
           )}
           <p style={{ fontSize: 11.5, color: "var(--color-text-muted)", lineHeight: 1.6, margin: "8px 0 0" }}>
             ※ 정밀도가 낮은 건 예상된 트레이드오프입니다: 부실기업이 전체의 2%도 안 되는 극단적
-            불균형 데이터에서 class_weight='balanced'로 재현율을 우선했기 때문에, 위험하다고
-            예측한 기업 중 실제로 폐지된 비율은 낮지만 실제 폐지 사례의 상당수는 놓치지
-            않습니다.
+            불균형 데이터에서 재현율을 우선했기 때문에, 위험하다고 예측한 기업 중 실제로 폐지된
+            비율은 낮지만 실제 폐지 사례의 상당수는 놓치지 않습니다.
           </p>
 
           {a && !a.error && a.roc_auc != null && (

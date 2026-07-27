@@ -56,6 +56,18 @@ export interface CompanyDetail {
   risk_explanation: RiskExplanation;
 }
 
+export interface ThresholdResult {
+  threshold: number;
+  precision: number;
+  recall: number;
+  confusion_matrix: {
+    true_negative: number;
+    false_positive: number;
+    false_negative: number;
+    true_positive: number;
+  };
+}
+
 export interface ModelMetrics {
   in_sample: { n_samples: number; n_positive: number; in_sample_auc: number | null };
   temporal_holdout: {
@@ -65,14 +77,11 @@ export interface ModelMetrics {
     n_test: number;
     n_test_positive: number;
     roc_auc?: number;
-    precision?: number;
-    recall?: number;
-    confusion_matrix?: {
-      true_negative: number;
-      false_positive: number;
-      false_negative: number;
-      true_positive: number;
-    };
+    roc_auc_ci95?: { lower: number; upper: number; n_boot: number } | null;
+    pr_auc?: number;
+    pr_auc_baseline?: number;
+    threshold_default?: ThresholdResult;
+    threshold_tuned?: ThresholdResult;
     error?: string;
   };
   altman_benchmark: {
@@ -80,15 +89,21 @@ export interface ModelMetrics {
     n_test: number;
     n_test_positive?: number;
     roc_auc?: number;
+    pr_auc?: number;
+    pr_auc_baseline?: number;
     error?: string;
   };
   ensemble_benchmark: {
     split_year: number;
     n_test: number;
     n_test_positive?: number;
+    pr_auc_baseline?: number;
     logistic_only_auc?: number;
+    logistic_only_pr_auc?: number;
     altman_only_auc?: number;
+    altman_only_pr_auc?: number;
     ensemble_auc?: number;
+    ensemble_pr_auc?: number;
     error?: string;
   };
   random_split_benchmark: {

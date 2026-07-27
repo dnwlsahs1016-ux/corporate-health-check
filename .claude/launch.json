@@ -6,6 +6,21 @@
       "runtimeExecutable": "C:\\기업 건강검진\\frontend\\dev.cmd",
       "runtimeArgs": [],
       "port": 5173
+    },
+    {
+      "name": "streamlit",
+      "runtimeExecutable": "C:\\Users\\dlstj\\Documents\\corporate-health-check\\backend\\.venv\\Scripts\\python.exe",
+      "runtimeArgs": [
+        "-m",
+        "streamlit",
+        "run",
+        "C:\\Users\\dlstj\\Documents\\corporate-health-check\\backend\\streamlit_app.py",
+        "--server.port",
+        "8501",
+        "--server.headless",
+        "true"
+      ],
+      "port": 8501
     }
   ]
 }

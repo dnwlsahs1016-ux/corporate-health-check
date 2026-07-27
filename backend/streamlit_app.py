@@ -255,28 +255,48 @@ def render_model_validation():
             "부실기업을 구분할 수 있는지 확인하기 위한 것으로, 실제 서비스에 쓰이는 모델(전체 기간 학습)과는 "
             "별개의 평가용 모델입니다."
         )
+        shown = holdout.get("threshold_tuned") or holdout.get("threshold_default")
+
+        roc_auc_label = f"{holdout['roc_auc']:.3f}"
+        ci = holdout.get("roc_auc_ci95")
+        if ci:
+            roc_auc_label += f" (95% CI {ci['lower']:.2f}~{ci['upper']:.2f})"
+
         cols = st.columns(4)
-        cols[0].metric("ROC-AUC", f"{holdout['roc_auc']:.3f}")
-        cols[1].metric("Recall(재현율)", f"{holdout['recall'] * 100:.1f}%")
-        cols[2].metric("Precision(정밀도)", f"{holdout['precision'] * 100:.1f}%")
+        cols[0].metric("ROC-AUC", roc_auc_label)
+        if shown:
+            cols[1].metric("Recall(재현율)", f"{shown['recall'] * 100:.1f}%")
+            cols[2].metric("Precision(정밀도)", f"{shown['precision'] * 100:.1f}%")
         cols[3].metric(
             "검증 구간 폐지 사례",
             f"{holdout['n_test_positive']}건",
             help=f"학습 {holdout['n_train']}건(양성 {holdout['n_train_positive']}) / "
             f"검증 {holdout['n_test']}건(양성 {holdout['n_test_positive']})",
         )
-        cm = holdout["confusion_matrix"]
-        st.caption(
-            f"혼동행렬(임계값 0.5 기준): 실제 폐지 {holdout['n_test_positive']}건 중 "
-            f"{cm['true_positive']}건 적중(재현율 {holdout['recall']*100:.1f}%), "
-            f"{cm['false_negative']}건 놓침. 위험 예측 {cm['true_positive'] + cm['false_positive']}건 중 "
-            f"실제로 맞은 건 {cm['true_positive']}건(정밀도 {holdout['precision']*100:.1f}%)."
-        )
-        st.caption(
-            "※ 정밀도가 낮은 건 예상된 트레이드오프입니다: 부실기업이 전체의 2%도 안 되는 "
-            "극단적 불균형 데이터에서 class_weight='balanced'로 재현율을 우선했기 때문에, "
-            "위험하다고 예측한 기업 중 실제로 폐지된 비율은 낮지만 실제 폐지 사례의 상당수는 놓치지 않습니다."
-        )
+        if holdout.get("pr_auc") is not None:
+            st.caption(
+                f"PR-AUC(양성이 희귀할 때 ROC-AUC보다 더 엄격한 지표): {holdout['pr_auc']:.3f} "
+                f"(무작위 분류기 기준선 {holdout['pr_auc_baseline'] * 100:.1f}%)"
+            )
+        if shown:
+            cm = shown["confusion_matrix"]
+            st.caption(
+                f"혼동행렬(임계값 {shown['threshold']:.2f} 기준): 실제 폐지 {holdout['n_test_positive']}건 중 "
+                f"{cm['true_positive']}건 적중(재현율 {shown['recall']*100:.1f}%), "
+                f"{cm['false_negative']}건 놓침. 위험 예측 {cm['true_positive'] + cm['false_positive']}건 중 "
+                f"실제로 맞은 건 {cm['true_positive']}건(정밀도 {shown['precision']*100:.1f}%)."
+            )
+        default = holdout.get("threshold_default")
+        tuned = holdout.get("threshold_tuned")
+        if default and tuned:
+            st.caption(
+                "※ class_weight='balanced'를 쓴 로지스틱회귀에서는 0.5가 \"실제 위험확률 50%\"를 "
+                "뜻하지 않습니다. 학습구간 내부 교차검증만으로 고른 임계값"
+                f"({tuned['threshold']:.2f})을 대신 적용하면, 위험 예측 건수(오탐 포함)가 "
+                f"{default['confusion_matrix']['true_positive'] + default['confusion_matrix']['false_positive']}건 → "
+                f"{tuned['confusion_matrix']['true_positive'] + tuned['confusion_matrix']['false_positive']}건으로 "
+                "달라집니다(재현율을 더 중시하는 F2 기준으로 골랐습니다)."
+            )
 
         altman = metrics.get("altman_benchmark")
         if altman and "error" not in altman and altman.get("roc_auc") is not None:
